@@ -1,11 +1,14 @@
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
 
+
 Adafruit_PWMServoDriver pwm(0x40);
+
 
 // Channels in Braille dot order: 1, 2, 3 on the left; 4, 5, 6 on the right.
 constexpr uint8_t CHANNELS[] = {0, 1, 2, 6, 5, 4};
 constexpr uint8_t DOT_COUNT = sizeof(CHANNELS) / sizeof(CHANNELS[0]);
+
 
 constexpr uint8_t D1 = 1u << 0;
 constexpr uint8_t D2 = 1u << 1;
@@ -14,10 +17,12 @@ constexpr uint8_t D4 = 1u << 3;
 constexpr uint8_t D5 = 1u << 4;
 constexpr uint8_t D6 = 1u << 5;
 
+
 struct LetterPattern {
   char letter;
   uint8_t dots;
 };
+
 
 constexpr LetterPattern LETTERS[] = {
   {'a', D1},
@@ -48,6 +53,7 @@ constexpr LetterPattern LETTERS[] = {
   {'z', D1 | D3 | D5 | D6},
 };
 
+
 uint8_t findDots(char letter) {
   for (const LetterPattern& pattern : LETTERS) {
     if (pattern.letter == letter) {
@@ -56,6 +62,7 @@ uint8_t findDots(char letter) {
   }
   return 0;
 }
+
 
 void setDots(uint8_t dots, bool display) {
   for (uint8_t i = 0; i < DOT_COUNT; ++i) {
@@ -69,39 +76,51 @@ void setDots(uint8_t dots, bool display) {
   }
 }
 
+
 void printPrompt() {
   Serial.println("Enter one lowercase letter (a-z).");
 }
 
-void setup() {
-  Serial.begin(115200);
-  Wire.begin(6, 7, 100000);  // SDA, SCL, I2C speed
 
-  if (!pwm.begin()) {
-    while (true) {
-      Serial.println("PCA9685 did not respond at 0x40.");
-      delay(1000);
-    }
+void setup() {
+  
+  Serial.begin(115200);
+  delay(1500);               // Give USB serial and the PCA9685 time to start
+  Wire.begin(6, 7, 100000);  // XIAO ESP32C3: D4/SDA (GPIO6), D5/SCL (GPIO7)
+
+
+  while (!pwm.begin()) {
+    Serial.println("PCA9685 did not respond at 0x40.");
+    Wire.beginTransmission(0x40);
+    const bool responded = Wire.endTransmission() == 0;
+    Serial.printf("Direct check at 0x40: %s\n", responded ? "responds" : "no reply");
+    delay(1000);
   }
 
+
   pwm.setPWMFreq(50);
+
 
   // Clear any active PWM settings left over from an earlier sketch.
   for (uint8_t channel = 0; channel < 16; ++channel) {
     pwm.setPWM(channel, 0, 4096);
   }
 
+
   Serial.println("Turn on servo power before sending a letter.");
   printPrompt();
 }
+
 
 void loop() {
   if (!Serial.available()) {
     return;
   }
 
+
   String command = Serial.readStringUntil('\n');
   command.trim();
+
 
   const uint8_t dots = command.length() == 1 ? findDots(command[0]) : 0;
   if (dots == 0) {
@@ -109,8 +128,10 @@ void loop() {
     return;
   }
 
+
   setDots(dots, false);
   delay(1000);
+
 
   Serial.printf("Showing %c on channels:", command[0]);
   for (uint8_t i = 0; i < DOT_COUNT; ++i) {
@@ -120,10 +141,15 @@ void loop() {
   }
   Serial.println();
 
+
   setDots(dots, true);
   delay(3000);
+
 
   setDots(dots, false);
   Serial.println("Back at rest.");
   printPrompt();
 }
+
+
+
