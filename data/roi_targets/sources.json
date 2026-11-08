@@ -1,0 +1,404 @@
+[
+  {
+    "path": "data/roi_targets/chips/web_00.jpg",
+    "source": "data/web_products/chips/web_00.jpg",
+    "class": "chips"
+  },
+  {
+    "path": "data/roi_targets/chips/web_01.jpg",
+    "source": "data/web_products/chips/web_01.jpg",
+    "class": "chips"
+  },
+  {
+    "path": "data/roi_targets/chips/web_03.jpg",
+    "source": "data/web_products/chips/web_03.jpg",
+    "class": "chips"
+  },
+  {
+    "path": "data/roi_targets/chips/web_08.jpg",
+    "source": "data/web_products/chips/web_08.jpg",
+    "class": "chips"
+  },
+  {
+    "path": "data/roi_targets/chips/extra_00.jpg",
+    "url": "https://i5.walmartimages.com/seo/Lay-s-Classic-Potato-Chips-8-oz-Bag-pack-of-2_f1852517-59f2-467f-b176-3ea1f2b098ae.a06a239111071c1595ab75cf3bf2323f.jpeg",
+    "class": "chips"
+  },
+  {
+    "path": "data/roi_targets/chips/extra_01.jpg",
+    "url": "https://objectstorage.us-ashburn-1.oraclecloud.com/n/idfzjtd1dz5w/b/storesgo-images/o/products/storesgo-lays-classic-potato-chips-8-oz-plastic-bag-143484.jpg",
+    "class": "chips"
+  },
+  {
+    "path": "data/roi_targets/chips/extra_02.jpg",
+    "url": "https://assets.caseys.com/asset/ede67e10-7d9c-412f-8c49-0dedaf77471c/400x400/2840077008_base.PNG",
+    "class": "chips"
+  },
+  {
+    "url": "https://storage.googleapis.com/images-hei-prd-1313031.hei.prd.v8.commerce.mi9cloud.com/product-images/detail/e30acbf2-5bd6-462a-a780-06598cc8798f.jpeg",
+    "excluded": "perceptual duplicate"
+  },
+  {
+    "url": "https://prod-spinneys-cdn-new.azureedge.net/media/cache/68/f2/68f2772c8ca71daaaecdebbe404f9e74.jpg",
+    "error": "HTTP Error 404: The specified blob does not exist."
+  },
+  {
+    "path": "data/roi_targets/soda/web_00.jpg",
+    "source": "data/web_products/red_bull/web_00.jpg",
+    "class": "soda"
+  },
+  {
+    "path": "data/roi_targets/soda/web_02.jpg",
+    "source": "data/web_products/red_bull/web_02.jpg",
+    "class": "soda"
+  },
+  {
+    "path": "data/roi_targets/soda/web_03.jpg",
+    "source": "data/web_products/red_bull/web_03.jpg",
+    "class": "soda"
+  },
+  {
+    "path": "data/roi_targets/soda/web_05.jpg",
+    "source": "data/web_products/red_bull/web_05.jpg",
+    "class": "soda"
+  },
+  {
+    "path": "data/roi_targets/soda/web_07.jpg",
+    "source": "data/web_products/red_bull/web_07.jpg",
+    "class": "soda"
+  },
+  {
+    "path": "data/roi_targets/soda/web_08.jpg",
+    "source": "data/web_products/red_bull/web_08.jpg",
+    "class": "soda"
+  },
+  {
+    "path": "data/roi_targets/soda/extra_00.jpg",
+    "url": "https://images.unsplash.com/photo-1580859297753-0b52fa0fc46e?auto=format&fit=max&w=1200&q=90",
+    "class": "soda"
+  },
+  {
+    "path": "data/roi_targets/soda/extra_01.jpg",
+    "url": "https://images.unsplash.com/photo-1572470705533-f2ee03dc505d?auto=format&fit=max&w=1200&q=90",
+    "class": "soda"
+  },
+  {
+    "path": "data/roi_targets/soda/extra_02.jpg",
+    "url": "https://images.unsplash.com/photo-1750187422743-2b36b1dd1855?auto=format&fit=max&w=1200&q=90",
+    "class": "soda"
+  },
+  {
+    "path": "data/roi_targets/soda/extra_03.jpg",
+    "url": "https://cdn.prod.website-files.com/656f6178843c6d5b52c7c010/66afc06567830b2a316bd377_IMG_5432-2.jpg",
+    "class": "soda"
+  },
+  {
+    "path": "data/roi_targets/pens/extra_00.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Black_pen_with_red_background.jpg/960px-Black_pen_with_red_background.jpg",
+    "class": "pens",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Black_pen_with_red_background.jpg",
+    "author": "Bommi Dharrshini OKC",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "path": "data/roi_targets/pens/extra_01.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Ballpoint_Pen_DS.jpg/960px-Ballpoint_Pen_DS.jpg",
+    "class": "pens",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ballpoint_Pen_DS.jpg",
+    "author": "Augustus Binu",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "path": "data/roi_targets/pens/extra_02.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Grey_ballpoint.jpg/960px-Grey_ballpoint.jpg",
+    "class": "pens",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Grey_ballpoint.jpg",
+    "author": "Fiersel",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "path": "data/roi_targets/pens/extra_03.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Jinhao_182_twist_action_ballpoint_pen.jpg/960px-Jinhao_182_twist_action_ballpoint_pen.jpg",
+    "class": "pens",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Jinhao_182_twist_action_ballpoint_pen.jpg",
+    "author": "Francis Flinch",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "path": "data/roi_targets/pens/extra_04.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/MUJI_GEL_INK_BALLPONIT_PEN_KNOCK_TYPE_0.5_BLACK.jpg/960px-MUJI_GEL_INK_BALLPONIT_PEN_KNOCK_TYPE_0.5_BLACK.jpg",
+    "class": "pens",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MUJI_GEL_INK_BALLPONIT_PEN_KNOCK_TYPE_0.5_BLACK.jpg",
+    "author": "Dinkun Chen",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "path": "data/roi_targets/pens/extra_05.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/ZEBRA_PEN_SARASA_CLIP_0.4_BLACK_INK.jpg/960px-ZEBRA_PEN_SARASA_CLIP_0.4_BLACK_INK.jpg",
+    "class": "pens",
+    "source_page": "https://commons.wikimedia.org/wiki/File:ZEBRA_PEN_SARASA_CLIP_0.4_BLACK_INK.jpg",
+    "author": "Dinkun Chen",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "path": "data/roi_targets/pens/extra_06.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Lamy_2000_fountain_pen-1.jpg/960px-Lamy_2000_fountain_pen-1.jpg",
+    "class": "pens",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Lamy_2000_fountain_pen-1.jpg",
+    "author": "Vincent Ignace",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "path": "data/roi_targets/pens/extra_07.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Furuta_seigo_Japanese_fountain_pen_collections.jpg/960px-Furuta_seigo_Japanese_fountain_pen_collections.jpg",
+    "class": "pens",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Furuta_seigo_Japanese_fountain_pen_collections.jpg",
+    "author": "P1898",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "path": "data/roi_targets/pens/extra_08.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/A_pen_writing_%22Example%22.jpg/960px-A_pen_writing_%22Example%22.jpg",
+    "class": "pens",
+    "source_page": "https://commons.wikimedia.org/wiki/File:A_pen_writing_%22Example%22.jpg",
+    "author": "Jiafei Slay Queen",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "path": "data/roi_targets/pens/extra_09.jpg",
+    "url": "https://api.openverse.org/v1/images/aef5002d-11a9-45e9-930b-bb2f2d247bc8/thumb/",
+    "class": "pens",
+    "source_page": "https://www.flickr.com/photos/163837264@N07/42947527210",
+    "author": "Semtrio",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    "path": "data/roi_targets/pens/extra_10.jpg",
+    "url": "https://api.openverse.org/v1/images/2b3460ad-dc93-47b1-951a-d3781a266a48/thumb/",
+    "class": "pens",
+    "source_page": "https://www.flickr.com/photos/137455566@N08/25358762843",
+    "author": "FreePhoto.cc",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000036.jpg",
+    "source": "data/web_products/person/000000000036.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000077.jpg",
+    "source": "data/web_products/person/000000000077.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000086.jpg",
+    "source": "data/web_products/person/000000000086.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000110.jpg",
+    "source": "data/web_products/person/000000000110.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000113.jpg",
+    "source": "data/web_products/person/000000000113.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000136.jpg",
+    "source": "data/web_products/person/000000000136.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000165.jpg",
+    "source": "data/web_products/person/000000000165.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000192.jpg",
+    "source": "data/web_products/person/000000000192.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000241.jpg",
+    "source": "data/web_products/person/000000000241.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000257.jpg",
+    "source": "data/web_products/person/000000000257.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000294.jpg",
+    "source": "data/web_products/person/000000000294.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000308.jpg",
+    "source": "data/web_products/person/000000000308.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000315.jpg",
+    "source": "data/web_products/person/000000000315.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000322.jpg",
+    "source": "data/web_products/person/000000000322.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000326.jpg",
+    "source": "data/web_products/person/000000000326.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000328.jpg",
+    "source": "data/web_products/person/000000000328.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000338.jpg",
+    "source": "data/web_products/person/000000000338.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/person_000000000368.jpg",
+    "source": "data/web_products/person/000000000368.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000009.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000009.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000025.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000025.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000030.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000030.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000034.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000034.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000042.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000042.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000049.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000049.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000061.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000061.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000064.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000064.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000071.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000071.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000072.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000072.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000073.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000073.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000074.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000074.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000078.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000078.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000081.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000081.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000089.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000089.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000092.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000092.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000094.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000094.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000109.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000109.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000127.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000127.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000133.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000133.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000138.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000138.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000142.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000142.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000143.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000143.jpg",
+    "class": "negative"
+  },
+  {
+    "path": "data/roi_targets/negative/scene_000000000144.jpg",
+    "source": "coco128.zip/coco128/images/train2017/000000000144.jpg",
+    "class": "negative"
+  }
+]

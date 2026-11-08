@@ -1,0 +1,38 @@
+{
+  "balanced_accuracy": 0.8928571428571428,
+  "accuracy": 0.85,
+  "negative_false_accept_rate": 0.0,
+  "pen_false_accept_rate": 0.0,
+  "per_class_recall": [
+    1.0,
+    1.0,
+    0.5714285714285714,
+    1.0
+  ],
+  "confusion_matrix": [
+    [
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      3
+    ],
+    [
+      0,
+      0,
+      0,
+      9
+    ]
+  ]
+}

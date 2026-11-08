@@ -1,0 +1,602 @@
+[
+  {
+    "title": "File:Black pen.jpg",
+    "label": "pens",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Black_pen.jpg/1280px-Black_pen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Black_pen.jpg",
+    "path": "data/pen_refinement/candidates/pens/commons_81f22c3fd1a0.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Petsamu19&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Petsamu19 (page does not exist)\">Petsamu19</a>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "ImageDescription": "black pen"
+    },
+    "sha256": "5031fdbba5bf488744e0b6c7bc6e25def0c2ca97504b43b52bc2dcb611e32f64",
+    "review": "Accepted after visual review; train only"
+  },
+  {
+    "title": "File:Black pen with red background.jpg",
+    "label": "pens",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Black_pen_with_red_background.jpg/1280px-Black_pen_with_red_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Black_pen_with_red_background.jpg",
+    "path": "data/pen_refinement/candidates/pens/commons_52e23d811223.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bommi_Dharrshini_OKC&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bommi Dharrshini OKC (page does not exist)\">Bommi Dharrshini OKC</a>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "ImageDescription": "A cello finegrip black pen"
+    },
+    "sha256": "595ed4fcb77afd22e1b47de8b38cf60f885d16691c7ca655228f51ca6b8d3bd8",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Seated Mongol Ruler with Attendants Viewing a Parade of Animals, three framed fragments of a black pen scroll, Tabriz or Baghdad, late fourteenth or early fifteenth century. Folio, TSMK, H. 2160, fol. 76v.jpg",
+    "label": "pens",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Seated_Mongol_Ruler_with_Attendants_Viewing_a_Parade_of_Animals%2C_three_framed_fragments_of_a_black_pen_scroll%2C_Tabriz_or_Baghdad%2C_late_fourteenth_or_early_fifteenth_century._Folio%2C_TSMK%2C_H._2160%2C_fol._76v.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Seated_Mongol_Ruler_with_Attendants_Viewing_a_Parade_of_Animals,_three_framed_fragments_of_a_black_pen_scroll,_Tabriz_or_Baghdad,_late_fourteenth_or_early_fifteenth_century._Folio,_TSMK,_H._2160,_fol._76v.jpg",
+    "path": "data/pen_refinement/candidates/pens/commons_4d2389a14efd.jpg",
+    "attribution": {
+      "Artist": "End-14th, early 15th century artist",
+      "LicenseShortName": "Public domain",
+      "LicenseUrl": "",
+      "ImageDescription": "Seated Mongol Ruler with Attendants Viewing a Parade of Animals, three framed fragments of a black pen scroll, Tabriz or Baghdad, late fourteenth or early fifteenth century. Folio, TSMK, H. 2160, fol. 76v"
+    },
+    "sha256": "0e5ae51042bd559f354abbcc7936b46073b16557a1835cb0313d84e1f2aee028",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Uncapped black pen.jpg",
+    "label": "pens",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Uncapped_black_pen.jpg/1280px-Uncapped_black_pen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Uncapped_black_pen.jpg",
+    "path": "data/pen_refinement/candidates/pens/commons_d1f67830f500.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Corn_cheese\" title=\"User:Corn cheese\">Corn cheese</a>",
+      "LicenseShortName": "CC0",
+      "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "ImageDescription": "A black pen with no cap."
+    },
+    "sha256": "5f0e8851dea8bf9bda0e47b0effb8f268648bfa29c514c515a6324be838dfbae",
+    "review": "Accepted after visual review; train only"
+  },
+  {
+    "title": "File:Ballpoint Pen (10852189).jpeg",
+    "label": "pens",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Ballpoint_Pen_%2810852189%29.jpeg/1280px-Ballpoint_Pen_%2810852189%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ballpoint_Pen_(10852189).jpeg",
+    "path": "data/pen_refinement/candidates/pens/commons_b39dd3445455.jpg",
+    "attribution": {
+      "Artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/larsjuhljensen\">Lars Juhl Jensen</a></div>",
+      "LicenseShortName": "CC BY 3.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "ImageDescription": "<div class=\"description\">\n500px provided description: OLYMPUS DIGITAL CAMERA          []</div>"
+    },
+    "sha256": "5f45af19bf74ecb10d02c9b14f9e365d8acaef7f860bc7566b98ec49d7cb878a",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Berol Signature P51 England Ballpens Ballpoint pen Roll pens Gel pens Schreibstift 01.jpg",
+    "label": "pens",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Berol_Signature_P51_England_Ballpens_Ballpoint_pen_Roll_pens_Gel_pens_Schreibstift_01.jpg/1280px-Berol_Signature_P51_England_Ballpens_Ballpoint_pen_Roll_pens_Gel_pens_Schreibstift_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Berol_Signature_P51_England_Ballpens_Ballpoint_pen_Roll_pens_Gel_pens_Schreibstift_01.jpg",
+    "path": "data/pen_refinement/candidates/pens/commons_887195806266.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Zeitblick\" title=\"User:Zeitblick\">Zeitblick</a>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "ImageDescription": "Gel pens BerolSignatur P51"
+    },
+    "sha256": "a7c6d17c20701d5d57143fc81705bd26e2a05dabb991a4a7bd9716d1a97e151b",
+    "review": "Accepted after visual review; train only"
+  },
+  {
+    "title": "File:DKG Sacks Rochester promotional ballpoint pen with contact details.jpg",
+    "label": "pens",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/DKG_Sacks_Rochester_promotional_ballpoint_pen_with_contact_details.jpg/1280px-DKG_Sacks_Rochester_promotional_ballpoint_pen_with_contact_details.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:DKG_Sacks_Rochester_promotional_ballpoint_pen_with_contact_details.jpg",
+    "path": "data/pen_refinement/candidates/pens/commons_e45a56438e72.jpg",
+    "attribution": {
+      "Artist": "Nigel Osborne",
+      "LicenseShortName": "CC BY 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "ImageDescription": "DKG Sacks Rochester promotional ballpoint pen with contact details"
+    },
+    "sha256": "812b90c4477ead914a157813ff2b6f23c8ebbe8b51f3f204b9b9cec32a464252",
+    "review": "Accepted after visual review; test only"
+  },
+  {
+    "title": "File:Parker Vector Stainless Steel Ballpoint Pen.jpg",
+    "label": "pens",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Parker_Vector_Stainless_Steel_Ballpoint_Pen.jpg/1280px-Parker_Vector_Stainless_Steel_Ballpoint_Pen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Parker_Vector_Stainless_Steel_Ballpoint_Pen.jpg",
+    "path": "data/pen_refinement/candidates/pens/commons_9b24d0535b18.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:God_of_Data&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:God of Data (page does not exist)\">Kevin Brown</a>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "ImageDescription": "A Parker Vector stainless steel ballpoint pen with the name Kevin Brown engraved on its barrel"
+    },
+    "sha256": "100e1295007aa96b6db466d8f24071aa86ffc1e114ec097ecc0edb56f56ecd64",
+    "review": "Accepted after visual review; val only"
+  },
+  {
+    "title": "File:1941 pencil postcard sent from Gerd von Rundstedt to his wife from the Front.jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/1941_pencil_postcard_sent_from_Gerd_von_Rundstedt_to_his_wife_from_the_Front.jpg/1280px-1941_pencil_postcard_sent_from_Gerd_von_Rundstedt_to_his_wife_from_the_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:1941_pencil_postcard_sent_from_Gerd_von_Rundstedt_to_his_wife_from_the_Front.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_1fec86dec976.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Huddyhuddy\" title=\"User:Huddyhuddy\">Huddyhuddy</a>",
+      "LicenseShortName": "CC0",
+      "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "ImageDescription": "1941 pencil postcard sent from Gerd von Rundstedt to his wife from the Front."
+    },
+    "sha256": "b6f50594afe678f9dde09980bef489897a476e53247cddd7f2de2535b2ef04c2",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Apple Pencil OVP.JPG",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Apple_Pencil_OVP.JPG/1280px-Apple_Pencil_OVP.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Apple_Pencil_OVP.JPG",
+    "path": "data/pen_refinement/candidates/negative/commons_e526f7ad411f.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:KarleHorn\" title=\"User:KarleHorn\">KarleHorn</a>",
+      "LicenseShortName": "CC BY 3.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "ImageDescription": "Apple Pencil in OVP"
+    },
+    "sha256": "6efa836a134c20e9d12cb0437db3f5a94ad6ef0ee5e1f6c901350508a0f0d4aa",
+    "review": "Accepted after visual review; train only"
+  },
+  {
+    "title": "File:Modern pencil (FindID 770956).jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Modern_pencil_%28FindID_770956%29.jpg/1280px-Modern_pencil_%28FindID_770956%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Modern_pencil_(FindID_770956).jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_4cb66d9c8ebb.jpg",
+    "attribution": {
+      "Artist": "<div class=\"fn value\">\nSalisbury and South Wiltshire Museum, Richard Henry, 2016-03-02 15:17:54</div>",
+      "LicenseShortName": "CC BY 2.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "ImageDescription": "A modern slate pencil dating to c AD 1850-1900.  The pencil comprises a turned slate rod with a circular section.  It has been sharpened to a rounded end at one end and at the other the end has a been cut into a diagonal profile and appears to have been used as well as the rounded end.The longitudinal lines probably represent the bedding planes of the slate.  The brown colour is staining from the sandy local soils.  This would be a common item of nineteenth century schoolroom equipment."
+    },
+    "sha256": "ec4e2dfd09588eb6e54de35a796297001f4fae80d83ef73fd52cdbbfd2d1e363",
+    "review": "Accepted after visual review; val only"
+  },
+  {
+    "title": "File:Shore below Pencil Rock - geograph.org.uk - 6965791.jpg",
+    "label": "negative",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Shore_below_Pencil_Rock_-_geograph.org.uk_-_6965791.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Shore_below_Pencil_Rock_-_geograph.org.uk_-_6965791.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_7241ce75697a.jpg",
+    "attribution": {
+      "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/13502\">David Martin</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Shore_below_Pencil_Rock_-_geograph.org.uk_-_6965791.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+      "LicenseShortName": "CC BY-SA 2.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "ImageDescription": "Shore below Pencil Rock\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Shore_below_Pencil_Rock_-_geograph.org.uk_-_6965791.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>"
+    },
+    "sha256": "dcb7ba6a64e1099219d5acd9eea57e92d1f2936d64a85f98540d51cc78b36d1f",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:The Pencil Monument, Largs - geograph.org.uk - 6603709.jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/The_Pencil_Monument%2C_Largs_-_geograph.org.uk_-_6603709.jpg/1280px-The_Pencil_Monument%2C_Largs_-_geograph.org.uk_-_6603709.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:The_Pencil_Monument,_Largs_-_geograph.org.uk_-_6603709.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_0a068f406cc1.jpg",
+    "attribution": {
+      "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/22650\">Billy McCrorie</a>\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:The_Pencil_Monument,_Largs_-_geograph.org.uk_-_6603709.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+      "LicenseShortName": "CC BY-SA 2.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "ImageDescription": "The Pencil Monument, Largs\u00a0<span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:The_Pencil_Monument,_Largs_-_geograph.org.uk_-_6603709.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>"
+    },
+    "sha256": "890025bdbd0f0c1dfc5d5373c8687ca4848fe218f2372762c3a36c959234bbf5",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Hama universal remote control, Kleiwegkwartier, Rotterdam (2021) 06.jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Hama_universal_remote_control%2C_Kleiwegkwartier%2C_Rotterdam_%282021%29_06.jpg/1280px-Hama_universal_remote_control%2C_Kleiwegkwartier%2C_Rotterdam_%282021%29_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Hama_universal_remote_control,_Kleiwegkwartier,_Rotterdam_(2021)_06.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_d352b1f1ef97.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Donald_Trung\" title=\"User:Donald Trung\">Donald Trung Quoc Don (Ch\u1eef H\u00e1n: \u5fb5\u570b\u55ae)</a> - <a class=\"external text\" href=\"https://commons.m.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\">Wikimedia Commons</a> - <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">\u00a9 CC BY-SA 4.0 International</a>.<br>(<a href=\"//commons.wikimedia.org/wiki/User:Donald_Trung/Attribution\" title=\"User:Donald Trung/Attribution\">Want to use this image?</a>)<br>Original publication \ud83d\udce4: --<small><a href=\"//commons.wikimedia.org/wiki/User:Donald_Trung\" title=\"User:Donald Trung\">Donald Trung \u300e\u5fb5\u570b\u55ae\u300f</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Donald_Trung\" title=\"User talk:Donald Trung\">No Fake News \ud83d\udcac</a>) (<a href=\"//commons.wikimedia.org/wiki/Commons:WikiProject_Numismatics\" title=\"Commons:WikiProject Numismatics\">WikiProject Numismatics</a> \ud83d\udcb4) (<a href=\"https://en.wikipedia.org/wiki/nl:Gebruiker:Donald_Trung/Mijn_werk_%F0%9F%8F%A2\" class=\"extiw\" title=\"w:nl:Gebruiker:Donald Trung/Mijn werk \ud83c\udfe2\">Articles \ud83d\udcda</a>)</small> 22:18, 17 November 2021 (UTC)",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "ImageDescription": "A Hama-branded universal remote control unit for sale inside of a small local Action-branded store, that is located in the Rotterdammer neighbourhood of the Kleiwegkwartier, Hillegersberg-Schiebroek."
+    },
+    "sha256": "134ea51f860b01123532335e93665ac4f13bf300e8398cc1b42fcb6f6ac28fe3",
+    "review": "Accepted after visual review; train only"
+  },
+  {
+    "title": "File:Mk38 25mm gun remote control station aboard USS Sterett (DDG-104) in 2014.JPG",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Mk38_25mm_gun_remote_control_station_aboard_USS_Sterett_%28DDG-104%29_in_2014.JPG/1280px-Mk38_25mm_gun_remote_control_station_aboard_USS_Sterett_%28DDG-104%29_in_2014.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Mk38_25mm_gun_remote_control_station_aboard_USS_Sterett_(DDG-104)_in_2014.JPG",
+    "path": "data/pen_refinement/candidates/negative/commons_66f4ed1511c8.jpg",
+    "attribution": {
+      "Artist": "U.S. Navy photo by Mass Communication Specialist 3rd Class Eric Coffer",
+      "LicenseShortName": "Public domain",
+      "LicenseUrl": "",
+      "ImageDescription": "U.S. Navy Gunner's Mate 2nd Class Caleb Sonflieth, from Milwaukee, Oregon (USA), fires the MK 38 25mm machine gun system during a live-fire exercise aboard the Arleigh Burke-class guided-missile destroyer USS <i>Sterett</i> (DDG-104) in the Arabian Gulf. <i>Sterett</i> was deployed in the U.S. 5th Fleet area of responsibility supporting Operation Inherent Resolve, strike operations in Iraq and Syria as directed, maritime security operations, and theater security cooperation efforts in the region."
+    },
+    "sha256": "48819cf976e5f0c33ad592e794b87f49a8eb9f9ea39312e93b5c2ea095219da3",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Remote control productions logo.png",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Remote_control_productions_logo.png/1280px-Remote_control_productions_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Remote_control_productions_logo.png",
+    "path": "data/pen_refinement/candidates/negative/commons_6316526dd3b3.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rcontrolmunich&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rcontrolmunich (page does not exist)\">Rcontrolmunich</a>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "ImageDescription": "remote control productions logo"
+    },
+    "sha256": "262b0ae5a267d153e1800061ce239eb813d1f67e4cfe0064a18ef12824a2e82b",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Sanyo IR remote control details 10.jpg",
+    "label": "negative",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sanyo_IR_remote_control_details_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Sanyo_IR_remote_control_details_10.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_1538f0b6522e.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Mister_rf\" title=\"User:Mister rf\">Mister rf</a>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "ImageDescription": "Sanyo IR remote control MCL 427F - pcb"
+    },
+    "sha256": "5c0a9645a8b96ad0105f967ab91ce588cef2604e581edc9d756c83c5d02a6549",
+    "review": "Accepted after visual review; train only"
+  },
+  {
+    "title": "File:Toshiba CT-8543 remote control, Winschoten (2020) 05.jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Toshiba_CT-8543_remote_control%2C_Winschoten_%282020%29_05.jpg/1280px-Toshiba_CT-8543_remote_control%2C_Winschoten_%282020%29_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Toshiba_CT-8543_remote_control,_Winschoten_(2020)_05.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_f642b3282766.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Donald_Trung\" title=\"User:Donald Trung\">Donald Trung Quoc Don (Ch\u1eef H\u00e1n: \u5fb5\u570b\u55ae)</a> - <a class=\"external text\" href=\"https://commons.m.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\">Wikimedia Commons</a> - <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">\u00a9 CC BY-SA 4.0 International</a>.<br>(<a href=\"//commons.wikimedia.org/wiki/User:Donald_Trung/Attribution\" title=\"User:Donald Trung/Attribution\">Want to use this image?</a>)<br>Original publication \ud83d\udce4: --<small><a href=\"//commons.wikimedia.org/wiki/User:Donald_Trung\" title=\"User:Donald Trung\">Donald Trung \u300e\u5fb5\u570b\u55ae\u300f</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Donald_Trung\" title=\"User talk:Donald Trung\">No Fake News \ud83d\udcac</a>) (<a href=\"//commons.wikimedia.org/wiki/Commons:WikiProject_Numismatics\" title=\"Commons:WikiProject Numismatics\">WikiProject Numismatics</a> \ud83d\udcb4) (<a href=\"https://en.wikipedia.org/wiki/nl:Gebruiker:Donald_Trung/Mijn_werk_%F0%9F%8F%A2\" class=\"extiw\" title=\"w:nl:Gebruiker:Donald Trung/Mijn werk \ud83c\udfe2\">Articles \ud83d\udcda</a>)</small> 21:27, 5 October 2020 (UTC)",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "ImageDescription": "A remote control issued by the Toshiba Corporation, that is located in the Groninger city of Winschoten, Oldambt."
+    },
+    "sha256": "c89b9021a14d44f8a97fdfe8443fc7671cd5828a1cbae114cb8123e0d08ea559",
+    "review": "Accepted after visual review; test only"
+  },
+  {
+    "title": "File:Magic Spoon.png",
+    "label": "negative",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Magic_Spoon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Magic_Spoon.png",
+    "path": "data/pen_refinement/candidates/negative/commons_6fd77b46b9de.jpg",
+    "attribution": {
+      "Artist": "Magic Spoon",
+      "LicenseShortName": "Public domain",
+      "LicenseUrl": "",
+      "ImageDescription": "Logo of Magic Spoon cereal"
+    },
+    "error": "HTTP Error 429: Too many requests (f061ab2)",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Post medieval spoon (FindID 919956).jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Post_medieval_spoon_%28FindID_919956%29.jpg/1280px-Post_medieval_spoon_%28FindID_919956%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Post_medieval_spoon_(FindID_919956).jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_468d21c12908.jpg",
+    "attribution": {
+      "Artist": "<div class=\"fn value\">\nSomerset County Council, Laura Burnett, 2018-10-04 16:37:31</div>",
+      "LicenseShortName": "CC BY 2.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "ImageDescription": "Part of the bowl from a lead-tin (pewter) spoon dating from c.1670 to the early 1700s. The bowl is oval in shape and is in a Queen Anne style with a feathered-like flower spray flanking the rat tail on the back. Only around three quarters of the bowl remains with a diagonal breakage across the width of the bowl, the stem is completely missing. It is now 68.1mm long, 49.6mm wide and weighs 28.69.<p class=\"mw-empty-elt\"></p>\n<p>Homer (1975, 44) illustrates base metal spoons with similar designs, which echo those on silver spoons of the same period, the late 17th and early 18th century.</p>"
+    },
+    "sha256": "8862b7cf066b2d2abef1894ad61bfaefd696716fc3dcbe396d2a8242e1102b66",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Small spoon canoe, Bella Coola River Valley (50178).jpg",
+    "label": "negative",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Small_spoon_canoe%2C_Bella_Coola_River_Valley_%2850178%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Small_spoon_canoe,_Bella_Coola_River_Valley_(50178).jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_f509cb201007.jpg",
+    "attribution": {
+      "Artist": "<div class=\"fn value\">\nHarlan Ingersoll Smith</div>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "ImageDescription": "Spoon canoe of especially small size, in a slough. Such canoes are used for polling in the rivers, seldom on salt water except near the river mouth. The ocean canoes on the other hand are seldom used up in the rivers. In 1920 no ocean canoes were seen in use anywhere in Bella Coola area; one was seen on a grave."
+    },
+    "sha256": "b505ffa8a1bdbee88d4737031d375be003f657ee48017d37b96fbc9bfc1e7a77",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Spoon Lake - panoramio.jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Spoon_Lake_-_panoramio.jpg/1280px-Spoon_Lake_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Spoon_Lake_-_panoramio.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_4c070fab5fc7.jpg",
+    "attribution": {
+      "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161023205327/http://www.panoramio.com/user/5762219?with_photo_id=53726580\">Gabriel Vanslette</a>",
+      "LicenseShortName": "CC BY 3.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "ImageDescription": "Spoon Lake"
+    },
+    "sha256": "6332ff1549ebb76acadbe445387836cf84932a55a00fa5f45ddb9ed1d8b23e9e",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Bill of lading for sundries, scissors, and glass, shipped by Jesse McKee, St. Louis, on board the keel boat Little Red, to Jesse McKee, Naples, Illinois, October 31, 1838 - DPLA - f75d9f4b3af01ef8ffbce10ffaf8c2c8 (page 1).jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Bill_of_lading_for_sundries%2C_scissors%2C_and_glass%2C_shipped_by_Jesse_McKee%2C_St._Louis%2C_on_board_the_keel_boat_Little_Red%2C_to_Jesse_McKee%2C_Naples%2C_Illinois%2C_October_31%2C_1838_-_DPLA_-_f75d9f4b3af01ef8ffbce10ffaf8c2c8_%28page_1%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Bill_of_lading_for_sundries,_scissors,_and_glass,_shipped_by_Jesse_McKee,_St._Louis,_on_board_the_keel_boat_Little_Red,_to_Jesse_McKee,_Naples,_Illinois,_October_31,_1838_-_DPLA_-_f75d9f4b3af01ef8ffbce10ffaf8c2c8_(page_1).jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_6185c08d3600.jpg",
+    "attribution": {
+      "Artist": "",
+      "LicenseShortName": "Public domain",
+      "LicenseUrl": "",
+      "ImageDescription": "Notation on document states: \"Received of William McKee, executor of the estate of Jessee McKee, deceased, $2.57,\" March 27, 1839."
+    },
+    "sha256": "6a84d9a983c015eca5a64cdc22915d912cd21556b6a92b524a7c0a029cc07ce4",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Fok lift and scissors lift in the public space near Metro Hall, 2015 09 23 (1).JPG - panoramio.jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Fok_lift_and_scissors_lift_in_the_public_space_near_Metro_Hall%2C_2015_09_23_%281%29.JPG_-_panoramio.jpg/1280px-Fok_lift_and_scissors_lift_in_the_public_space_near_Metro_Hall%2C_2015_09_23_%281%29.JPG_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Fok_lift_and_scissors_lift_in_the_public_space_near_Metro_Hall,_2015_09_23_(1).JPG_-_panoramio.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_e058c1029dfd.jpg",
+    "attribution": {
+      "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102100610/http://www.panoramio.com/user/5024000?with_photo_id=123923167\">OldYorkGuy</a>",
+      "LicenseShortName": "CC BY-SA 3.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "ImageDescription": "Fok lift and scissors lift in the public space near Metro Hall, 2015 09 23 (1).JPG"
+    },
+    "sha256": "6e744544766172c1c9203c47f480d6c01a53eeca5938f763cf37b6f292b45890",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Scissors ill 01.png",
+    "label": "negative",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Scissors_ill_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Scissors_ill_01.png",
+    "path": "data/pen_refinement/candidates/negative/commons_24d7fcb41f89.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Candyman777\" title=\"User:Candyman777\">Candyman777</a>",
+      "LicenseShortName": "CC BY-SA 3.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "ImageDescription": "Illustration of a pair of scissors"
+    },
+    "sha256": "c97f63409c2417fda3bca1cbba622d2b54688d56fffa47128833e898e218df0f",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Variety of scissors.jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Variety_of_scissors.jpg/1280px-Variety_of_scissors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Variety_of_scissors.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_f76e0cdf56ee.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Babitha_Shetty\" title=\"User:Babitha Shetty\">Babitha Shetty</a>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "ImageDescription": "variety of seizers"
+    },
+    "sha256": "fe7f3355978d555655a3a2f715c68ecfd636251225c5467d5cbb01250976fb8e",
+    "review": "Accepted after visual review; val only"
+  },
+  {
+    "title": "File:Kingston Technology DataTraveler G4 USB flash drive USB 3.0 32 Gb.jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg/1280px-Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_6d33e2db3023.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Knopik-som\" title=\"User:Knopik-som\">Dmitry Makeev</a>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "ImageDescription": "Kingston Technology DataTraveler G4 USB flash drives USB 3.0 32Gb"
+    },
+    "sha256": "3dbac02d5f42b3300cf6ef5153f40c71669fa17165376c951df0a6829c29e52e",
+    "review": "Accepted after visual review; train only"
+  },
+  {
+    "title": "File:Lexar USB flash drive.jpg",
+    "label": "negative",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Lexar_USB_flash_drive.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Lexar_USB_flash_drive.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_24870d023379.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Cjp24\" title=\"User:Cjp24\">Cjp24</a>",
+      "LicenseShortName": "CC BY-SA 3.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "ImageDescription": "A 4 GB Lexar <i>Jumpdrive</i> V10 USB flash drive."
+    },
+    "error": "HTTP Error 429: Too many requests (f061ab2)",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:USB Flash Drive Chapped.jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/USB_Flash_Drive_Chapped.jpg/1280px-USB_Flash_Drive_Chapped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:USB_Flash_Drive_Chapped.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_6534a7ede72b.jpg",
+    "attribution": {
+      "Artist": "",
+      "LicenseShortName": "CC BY-SA 3.0",
+      "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "ImageDescription": ""
+    },
+    "sha256": "56c0f5b0472790c9d7ecbdb44c6916259281b2496e6ceb41fe710e1ccb9e523d",
+    "review": "Accepted after visual review; test only"
+  },
+  {
+    "title": "File:A black ballpen, India (2016).jpg",
+    "label": "pens",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/A_black_ballpen%2C_India_%282016%29.jpg/1280px-A_black_ballpen%2C_India_%282016%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:A_black_ballpen,_India_(2016).jpg",
+    "path": "data/pen_refinement/candidates/pens/commons_afa30d378320.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mthrakshat02&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mthrakshat02 (page does not exist)\">akshatsgi</a>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "ImageDescription": "Phone photography"
+    },
+    "sha256": "1ddc181f02956b9443054194f254512f9f7a66bae972169916fd47c42b9933c6",
+    "review": "Accepted after visual review; train only"
+  },
+  {
+    "title": "File:Ballpoint.jpg",
+    "label": "pens",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Ballpoint.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ballpoint.jpg",
+    "path": "data/pen_refinement/candidates/pens/commons_4c67dae875dd.jpg",
+    "attribution": {
+      "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/70364167@N00\">cmiper</a>",
+      "LicenseShortName": "CC BY 2.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "ImageDescription": "Ballpoint pen shot through a 10x loupe<br>Pen"
+    },
+    "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Ballpoint on table.jpg",
+    "label": "pens",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Ballpoint_on_table.jpg/1280px-Ballpoint_on_table.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ballpoint_on_table.jpg",
+    "path": "data/pen_refinement/candidates/pens/commons_aeae775dbb09.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Luctor\" title=\"User:Luctor\">Luctor</a>",
+      "LicenseShortName": "CC BY-SA 3.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "ImageDescription": "Ballpoint on a desk in a classroom"
+    },
+    "sha256": "3b8bc430cf7d0a0745a113ce5c6a2fa7f33f2427d73371713192ba386d393340",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Chopsticks.jpg",
+    "label": "negative",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Chopsticks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Chopsticks.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_d6a55f890be0.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Gisling\" title=\"User:Gisling\">Gisling</a>",
+      "LicenseShortName": "CC BY 2.5",
+      "LicenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "ImageDescription": "Ivory chopsticks\u8c61\u7259\u7b77\u5b50"
+    },
+    "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Key.jpg",
+    "label": "negative",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Key.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Key.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_57b0239e9fcf.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tnicol01&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tnicol01 (page does not exist)\">Tnicol01</a>",
+      "LicenseShortName": "Public domain",
+      "LicenseUrl": "",
+      "ImageDescription": "Imagen de una llame de un autom\u00f3vil Chrysler"
+    },
+    "sha256": "35fcf03305ba4df29f74ee2a0cddc48f498791848bb89eadff9894242f2c57de",
+    "review": "Accepted after visual review; train only"
+  },
+  {
+    "title": "File:Pencil.jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Pencil.jpg/1280px-Pencil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Pencil.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_c2a93363962f.jpg",
+    "attribution": {
+      "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/36131061@N00\">per</a> from Norway",
+      "LicenseShortName": "CC BY 2.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "ImageDescription": "Pencils"
+    },
+    "sha256": "9f6666b784ae936334888f8e3ed0895ace2332a1f593e1860746733fd1d7c55a",
+    "review": "Accepted after visual review; test only"
+  },
+  {
+    "title": "File:Pencils.jpg",
+    "label": "negative",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Pencils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Pencils.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_e45e5d9f97ea.jpg",
+    "attribution": {
+      "Artist": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/w/index.php?title=User:Zidanne007~commonswiki&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Zidanne007~commonswiki (page does not exist)\">Zidanne007~commonswiki</a> assumed (based on copyright claims).",
+      "LicenseShortName": "CC BY-SA 3.0",
+      "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "ImageDescription": "Un ser de lapices pull\u00edsticos y semipuell\u00edsticos"
+    },
+    "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Ruler.jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Ruler.jpg/1280px-Ruler.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ruler.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_3b11e2306b72.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:EdoardoRamalli&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:EdoardoRamalli (page does not exist)\">EdoardoRamalli</a>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "ImageDescription": "A blue ruler of 17cm"
+    },
+    "sha256": "bba9c196869a94d8b816fd92c8253d755e17275ba5591ea22cdb4ee12f854305",
+    "review": "Accepted after visual review; train only"
+  },
+  {
+    "title": "File:Scissors.jpg",
+    "label": "negative",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Scissors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Scissors.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_0360c794fc8b.jpg",
+    "attribution": {
+      "Artist": "",
+      "LicenseShortName": "CC BY-SA 3.0",
+      "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "ImageDescription": ""
+    },
+    "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  },
+  {
+    "title": "File:Spoon.jpg",
+    "label": "negative",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Spoon.jpg/1280px-Spoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Spoon.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_d8e473aafa58.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:DIVYALAKSHWIN&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:DIVYALAKSHWIN (page does not exist)\">DIVYALAKSHWIN</a>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "ImageDescription": "spoon"
+    },
+    "sha256": "f414c18c4c42f4ff8136e668b46da7fcbb7806d3092c426caf57b8fade8e671a",
+    "review": "Accepted after visual review; val only"
+  },
+  {
+    "title": "File:Toothbrush.jpg",
+    "label": "negative",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Toothbrush.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Toothbrush.jpg",
+    "path": "data/pen_refinement/candidates/negative/commons_fa47b1160f7a.jpg",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lead_holder\" title=\"User:Lead holder\">Lead holder</a>",
+      "LicenseShortName": "CC0",
+      "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "ImageDescription": "A badger bristle <a href=\"https://en.wikipedia.org/wiki/toothbrush\" class=\"extiw\" title=\"en:toothbrush\">toothbrush</a> in a cup."
+    },
+    "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+    "review": "Excluded: unrelated search result, duplicate source, macro-only view, illustration, or unsuitable framing"
+  }
+]

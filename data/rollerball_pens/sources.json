@@ -1,0 +1,194 @@
+[
+  {
+    "group": "alexandria",
+    "split": "train",
+    "source_page": "https://www.dayspringpens.com/products/alexandria-rollerball-pen-black",
+    "url": "https://www.dayspringpens.com/cdn/shop/files/GP-1474-001.jpg?v=1753736329&width=1200",
+    "path": "data/rollerball_pens/candidates/alexandria_00.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "29525681c30f285c6b4e75583060ad51bee2dba282fa1ca2515fd04906835c0b"
+  },
+  {
+    "group": "alexandria",
+    "split": "train",
+    "source_page": "https://www.dayspringpens.com/products/alexandria-rollerball-pen-black",
+    "url": "https://www.dayspringpens.com/cdn/shop/files/GP-1474-002.jpg?v=1753736329&width=1200",
+    "path": "data/rollerball_pens/candidates/alexandria_01.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "c4a7740fc5a2df28295753748d912224bb5a2d6f86f1f9755538a05d789b631b"
+  },
+  {
+    "group": "alexandria",
+    "split": "train",
+    "source_page": "https://www.dayspringpens.com/products/alexandria-rollerball-pen-black",
+    "url": "https://www.dayspringpens.com/cdn/shop/files/GP-1474_Alexandria_Black_Rollerball_Lifestyle_Image.jpg?v=1658242783&width=1200",
+    "path": "data/rollerball_pens/candidates/alexandria_02.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "53f44ed179428187a0d919cee6e7cba26d869e7b4ba7940a4df3336db90ad41d"
+  },
+  {
+    "group": "sheaffer_sagaris",
+    "source_page": "https://sheaffer.com/products/sheaffer%C2%AE-sagaris-9471-gloss-black-rollerball-pen-with-gold-tone-trim",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "group": "sheaffer_balance",
+    "source_page": "https://www.truphaeinc.com/products/sheaffer-balance-ii-rollerball-pen-black-and-gold",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "group": "parker_ingenuity",
+    "source_page": "https://www.parkerpen.com/writing-types/collections/ingenuity/ingenuity-rollerball-pen/SAP_2182007.html",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "group": "parker_meridian",
+    "split": "train",
+    "source_page": "https://www.penworld.eu/pen/parker/parker-meridian/parker-meridian-black-gold-trim-rollerball.html",
+    "url": "https://www.penworld.eu/media/catalog/product/2/2/2231394_merid_imgps_202.jpg",
+    "path": "data/rollerball_pens/candidates/parker_meridian_00.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "03f13911a42c85b79f3f28168b714ccc2f069190dce0b13d9533ef7a41ea4d07"
+  },
+  {
+    "group": "monroe",
+    "split": "train",
+    "source_page": "https://www.dayspringpens.com/products/monroe-ballpoint-pen-black",
+    "url": "https://www.dayspringpens.com/cdn/shop/files/GP-1316-001.jpg?v=1753736415&width=1200",
+    "path": "data/rollerball_pens/candidates/monroe_00.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "2b0a036dce0c615228de2980607ba64d9c4299b0c8fa59cfa1fb81fe985ad556"
+  },
+  {
+    "group": "monroe",
+    "split": "train",
+    "source_page": "https://www.dayspringpens.com/products/monroe-ballpoint-pen-black",
+    "url": "https://www.dayspringpens.com/cdn/shop/files/GP-1316-002.jpg?v=1762963666&width=1200",
+    "path": "data/rollerball_pens/candidates/monroe_01.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "7ca94eb4cb434ae10eccb56e622ae98aa68f8758c8f0435e0ae786611b127ad0"
+  },
+  {
+    "group": "monroe",
+    "split": "train",
+    "source_page": "https://www.dayspringpens.com/products/monroe-ballpoint-pen-black",
+    "url": "https://www.dayspringpens.com/cdn/shop/files/GP-1316_Monroe_Black_Ballpoint_Lifestyle_Image.jpg?v=1658325241&width=1200",
+    "path": "data/rollerball_pens/candidates/monroe_02.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "2ea1ad84c105684b6b4e1a6a33dc511f192ff29f89a4fde0d0dcdfcdf192b99a"
+  },
+  {
+    "group": "sheaffer_100",
+    "split": "val",
+    "source_page": "https://www.dromgooles.com/products/sheaffer-100-rollerball-black-with-gold",
+    "url": "https://www.dromgooles.com/cdn/shop/files/Sheaffer100Rollerball-BlackwithGold.jpg?v=1697471571&width=1200",
+    "path": "data/rollerball_pens/candidates/sheaffer_100_00.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "4081930e269a7d15da2b8fb05d3439bb9a63c1dc62b194814839ab0af68fa83d"
+  },
+  {
+    "group": "sheaffer_100",
+    "split": "val",
+    "source_page": "https://www.dromgooles.com/products/sheaffer-100-rollerball-black-with-gold",
+    "url": "https://www.dromgooles.com/cdn/shop/files/Sheaffer100FountainPen-BlackwithGold2_0d49cbde-7b2f-4c22-a49e-78305d49a6ae.jpg?v=1697471570&width=1200",
+    "path": "data/rollerball_pens/candidates/sheaffer_100_01.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "f0cccd24631ac81f796276f2e07a6c6fd5e9246ffe408b6c6050903acbe86f78"
+  },
+  {
+    "group": "sheaffer_100",
+    "split": "val",
+    "source_page": "https://sheaffer.ph/collections/rollerball",
+    "url": "https://sheaffer.ph/cdn/shop/files/SE1934051_600x.jpg?v=1757518664",
+    "path": "data/rollerball_pens/candidates/sheaffer_100_02.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "e2a74b6da8c46bea3a2f12b6782de2e679235a1ce76ccfaf394bcb47355d2162"
+  },
+  {
+    "group": "sheaffer_100",
+    "split": "val",
+    "source_page": "https://sheaffer.ph/collections/rollerball",
+    "url": "https://sheaffer.ph/cdn/shop/files/SE1931351_600x.jpg?v=1757518705",
+    "path": "data/rollerball_pens/candidates/sheaffer_100_03.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "ae7333010230117768654e761f11e61730be243abe1d2959a4e18bce8724a57a"
+  },
+  {
+    "group": "waterman_expert",
+    "source_page": "https://goldspot.com/products/waterman-rollerball-pen-expert-new-generation-black-gt",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "group": "waterman_hemisphere",
+    "source_page": "https://www.dayspringpens.com/products/waterman-hemisphere-black-gold-trim-rollerball-pen",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "group": "cross_edge",
+    "split": "test",
+    "source_page": "https://www.dayspringpens.com/products/cross-edge-gel-rollerball-pen-matte-black-lacquer-with-gold-trim",
+    "url": "https://www.dayspringpens.com/cdn/shop/files/GP-1642-AT0555-20-001.jpg?v=1776096170&width=1200",
+    "path": "data/rollerball_pens/candidates/cross_edge_00.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "efdce6ea97f67e743def6898f58ab0d3f31d07d88601c9569458ac63c3c6a0e4"
+  },
+  {
+    "group": "cross_edge",
+    "split": "test",
+    "source_page": "https://www.dayspringpens.com/products/cross-edge-gel-rollerball-pen-matte-black-lacquer-with-gold-trim",
+    "url": "https://www.dayspringpens.com/cdn/shop/files/GP-1642-AT0555-20-002.jpg?v=1776096170&width=1200",
+    "path": "data/rollerball_pens/candidates/cross_edge_01.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "78a2302e81c9b5655c471ee7faa6e9ad49a853aa211c00112af7a2cd86f1e4e8"
+  },
+  {
+    "group": "aurora_ipsilon",
+    "split": "test",
+    "source_page": "https://www.pianki.com/aurora-ipsilon-deluxe-black-rollerball-pen--gold-plated-trim_p2699.html",
+    "url": "https://www.pianki.com/assets/images/aurora/auroraipsilon/b72-n.jpg",
+    "path": "data/rollerball_pens/candidates/aurora_ipsilon_00.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "8790896e9670fa66f88a79fa92f5a222aba2fb3c9d664b319bcdecba4d73d138"
+  },
+  {
+    "group": "parker_aster",
+    "source_page": "https://penz.co.in/products/parker-aster-black-gold-deluxe-gold-trim-rollerball-pen",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "group": "sheaffer_300",
+    "split": "train",
+    "source_page": "https://sheaffer.ph/collections/rollerball",
+    "url": "https://sheaffer.ph/cdn/shop/files/SE1932551_600x.jpg?v=1757518698",
+    "path": "data/rollerball_pens/candidates/sheaffer_300_00.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "e6714c66265982a05add2d3bee6851e87ce73833cf4fa079308de1aa95aa84b4"
+  },
+  {
+    "group": "sheaffer_300",
+    "split": "train",
+    "source_page": "https://sheaffer.ph/collections/rollerball",
+    "url": "https://sheaffer.ph/cdn/shop/files/SE1931251_600x.jpg?v=1757518696",
+    "path": "data/rollerball_pens/candidates/sheaffer_300_01.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "e8af88e1f0ec9ba0d94dfc0753d110d1f810d9f9b5ee44e617ec83cab13a1c3c"
+  },
+  {
+    "group": "sheaffer_300",
+    "split": "train",
+    "source_page": "https://sheaffer.ph/collections/rollerball",
+    "url": "https://sheaffer.ph/cdn/shop/files/SE1934351_600x.jpg?v=1757518695",
+    "path": "data/rollerball_pens/candidates/sheaffer_300_02.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "6c1aa4af388c64455bceb16bb214f3b74bb22e8fd8de407de94ca66b583b8aef"
+  },
+  {
+    "group": "sheaffer_vfm",
+    "split": "train",
+    "source_page": "https://sheaffer.ph/collections/rollerball",
+    "url": "https://sheaffer.ph/cdn/shop/files/SE1940551_600x.jpg?v=1757518719",
+    "path": "data/rollerball_pens/candidates/sheaffer_vfm_00.jpg",
+    "license": "Product photography; ownership retained by source; no open license asserted",
+    "sha256": "da3b01f38fe167d47996278e95b8922f976d17997524b9f31dcbbd37d78a30ac"
+  }
+]

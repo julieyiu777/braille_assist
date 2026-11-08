@@ -1,0 +1,78 @@
+{
+  "val": {
+    "balanced_accuracy": 0.9444444444444444,
+    "accuracy": 0.875,
+    "negative_false_accept_rate": 0.2222222222222222,
+    "pen_false_accept_rate": 0.15384615384615385,
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.7777777777777778
+    ],
+    "confusion_matrix": [
+      [
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        7
+      ]
+    ]
+  },
+  "test": {
+    "balanced_accuracy": 0.8888888888888888,
+    "accuracy": 0.75,
+    "negative_false_accept_rate": 0.4444444444444444,
+    "pen_false_accept_rate": 0.15384615384615385,
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.5555555555555556
+    ],
+    "confusion_matrix": [
+      [
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        2,
+        0,
+        2,
+        5
+      ]
+    ]
+  }
+}

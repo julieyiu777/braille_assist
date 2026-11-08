@@ -1,0 +1,278 @@
+{
+  "winner": {
+    "key": [
+      0.8936744033998039,
+      -0.043478260869565216,
+      0.9154135338345865,
+      false,
+      0.35
+    ],
+    "setting": {
+      "mode": "localized",
+      "image_size": 640,
+      "detector_threshold": 0.35,
+      "verification_threshold": 0.85,
+      "fallback_threshold": 0.99
+    },
+    "validation": {
+      "balanced_accuracy": 0.9154135338345865,
+      "accuracy": 0.8103448275862069,
+      "negative_false_accept_rate": 0.052631578947368474,
+      "pen_false_accept_rate": 0.043478260869565216,
+      "per_class_recall": [
+        1.0,
+        1.0,
+        0.7142857142857143,
+        0.9473684210526315
+      ],
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          25,
+          10
+        ],
+        [
+          0,
+          0,
+          1,
+          18
+        ]
+      ]
+    },
+    "checkpoint": "runs/black_pen_balanced/best.pt"
+  },
+  "candidates": [
+    {
+      "key": [
+        0.8873488067996078,
+        -0.08695652173913043,
+        0.930827067669173,
+        false,
+        0.2
+      ],
+      "setting": {
+        "mode": "localized",
+        "image_size": 384,
+        "detector_threshold": 0.2,
+        "verification_threshold": 0.98,
+        "fallback_threshold": 0.99
+      },
+      "validation": {
+        "balanced_accuracy": 0.930827067669173,
+        "accuracy": 0.8620689655172413,
+        "negative_false_accept_rate": 0.10526315789473684,
+        "pen_false_accept_rate": 0.08695652173913043,
+        "per_class_recall": [
+          1.0,
+          1.0,
+          0.8285714285714286,
+          0.8947368421052632
+        ],
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            29,
+            6
+          ],
+          [
+            0,
+            0,
+            2,
+            17
+          ]
+        ]
+      },
+      "checkpoint": "runs/black_pen_expanded/best.pt"
+    },
+    {
+      "key": [
+        0.8865315462569467,
+        -0.043478260869565216,
+        0.9082706766917293,
+        true,
+        0
+      ],
+      "setting": {
+        "mode": "global",
+        "image_size": 384
+      },
+      "validation": {
+        "balanced_accuracy": 0.9082706766917293,
+        "accuracy": 0.7931034482758621,
+        "negative_false_accept_rate": 0.052631578947368474,
+        "pen_false_accept_rate": 0.043478260869565216,
+        "per_class_recall": [
+          1.0,
+          1.0,
+          0.6857142857142857,
+          0.9473684210526315
+        ],
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            24,
+            11
+          ],
+          [
+            0,
+            0,
+            1,
+            18
+          ]
+        ]
+      },
+      "checkpoint": "runs/black_pen_balanced/best.pt"
+    },
+    {
+      "key": [
+        0.8802059496567506,
+        -0.08695652173913043,
+        0.9236842105263158,
+        false,
+        0.35
+      ],
+      "setting": {
+        "mode": "localized",
+        "image_size": 640,
+        "detector_threshold": 0.35,
+        "verification_threshold": 0.95,
+        "fallback_threshold": 0.99
+      },
+      "validation": {
+        "balanced_accuracy": 0.9236842105263158,
+        "accuracy": 0.8448275862068966,
+        "negative_false_accept_rate": 0.10526315789473684,
+        "pen_false_accept_rate": 0.08695652173913043,
+        "per_class_recall": [
+          1.0,
+          1.0,
+          0.8,
+          0.8947368421052632
+        ],
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            28,
+            7
+          ],
+          [
+            0,
+            0,
+            2,
+            17
+          ]
+        ]
+      },
+      "checkpoint": "runs/black_pen_expanded/best.pt"
+    },
+    {
+      "key": [
+        0.8936744033998039,
+        -0.043478260869565216,
+        0.9154135338345865,
+        false,
+        0.35
+      ],
+      "setting": {
+        "mode": "localized",
+        "image_size": 640,
+        "detector_threshold": 0.35,
+        "verification_threshold": 0.85,
+        "fallback_threshold": 0.99
+      },
+      "validation": {
+        "balanced_accuracy": 0.9154135338345865,
+        "accuracy": 0.8103448275862069,
+        "negative_false_accept_rate": 0.052631578947368474,
+        "pen_false_accept_rate": 0.043478260869565216,
+        "per_class_recall": [
+          1.0,
+          1.0,
+          0.7142857142857143,
+          0.9473684210526315
+        ],
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            25,
+            10
+          ],
+          [
+            0,
+            0,
+            1,
+            18
+          ]
+        ]
+      },
+      "checkpoint": "runs/black_pen_balanced/best.pt"
+    }
+  ],
+  "validation_cases": 58,
+  "policy": "Web validation context and full-scene views only; no camera or test selection"
+}

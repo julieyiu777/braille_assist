@@ -1,0 +1,32 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+runs/telemetry/
+runs/replays/
+.DS_Store
+.vscode/
+*.pt
+# Keep the active runtime models; experiments are reproducible locally.
+/runs/*
+!/runs/black_pen_active/
+/runs/black_pen_active/*
+!/runs/black_pen_active/best.pt
+!/runs/black_pen_active/selection.json
+!/runs/black_pen_active/split.json
+!/runs/black_pen_localizer/
+/runs/black_pen_localizer/*
+!/runs/black_pen_localizer/weights/
+/runs/black_pen_localizer/weights/*
+!/runs/black_pen_localizer/weights/best.pt
+# Downloadable annotation indexes and private camera diagnostics.
+/data/openimage_pens/*-boxes.csv
+/data/openimage_pens/*-metadata.csv
+/data/openimage_pens/classes.csv
+/data/black_pen_detection/
+*.cache
+**/camera_diagnostic.json
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm

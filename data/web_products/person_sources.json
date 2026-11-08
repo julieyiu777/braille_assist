@@ -1,0 +1,236 @@
+[
+  {
+    "path": "data/web_products/person/000000000036.jpg",
+    "source_image": "coco128/images/train2017/000000000036.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      167,
+      162,
+      478,
+      628
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000077.jpg",
+    "source_image": "coco128/images/train2017/000000000077.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      24,
+      167,
+      121,
+      332
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000086.jpg",
+    "source_image": "coco128/images/train2017/000000000086.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      152,
+      183,
+      281,
+      559
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000110.jpg",
+    "source_image": "coco128/images/train2017/000000000110.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      208,
+      0,
+      640,
+      474
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000113.jpg",
+    "source_image": "coco128/images/train2017/000000000113.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      148,
+      44,
+      343,
+      431
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000136.jpg",
+    "source_image": "coco128/images/train2017/000000000136.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      0,
+      61,
+      68,
+      374
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000165.jpg",
+    "source_image": "coco128/images/train2017/000000000165.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      6,
+      24,
+      360,
+      528
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000192.jpg",
+    "source_image": "coco128/images/train2017/000000000192.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      349,
+      253,
+      481,
+      473
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000241.jpg",
+    "source_image": "coco128/images/train2017/000000000241.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      132,
+      6,
+      333,
+      632
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000257.jpg",
+    "source_image": "coco128/images/train2017/000000000257.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      139,
+      345,
+      211,
+      480
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000294.jpg",
+    "source_image": "coco128/images/train2017/000000000294.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      27,
+      69,
+      392,
+      427
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000308.jpg",
+    "source_image": "coco128/images/train2017/000000000308.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      0,
+      47,
+      185,
+      426
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000315.jpg",
+    "source_image": "coco128/images/train2017/000000000315.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      124,
+      219,
+      209,
+      392
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000322.jpg",
+    "source_image": "coco128/images/train2017/000000000322.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      71,
+      110,
+      277,
+      386
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000326.jpg",
+    "source_image": "coco128/images/train2017/000000000326.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      152,
+      90,
+      517,
+      426
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000328.jpg",
+    "source_image": "coco128/images/train2017/000000000328.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      336,
+      58,
+      586,
+      484
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000338.jpg",
+    "source_image": "coco128/images/train2017/000000000338.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      326,
+      142,
+      417,
+      325
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  },
+  {
+    "path": "data/web_products/person/000000000368.jpg",
+    "source_image": "coco128/images/train2017/000000000368.jpg",
+    "source_dataset": "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip",
+    "bbox_xyxy": [
+      165,
+      107,
+      394,
+      379
+    ],
+    "class": "person",
+    "annotation_class_id": 0
+  }
+]

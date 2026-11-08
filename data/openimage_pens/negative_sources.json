@@ -1,0 +1,2602 @@
+[
+  {
+    "image_id": "0035a4bfeda1b637",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.0,
+        "XMax": 0.19314079,
+        "YMin": 0.26534295,
+        "YMax": 0.6841155
+      }
+    ],
+    "object_class": "Spoon",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0035a4bfeda1b637.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0035a4bfeda1b637",
+      "Subset": "validation",
+      "OriginalURL": "https://farm8.staticflickr.com/8221/8266725786_25b93f5b46_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/anonymousmxpt/8266725786",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/anonymousmxpt/",
+      "Author": "A M",
+      "Title": "481779_310015055764971_83399097_n",
+      "OriginalSize": "89376",
+      "OriginalMD5": "m7wq9MRbZWGQkgN+3Cnzqg==",
+      "Thumbnail300KURL": "https://c8.staticflickr.com/9/8221/8266725786_ca761786d1_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/anonymousmxpt/8266725786",
+    "path": "data/openimage_pens/crops/validation_0035a4bfeda1b637.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0035a4bfeda1b637.jpg",
+    "crop_bounds": [
+      0,
+      207,
+      262,
+      764
+    ],
+    "source_group": "openimages:0035a4bfeda1b637",
+    "sha256": "12e39383c7f5b64cb43b77f31e9e50af980309bc7b48e33db3cdd358a742fc1b"
+  },
+  {
+    "image_id": "012dc31b561d4214",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.2484375,
+        "XMax": 0.878125,
+        "YMin": 0.0,
+        "YMax": 1.0
+      }
+    ],
+    "object_class": "Mobile phone",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/012dc31b561d4214.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "012dc31b561d4214",
+      "Subset": "validation",
+      "OriginalURL": "https://farm5.staticflickr.com/4116/4763513986_36a7a8a00f_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/clanlife/4763513986",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/clanlife/",
+      "Author": "Phil Campbell",
+      "Title": "the htc hero android phone on trial, it ain't no iphone.",
+      "OriginalSize": "136107",
+      "OriginalMD5": "hz7EHsqyWIrpFEIjJcbtxA==",
+      "Thumbnail300KURL": "https://c3.staticflickr.com/5/4116/4763513986_98886f92b0_z.jpg",
+      "Rotation": ""
+    },
+    "source_page": "https://www.flickr.com/photos/clanlife/4763513986",
+    "path": "data/openimage_pens/crops/validation_012dc31b561d4214.jpg",
+    "original_path": "data/openimage_pens/originals/validation_012dc31b561d4214.jpg",
+    "crop_bounds": [
+      139,
+      0,
+      1014,
+      768
+    ],
+    "source_group": "openimages:012dc31b561d4214",
+    "sha256": "63271fd4d75a503c800e24f299be062588f786957dfce59a18980166b7fcf863"
+  },
+  {
+    "image_id": "0173241beb1633e9",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.0,
+        "XMax": 0.2203125,
+        "YMin": 0.49375,
+        "YMax": 0.75416666
+      }
+    ],
+    "object_class": "Spoon",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0173241beb1633e9.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0173241beb1633e9",
+      "Subset": "validation",
+      "OriginalURL": "https://c2.staticflickr.com/8/7138/7688568540_fe8b0739ba_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/thetalentedfool/7688568540",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/thetalentedfool/",
+      "Author": "thetalentedfool",
+      "Title": "Spanish Mokka",
+      "OriginalSize": "908941",
+      "OriginalMD5": "Q7QnKpjY5NAtKQ5gBoo+lQ==",
+      "Thumbnail300KURL": "https://c2.staticflickr.com/8/7138/7688568540_e63014fa32_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/thetalentedfool/7688568540",
+    "path": "data/openimage_pens/crops/validation_0173241beb1633e9.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0173241beb1633e9.jpg",
+    "crop_bounds": [
+      0,
+      345,
+      259,
+      613
+    ],
+    "source_group": "openimages:0173241beb1633e9",
+    "sha256": "9d720203a3f02a88c574c83d7e748950e5ccf0daf8780d0c840cf0c410dfaf7b"
+  },
+  {
+    "image_id": "01b9021aa05e6e46",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.023465704,
+        "XMax": 0.40433213,
+        "YMin": 0.1498195,
+        "YMax": 0.41155234
+      }
+    ],
+    "object_class": "Knife",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/01b9021aa05e6e46.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "01b9021aa05e6e46",
+      "Subset": "validation",
+      "OriginalURL": "https://farm7.staticflickr.com/8306/7984527513_7e53ed1ecc_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/11045073@N05/7984527513",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/11045073@N05/",
+      "Author": "Brett",
+      "Title": "Steven Kelly Litespeed Folder",
+      "OriginalSize": "2135172",
+      "OriginalMD5": "p3NNvcz7TtCoKfk4Rj7nOg==",
+      "Thumbnail300KURL": "https://c7.staticflickr.com/9/8306/7984527513_d5b1ca97a5_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/11045073@N05/7984527513",
+    "path": "data/openimage_pens/crops/validation_01b9021aa05e6e46.jpg",
+    "original_path": "data/openimage_pens/originals/validation_01b9021aa05e6e46.jpg",
+    "crop_bounds": [
+      0,
+      94,
+      472,
+      479
+    ],
+    "source_group": "openimages:01b9021aa05e6e46",
+    "sha256": "eb06f3ff8ff124aad5db98a51aa2b1f9180ae216cd330f45b2d9969c5b93d7c2"
+  },
+  {
+    "image_id": "02d46139315081c5",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.2,
+        "XMax": 0.64166665,
+        "YMin": 0.1609375,
+        "YMax": 0.43125
+      }
+    ],
+    "object_class": "Spoon",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/02d46139315081c5.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "02d46139315081c5",
+      "Subset": "validation",
+      "OriginalURL": "https://farm6.staticflickr.com/86/376515724_b14171b1a1_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/yamakazz/376515724",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/yamakazz/",
+      "Author": "yamada kazuyuki",
+      "Title": "\u30cf\u30fc\u30b2\u30f3\u30c0\u30c3\u30c4\u30d1\u30eb\u30d5\u30a7\u306e\u30b9\u30d7\u30fc\u30f3",
+      "OriginalSize": "1210462",
+      "OriginalMD5": "llNeCVaeH/JsRZvc2IVC/Q==",
+      "Thumbnail300KURL": "https://c1.staticflickr.com/1/86/376515724_b14171b1a1_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/yamakazz/376515724",
+    "path": "data/openimage_pens/crops/validation_02d46139315081c5.jpg",
+    "original_path": "data/openimage_pens/originals/validation_02d46139315081c5.jpg",
+    "crop_bounds": [
+      102,
+      113,
+      543,
+      492
+    ],
+    "source_group": "openimages:02d46139315081c5",
+    "sha256": "5aa524bc656b70fee2f464c95a67a81a94f0adb143157d34312c1ad7453cd997"
+  },
+  {
+    "image_id": "02eaecd683dbdb9f",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.07557355,
+        "XMax": 0.31848854,
+        "YMin": 0.3357488,
+        "YMax": 1.0
+      }
+    ],
+    "object_class": "Spoon",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/02eaecd683dbdb9f.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "02eaecd683dbdb9f",
+      "Subset": "validation",
+      "OriginalURL": "https://c8.staticflickr.com/9/8004/7308579380_1e9da2ed16_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/thebokeeffect/7308579380",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/thebokeeffect/",
+      "Author": "Andrea Goh",
+      "Title": "lavender hot chocolate",
+      "OriginalSize": "1671168",
+      "OriginalMD5": "gIHbWiqy3rMIWnx/cc3WWA==",
+      "Thumbnail300KURL": "https://c4.staticflickr.com/9/8004/7308579380_02ff1201ca_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/thebokeeffect/7308579380",
+    "path": "data/openimage_pens/crops/validation_02eaecd683dbdb9f.jpg",
+    "original_path": "data/openimage_pens/originals/validation_02eaecd683dbdb9f.jpg",
+    "crop_bounds": [
+      20,
+      135,
+      383,
+      573
+    ],
+    "source_group": "openimages:02eaecd683dbdb9f",
+    "sha256": "50fedc5af39580551554b1da3193b7df478747a9f43b54a961520df4d2216efc"
+  },
+  {
+    "image_id": "030c5a10124e6252",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.13831478,
+        "XMax": 0.65500796,
+        "YMin": 0.18069816,
+        "YMax": 0.4271047
+      }
+    ],
+    "object_class": "Sunglasses",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/030c5a10124e6252.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "030c5a10124e6252",
+      "Subset": "validation",
+      "OriginalURL": "https://farm3.staticflickr.com/24/36110689_9cbbccb36a_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/sis/36110689",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/sis/",
+      "Author": "Jackie",
+      "Title": "An Old Hippie",
+      "OriginalSize": "1239457",
+      "OriginalMD5": "4FkUNfJZA29JMGowSQllxQ==",
+      "Thumbnail300KURL": "https://c6.staticflickr.com/1/24/36110689_9cbbccb36a_z.jpg?zz=1",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/sis/36110689",
+    "path": "data/openimage_pens/crops/validation_030c5a10124e6252.jpg",
+    "original_path": "data/openimage_pens/originals/validation_030c5a10124e6252.jpg",
+    "crop_bounds": [
+      62,
+      63,
+      750,
+      418
+    ],
+    "source_group": "openimages:030c5a10124e6252",
+    "sha256": "e46d84394ec9feb5a94591ca3f38359b05d6c883b36b47b0252959c03b4d0a08"
+  },
+  {
+    "image_id": "0344cade36bbd4f4",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.30421218,
+        "XMax": 0.57566303,
+        "YMin": 0.020876827,
+        "YMax": 0.36951983
+      }
+    ],
+    "object_class": "Spoon",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0344cade36bbd4f4.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0344cade36bbd4f4",
+      "Subset": "validation",
+      "OriginalURL": "https://farm5.staticflickr.com/4130/4840572571_f485465c66_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/10812666@N03/4840572571",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/10812666@N03/",
+      "Author": "Nick Ludlam",
+      "Title": "Affogato from Tapped and Packed",
+      "OriginalSize": "5546012",
+      "OriginalMD5": "/Vun1u77GaGAH+zv+vod0A==",
+      "Thumbnail300KURL": "https://c6.staticflickr.com/5/4130/4840572571_b2f9509616_z.jpg",
+      "Rotation": "270.0"
+    },
+    "source_page": "https://www.flickr.com/photos/10812666@N03/4840572571",
+    "path": "data/openimage_pens/crops/validation_0344cade36bbd4f4.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0344cade36bbd4f4.jpg",
+    "crop_bounds": [
+      269,
+      0,
+      631,
+      324
+    ],
+    "source_group": "openimages:0344cade36bbd4f4",
+    "sha256": "880cdf3b3919f400d37b491168c073de4762ecf52a221611904220752b2edb79"
+  },
+  {
+    "image_id": "043f3655deab6e7c",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.30927834,
+        "XMax": 0.6892489,
+        "YMin": 0.06430155,
+        "YMax": 0.94013304
+      }
+    ],
+    "object_class": "Mobile phone",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/043f3655deab6e7c.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "043f3655deab6e7c",
+      "Subset": "validation",
+      "OriginalURL": "https://c5.staticflickr.com/5/4029/4581311847_312c285de6_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/carbonnyc/4581311847",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/carbonnyc/",
+      "Author": "David Goehring",
+      "Title": "Doodle Jumper",
+      "OriginalSize": "304334",
+      "OriginalMD5": "wvocJEvZL9+XB0UfVvUyyA==",
+      "Thumbnail300KURL": "https://c8.staticflickr.com/5/4029/4581311847_b18df31dce_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/carbonnyc/4581311847",
+    "path": "data/openimage_pens/crops/validation_043f3655deab6e7c.jpg",
+    "original_path": "data/openimage_pens/originals/validation_043f3655deab6e7c.jpg",
+    "crop_bounds": [
+      227,
+      0,
+      795,
+      681
+    ],
+    "source_group": "openimages:043f3655deab6e7c",
+    "sha256": "15f0597b1f7e41a40b2b3016bc87cc82f9f05f26de4b406e9f7a6606a3f3ec01"
+  },
+  {
+    "image_id": "0565bcccb1266f62",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.08233533,
+        "XMax": 0.98502994,
+        "YMin": 0.46187365,
+        "YMax": 1.0
+      }
+    ],
+    "object_class": "Knife",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0565bcccb1266f62.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0565bcccb1266f62",
+      "Subset": "validation",
+      "OriginalURL": "https://farm3.staticflickr.com/6102/6221415954_8d072cfa73_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/news21/6221415954",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/news21/",
+      "Author": "News21 - National",
+      "Title": "Knives",
+      "OriginalSize": "8076061",
+      "OriginalMD5": "hqkPkoPD5ogqifN6qWDWtw==",
+      "Thumbnail300KURL": "https://c5.staticflickr.com/7/6102/6221415954_51c8b9a10d_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/news21/6221415954",
+    "path": "data/openimage_pens/crops/validation_0565bcccb1266f62.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0565bcccb1266f62.jpg",
+    "crop_bounds": [
+      0,
+      186,
+      1024,
+      705
+    ],
+    "source_group": "openimages:0565bcccb1266f62",
+    "sha256": "5b1c2fcc5de83a6acf3c67065c0fa278316e3ef3f6e6a637ad67c723566099e1"
+  },
+  {
+    "image_id": "05ae3737394ad03a",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.36233953,
+        "XMax": 0.49500713,
+        "YMin": 0.6826484,
+        "YMax": 0.79680365
+      }
+    ],
+    "object_class": "Lipstick",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/05ae3737394ad03a.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "05ae3737394ad03a",
+      "Subset": "validation",
+      "OriginalURL": "https://c3.staticflickr.com/6/5569/14615427397_6db957bffe_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/mateusd/14615427397",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/mateusd/",
+      "Author": "Mateus Lunardi Dutra",
+      "Title": "Caught on the crossfire of childhood and stardom",
+      "OriginalSize": "4443691",
+      "OriginalMD5": "8w84Dd8R+JAkMAh5NNetyA==",
+      "Thumbnail300KURL": "https://c1.staticflickr.com/6/5569/14615427397_60f08ba435_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/mateusd/14615427397",
+    "path": "data/openimage_pens/crops/validation_05ae3737394ad03a.jpg",
+    "original_path": "data/openimage_pens/originals/validation_05ae3737394ad03a.jpg",
+    "crop_bounds": [
+      350,
+      416,
+      527,
+      530
+    ],
+    "source_group": "openimages:05ae3737394ad03a",
+    "sha256": "18db77cf37f471dbb91061c3b1d551e686493fbf18acc106c9d196094c192dc3"
+  },
+  {
+    "image_id": "05c6fc62d2980f50",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.13938053,
+        "XMax": 0.82300884,
+        "YMin": 0.45132744,
+        "YMax": 0.6017699
+      }
+    ],
+    "object_class": "Sunglasses",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/05c6fc62d2980f50.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "05c6fc62d2980f50",
+      "Subset": "validation",
+      "OriginalURL": "https://farm1.staticflickr.com/5215/5474115851_ce663c84be_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/agecombahia/5474115851",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/agecombahia/",
+      "Author": "Fotos GOVBA",
+      "Title": "Lan\u00e7amento da pedra fundamental",
+      "OriginalSize": "222581",
+      "OriginalMD5": "55uL1yWI+kj5ZJspu/ETtg==",
+      "Thumbnail300KURL": "https://c6.staticflickr.com/6/5215/5474115851_1f32c0e344_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/agecombahia/5474115851",
+    "path": "data/openimage_pens/crops/validation_05c6fc62d2980f50.jpg",
+    "original_path": "data/openimage_pens/originals/validation_05c6fc62d2980f50.jpg",
+    "crop_bounds": [
+      25,
+      392,
+      632,
+      686
+    ],
+    "source_group": "openimages:05c6fc62d2980f50",
+    "sha256": "27d18a59278e1b3ee57c2f291ba21b184191d7fe665a91bf8d536ff6c48bb4e1"
+  },
+  {
+    "image_id": "085622859f9b4eb2",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.13529412,
+        "XMax": 0.95,
+        "YMin": 0.23725055,
+        "YMax": 0.93569845
+      }
+    ],
+    "object_class": "Knife",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/085622859f9b4eb2.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "085622859f9b4eb2",
+      "Subset": "validation",
+      "OriginalURL": "https://farm3.staticflickr.com/6149/5940889343_1aca788929_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/morebyless/5940889343",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/morebyless/",
+      "Author": "morebyless",
+      "Title": "Knife",
+      "OriginalSize": "216036",
+      "OriginalMD5": "4MYqtc313b2CwS6npHxCLQ==",
+      "Thumbnail300KURL": "https://c8.staticflickr.com/7/6149/5940889343_4047322d21_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/morebyless/5940889343",
+    "path": "data/openimage_pens/crops/validation_085622859f9b4eb2.jpg",
+    "original_path": "data/openimage_pens/originals/validation_085622859f9b4eb2.jpg",
+    "crop_bounds": [
+      13,
+      36,
+      1024,
+      680
+    ],
+    "source_group": "openimages:085622859f9b4eb2",
+    "sha256": "b4e7d492eb389f1e181d88fd6edfff545ebb515c80cae65459c111a1a88682b3"
+  },
+  {
+    "image_id": "08615fa70771c83a",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.44375,
+        "XMax": 0.5833333,
+        "YMin": 0.184375,
+        "YMax": 0.225
+      }
+    ],
+    "object_class": "Sunglasses",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/08615fa70771c83a.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "08615fa70771c83a",
+      "Subset": "validation",
+      "OriginalURL": "https://c3.staticflickr.com/2/1243/5168522156_802d6c5eb7_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/santafeegret/5168522156",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/santafeegret/",
+      "Author": "Dorothy Finley",
+      "Title": "37 1/2 inch red fish, caught on cheap walmart pole, with cut bait.",
+      "OriginalSize": "866825",
+      "OriginalMD5": "niBGMi1g9CF/zce1BJgBww==",
+      "Thumbnail300KURL": "https://c6.staticflickr.com/2/1243/5168522156_c585833a3d_z.jpg",
+      "Rotation": ""
+    },
+    "source_page": "https://www.flickr.com/photos/santafeegret/5168522156",
+    "path": "data/openimage_pens/crops/validation_08615fa70771c83a.jpg",
+    "original_path": "data/openimage_pens/originals/validation_08615fa70771c83a.jpg",
+    "crop_bounds": [
+      324,
+      172,
+      464,
+      246
+    ],
+    "source_group": "openimages:08615fa70771c83a",
+    "sha256": "ee9aa46652bf8bfe3e4e70d135a289fa1812c06aab4b9f9300f273c3ec28927b"
+  },
+  {
+    "image_id": "086224b8c3266d3e",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.8012924,
+        "XMax": 0.87722135,
+        "YMin": 0.0,
+        "YMax": 0.12323232
+      }
+    ],
+    "object_class": "Spoon",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/086224b8c3266d3e.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "086224b8c3266d3e",
+      "Subset": "validation",
+      "OriginalURL": "https://c7.staticflickr.com/5/4008/4658637402_68b8f18170_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/saucysalad/4658637402",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/saucysalad/",
+      "Author": "Rebecca Wilson",
+      "Title": "Escargot",
+      "OriginalSize": "6235443",
+      "OriginalMD5": "bnu0Wk9BhzriF8gIhvVD3A==",
+      "Thumbnail300KURL": "https://c4.staticflickr.com/5/4008/4658637402_9276a49d2e_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/saucysalad/4658637402",
+    "path": "data/openimage_pens/crops/validation_086224b8c3266d3e.jpg",
+    "original_path": "data/openimage_pens/originals/validation_086224b8c3266d3e.jpg",
+    "crop_bounds": [
+      805,
+      0,
+      913,
+      116
+    ],
+    "source_group": "openimages:086224b8c3266d3e",
+    "sha256": "fe435d715839ad54fc3848d6348afd796cbe2d65f8580099c89c60ca2b32db08"
+  },
+  {
+    "image_id": "08f80f26c1d57ba1",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.6888489,
+        "XMax": 0.83093524,
+        "YMin": 0.432971,
+        "YMax": 0.5163044
+      }
+    ],
+    "object_class": "Lipstick",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/08f80f26c1d57ba1.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "08f80f26c1d57ba1",
+      "Subset": "validation",
+      "OriginalURL": "https://farm2.staticflickr.com/3644/3491361364_78844485ae_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/sunshinecity/3491361364",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/sunshinecity/",
+      "Author": "sunshinecity",
+      "Title": "Untitled",
+      "OriginalSize": "1835856",
+      "OriginalMD5": "Hw32t2I+UeDdsjhAV8/xKw==",
+      "Thumbnail300KURL": "https://c4.staticflickr.com/4/3644/3491361364_2e15b61fd3_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/sunshinecity/3491361364",
+    "path": "data/openimage_pens/crops/validation_08f80f26c1d57ba1.jpg",
+    "original_path": "data/openimage_pens/originals/validation_08f80f26c1d57ba1.jpg",
+    "crop_bounds": [
+      683,
+      418,
+      872,
+      546
+    ],
+    "source_group": "openimages:08f80f26c1d57ba1",
+    "sha256": "d173bfa04f2d0e2682b4d6ba431e863665c23d944eb15699b0c5b6cee5a33536"
+  },
+  {
+    "image_id": "096c39dfb17068cf",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.02359882,
+        "XMax": 0.96902657,
+        "YMin": 0.43141592,
+        "YMax": 0.670354
+      }
+    ],
+    "object_class": "Knife",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/096c39dfb17068cf.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "096c39dfb17068cf",
+      "Subset": "validation",
+      "OriginalURL": "https://c8.staticflickr.com/4/3357/3448569297_aa52cf6b82_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/nostri-imago/3448569297",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/nostri-imago/",
+      "Author": "Cliff",
+      "Title": "D-Guard Bowie Knife",
+      "OriginalSize": "357524",
+      "OriginalMD5": "3ngHgxWHGVnG9Q6QG8ikhA==",
+      "Thumbnail300KURL": "https://c2.staticflickr.com/4/3357/3448569297_866e88b85c_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/nostri-imago/3448569297",
+    "path": "data/openimage_pens/crops/validation_096c39dfb17068cf.jpg",
+    "original_path": "data/openimage_pens/originals/validation_096c39dfb17068cf.jpg",
+    "crop_bounds": [
+      0,
+      149,
+      1024,
+      603
+    ],
+    "source_group": "openimages:096c39dfb17068cf",
+    "sha256": "c25c9acfbede8c356497ffeddef1496840bae35730712f8e24c817df1c7910a6"
+  },
+  {
+    "image_id": "09a9a9d1fe0a592a",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.072916664,
+        "XMax": 0.43333334,
+        "YMin": 0.30625,
+        "YMax": 1.0
+      }
+    ],
+    "object_class": "Knife",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/09a9a9d1fe0a592a.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "09a9a9d1fe0a592a",
+      "Subset": "validation",
+      "OriginalURL": "https://c3.staticflickr.com/5/4001/4398115340_f1b596e53b_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/sunshinecity/4398115340",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/sunshinecity/",
+      "Author": "sunshinecity",
+      "Title": "Ciambellone allo Yogurt",
+      "OriginalSize": "169345",
+      "OriginalMD5": "9agqheNcNHgd025el+hQLQ==",
+      "Thumbnail300KURL": "https://c6.staticflickr.com/5/4001/4398115340_a6cb60823e_z.jpg?zz=1",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/sunshinecity/4398115340",
+    "path": "data/openimage_pens/crops/validation_09a9a9d1fe0a592a.jpg",
+    "original_path": "data/openimage_pens/originals/validation_09a9a9d1fe0a592a.jpg",
+    "crop_bounds": [
+      0,
+      207,
+      439,
+      1024
+    ],
+    "source_group": "openimages:09a9a9d1fe0a592a",
+    "sha256": "9beaf499322135b6e1e65fa6c550af62be65a17390fba4643cd1587487d3c680"
+  },
+  {
+    "image_id": "09df63bd01367ca3",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.14040561,
+        "XMax": 0.51326054,
+        "YMin": 0.44885176,
+        "YMax": 0.6263048
+      }
+    ],
+    "object_class": "Screwdriver",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/09df63bd01367ca3.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "09df63bd01367ca3",
+      "Subset": "validation",
+      "OriginalURL": "https://farm4.staticflickr.com/8218/8298441284_a38679033c_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/91478575@N08/8298441284",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/91478575@N08/",
+      "Author": "schreimaschine",
+      "Title": "Dampfgenerator Nahaufnahme",
+      "OriginalSize": "133037",
+      "OriginalMD5": "MlFagnTsYnM6mGfmh2JibQ==",
+      "Thumbnail300KURL": "https://c2.staticflickr.com/9/8218/8298441284_02e5110ddf_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/91478575@N08/8298441284",
+    "path": "data/openimage_pens/crops/validation_09df63bd01367ca3.jpg",
+    "original_path": "data/openimage_pens/originals/validation_09df63bd01367ca3.jpg",
+    "crop_bounds": [
+      86,
+      286,
+      582,
+      536
+    ],
+    "source_group": "openimages:09df63bd01367ca3",
+    "sha256": "2f861a5f90b5a56778c402198ce20fb54da7985164c07d42cdbdbaa86f01521e"
+  },
+  {
+    "image_id": "0a8657e8b5c9d7bb",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.37758112,
+        "XMax": 0.5,
+        "YMin": 0.16150442,
+        "YMax": 0.2721239
+      }
+    ],
+    "object_class": "Sunglasses",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0a8657e8b5c9d7bb.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0a8657e8b5c9d7bb",
+      "Subset": "validation",
+      "OriginalURL": "https://c4.staticflickr.com/5/4110/4977676342_7db40f3b08_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/henrikmoltke/4977676342",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/henrikmoltke/",
+      "Author": "Henrik Moltke",
+      "Title": "Tobi-XX",
+      "OriginalSize": "5758614",
+      "OriginalMD5": "10EPeilP1T6u9d8nj5724A==",
+      "Thumbnail300KURL": "https://c1.staticflickr.com/5/4110/4977676342_0756872ebd_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/henrikmoltke/4977676342",
+    "path": "data/openimage_pens/crops/validation_0a8657e8b5c9d7bb.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0a8657e8b5c9d7bb.jpg",
+    "crop_bounds": [
+      367,
+      91,
+      530,
+      204
+    ],
+    "source_group": "openimages:0a8657e8b5c9d7bb",
+    "sha256": "1ab43bf578bbaa9bff8131a7c01798f0e57b4eabbeb2275ce6f9b4d393df4a39"
+  },
+  {
+    "image_id": "0b5b9dc7c5f88bff",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.30625,
+        "XMax": 0.36666667,
+        "YMin": 0.119444445,
+        "YMax": 0.46944445
+      }
+    ],
+    "object_class": "Spoon",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0b5b9dc7c5f88bff.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0b5b9dc7c5f88bff",
+      "Subset": "validation",
+      "OriginalURL": "https://c8.staticflickr.com/5/4112/5000424336_0b73d83bb9_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/free-stock/5000424336",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/free-stock/",
+      "Author": "Emilian Robert Vicol",
+      "Title": "Coffee-Pot_33377-480x360",
+      "OriginalSize": "41592",
+      "OriginalMD5": "xaLkpoeEhbuZdOrlMjOyuw==",
+      "Thumbnail300KURL": "",
+      "Rotation": ""
+    },
+    "source_page": "https://www.flickr.com/photos/free-stock/5000424336",
+    "path": "data/openimage_pens/crops/validation_0b5b9dc7c5f88bff.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0b5b9dc7c5f88bff.jpg",
+    "crop_bounds": [
+      273,
+      51,
+      415,
+      400
+    ],
+    "source_group": "openimages:0b5b9dc7c5f88bff",
+    "sha256": "4f9405f696d5ec642a575a1311b4618def4c6e2f2b0e8ec8a9c028e44d0f18d5"
+  },
+  {
+    "image_id": "0ba6825374419824",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.51343286,
+        "XMax": 0.6686567,
+        "YMin": 0.46,
+        "YMax": 0.495
+      }
+    ],
+    "object_class": "Lipstick",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0ba6825374419824.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0ba6825374419824",
+      "Subset": "validation",
+      "OriginalURL": "https://farm5.staticflickr.com/2763/4436933450_572c04e913_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/nickstep/4436933450",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/nickstep/",
+      "Author": "Nick Step",
+      "Title": "Ashley Shaw",
+      "OriginalSize": "33899",
+      "OriginalMD5": "M8SoAZuyeNZ4OWlYS84JCA==",
+      "Thumbnail300KURL": "",
+      "Rotation": ""
+    },
+    "source_page": "https://www.flickr.com/photos/nickstep/4436933450",
+    "path": "data/openimage_pens/crops/validation_0ba6825374419824.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0ba6825374419824.jpg",
+    "crop_bounds": [
+      280,
+      457,
+      395,
+      520
+    ],
+    "source_group": "openimages:0ba6825374419824",
+    "sha256": "76791f5f0c9eb85d6cceaeba03da82c72184ad70523d677387889a7bce85553a"
+  },
+  {
+    "image_id": "0c5dc73c4cb7559b",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.074324325,
+        "XMax": 0.4560811,
+        "YMin": 0.042471044,
+        "YMax": 0.95752895
+      }
+    ],
+    "object_class": "Mobile phone",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0c5dc73c4cb7559b.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0c5dc73c4cb7559b",
+      "Subset": "validation",
+      "OriginalURL": "https://c4.staticflickr.com/6/5593/15002109112_9e52abd4be_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/mapbox/15002109112",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/mapbox/",
+      "Author": "Mapbox",
+      "Title": "Chimani_Blog",
+      "OriginalSize": "386915",
+      "OriginalMD5": "Kc8OUPIt9otB/sEAdEYC2g==",
+      "Thumbnail300KURL": "https://c1.staticflickr.com/6/5593/15002109112_445dddbae1_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/mapbox/15002109112",
+    "path": "data/openimage_pens/crops/validation_0c5dc73c4cb7559b.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0c5dc73c4cb7559b.jpg",
+    "crop_bounds": [
+      0,
+      0,
+      590,
+      896
+    ],
+    "source_group": "openimages:0c5dc73c4cb7559b",
+    "sha256": "7b5aba75989abcf7ce7bb96e9dbf9fdc35aeb0a5678367218c306a96a5d3d089"
+  },
+  {
+    "image_id": "0c82bfd1f18ed1ea",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.4181416,
+        "XMax": 0.5154867,
+        "YMin": 0.15781711,
+        "YMax": 0.19616519
+      }
+    ],
+    "object_class": "Sunglasses",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0c82bfd1f18ed1ea.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0c82bfd1f18ed1ea",
+      "Subset": "validation",
+      "OriginalURL": "https://c3.staticflickr.com/7/6200/6040832967_104512657c_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/leith/6040832967",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/leith/",
+      "Author": "Ian Robertson",
+      "Title": "Edinburgh Swim Festival 2011_9353",
+      "OriginalSize": "7080206",
+      "OriginalMD5": "Veca8kiTRfKDMCJE/JK7KQ==",
+      "Thumbnail300KURL": "https://c2.staticflickr.com/7/6200/6040832967_41eb22d10e_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/leith/6040832967",
+    "path": "data/openimage_pens/crops/validation_0c82bfd1f18ed1ea.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0c82bfd1f18ed1ea.jpg",
+    "crop_bounds": [
+      273,
+      149,
+      364,
+      212
+    ],
+    "source_group": "openimages:0c82bfd1f18ed1ea",
+    "sha256": "186ff73eb4a3582cff8e0e504eb14d5484b924ade7c39f33c78fe9c563253a59"
+  },
+  {
+    "image_id": "0ca56558107bdae5",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.1609375,
+        "XMax": 0.5671875,
+        "YMin": 0.45,
+        "YMax": 0.68125
+      }
+    ],
+    "object_class": "Sunglasses",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0ca56558107bdae5.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0ca56558107bdae5",
+      "Subset": "validation",
+      "OriginalURL": "https://farm6.staticflickr.com/8406/8695660119_e4cc17557d_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/8312925@N04/8695660119",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/parramitta/",
+      "Author": "paramita",
+      "Title": "551402_580827005269230_144604683_n",
+      "OriginalSize": "165340",
+      "OriginalMD5": "Mmk/pCxcbXBZOQorCZDrTg==",
+      "Thumbnail300KURL": "https://c5.staticflickr.com/9/8406/8695660119_f7a2d5d6da_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/8312925@N04/8695660119",
+    "path": "data/openimage_pens/crops/validation_0ca56558107bdae5.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0ca56558107bdae5.jpg",
+    "crop_bounds": [
+      102,
+      283,
+      643,
+      585
+    ],
+    "source_group": "openimages:0ca56558107bdae5",
+    "sha256": "a7ff2881671a2aecea5c0a6360fbe245afaac4ce0af3d69b11da3fd08759266a"
+  },
+  {
+    "image_id": "0d4d1169ecf7e56e",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.010920437,
+        "XMax": 0.8689548,
+        "YMin": 0.0,
+        "YMax": 0.82881004
+      }
+    ],
+    "object_class": "Mobile phone",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0d4d1169ecf7e56e.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0d4d1169ecf7e56e",
+      "Subset": "validation",
+      "OriginalURL": "https://c7.staticflickr.com/5/4125/5083490612_afb843f145_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/bfishadow/5083490612",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/bfishadow/",
+      "Author": "bfishadow",
+      "Title": "Kindle Pad",
+      "OriginalSize": "3613094",
+      "OriginalMD5": "fhLxMZm7OlaUCYpLQkK8tQ==",
+      "Thumbnail300KURL": "https://c3.staticflickr.com/5/4125/5083490612_a87519867e_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/bfishadow/5083490612",
+    "path": "data/openimage_pens/crops/validation_0d4d1169ecf7e56e.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0d4d1169ecf7e56e.jpg",
+    "crop_bounds": [
+      0,
+      0,
+      1021,
+      765
+    ],
+    "source_group": "openimages:0d4d1169ecf7e56e",
+    "sha256": "142d84a74585e0dfac9be2f5b880c62626611919865ac2a69170099c0a93f0be"
+  },
+  {
+    "image_id": "0d854d62b14b9b92",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.0,
+        "XMax": 0.3395931,
+        "YMin": 0.0,
+        "YMax": 0.17708333
+      }
+    ],
+    "object_class": "Knife",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0d854d62b14b9b92.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0d854d62b14b9b92",
+      "Subset": "validation",
+      "OriginalURL": "https://farm3.staticflickr.com/5064/5661665361_ca75257d7e_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/archianese/5661665361",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/archianese/",
+      "Author": "seb luimeme",
+      "Title": "Scalpel pirate G",
+      "OriginalSize": "379476",
+      "OriginalMD5": "Lndwa9oJd986K+2fjO9p9Q==",
+      "Thumbnail300KURL": "https://c4.staticflickr.com/6/5064/5661665361_39058e0166_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/archianese/5661665361",
+    "path": "data/openimage_pens/crops/validation_0d854d62b14b9b92.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0d854d62b14b9b92.jpg",
+    "crop_bounds": [
+      0,
+      0,
+      399,
+      188
+    ],
+    "source_group": "openimages:0d854d62b14b9b92",
+    "sha256": "30cd9f3641f072581a3190fc9e12fd6940bd85beaa66d89a434f1d7c37b725bf"
+  },
+  {
+    "image_id": "0dece6c46a20c36a",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.31641287,
+        "XMax": 0.5888325,
+        "YMin": 0.7186898,
+        "YMax": 0.88824666
+      }
+    ],
+    "object_class": "Lipstick",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0dece6c46a20c36a.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0dece6c46a20c36a",
+      "Subset": "validation",
+      "OriginalURL": "https://c3.staticflickr.com/2/1295/5189291771_e477681118_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/cheriejphotos/5189291771",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/cheriejphotos/",
+      "Author": "cheriejoyful",
+      "Title": "Portrait Photography by CherieJ",
+      "OriginalSize": "194001",
+      "OriginalMD5": "P6D/kHkUXXDgEzvs2Jh+3g==",
+      "Thumbnail300KURL": "https://c1.staticflickr.com/2/1295/5189291771_b912918b19_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/cheriejphotos/5189291771",
+    "path": "data/openimage_pens/crops/validation_0dece6c46a20c36a.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0dece6c46a20c36a.jpg",
+    "crop_bounds": [
+      282,
+      604,
+      644,
+      840
+    ],
+    "source_group": "openimages:0dece6c46a20c36a",
+    "sha256": "89abc69831940c56ffaa5d89535b645777c6075600416b8560977d7e477bf174"
+  },
+  {
+    "image_id": "0e37d35b372fcfc1",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.446,
+        "XMax": 0.62,
+        "YMin": 0.5771144,
+        "YMax": 0.6434494
+      }
+    ],
+    "object_class": "Lipstick",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0e37d35b372fcfc1.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0e37d35b372fcfc1",
+      "Subset": "validation",
+      "OriginalURL": "https://farm2.staticflickr.com/5215/5384106963_dcc46b6d4d_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/ky_olsen/5384106963",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/ky_olsen/",
+      "Author": "Ky",
+      "Title": "VS 30",
+      "OriginalSize": "52683",
+      "OriginalMD5": "NaW+OWlCs7aC+0Am2eHIyA==",
+      "Thumbnail300KURL": "https://c8.staticflickr.com/6/5215/5384106963_ea999c425e_z.jpg",
+      "Rotation": ""
+    },
+    "source_page": "https://www.flickr.com/photos/ky_olsen/5384106963",
+    "path": "data/openimage_pens/crops/validation_0e37d35b372fcfc1.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0e37d35b372fcfc1.jpg",
+    "crop_bounds": [
+      322,
+      514,
+      496,
+      615
+    ],
+    "source_group": "openimages:0e37d35b372fcfc1",
+    "sha256": "ceaa863711cd6491f20f691e4999888e5b682ebbcef35a29271cc801697f08ec"
+  },
+  {
+    "image_id": "0e6e3f9b4fbfb5f2",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.44765344,
+        "XMax": 0.59386283,
+        "YMin": 0.1696751,
+        "YMax": 0.2166065
+      }
+    ],
+    "object_class": "Sunglasses",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0e6e3f9b4fbfb5f2.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0e6e3f9b4fbfb5f2",
+      "Subset": "validation",
+      "OriginalURL": "https://farm3.staticflickr.com/8080/8326765378_4c73674284_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/seo2/8326765378/",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/seo2/",
+      "Author": "Cristian Borquez",
+      "Title": "@chicachori disfrutando",
+      "OriginalSize": "108875",
+      "OriginalMD5": "JG6hwZfaX8JYoU8S+M12Dg==",
+      "Thumbnail300KURL": "https://c6.staticflickr.com/9/8080/8326765378_6e1b82c80f_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/seo2/8326765378/",
+    "path": "data/openimage_pens/crops/validation_0e6e3f9b4fbfb5f2.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0e6e3f9b4fbfb5f2.jpg",
+    "crop_bounds": [
+      435,
+      151,
+      630,
+      244
+    ],
+    "source_group": "openimages:0e6e3f9b4fbfb5f2",
+    "sha256": "e25e9c6cd3ca26c3cabcc7cc6b25db7f8e839c475ebe0d0acdae38ef77b93cb0"
+  },
+  {
+    "image_id": "0fa1f463189c8e42",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.39648172,
+        "XMax": 0.5277402,
+        "YMin": 0.2626506,
+        "YMax": 0.3493976
+      }
+    ],
+    "object_class": "Sunglasses",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/0fa1f463189c8e42.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0fa1f463189c8e42",
+      "Subset": "validation",
+      "OriginalURL": "https://farm3.staticflickr.com/4082/4767052683_1495ee327f_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/dumbledad/4767052683",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/dumbledad/",
+      "Author": "Tim Regan",
+      "Title": "CCO concert in the walled garden of the Manor House, High Street, Soham",
+      "OriginalSize": "4986389",
+      "OriginalMD5": "jjVkQ68q0zWm3tYLDqmZZw==",
+      "Thumbnail300KURL": "https://c8.staticflickr.com/5/4082/4767052683_54b1e7a1e9_z.jpg",
+      "Rotation": ""
+    },
+    "source_page": "https://www.flickr.com/photos/dumbledad/4767052683",
+    "path": "data/openimage_pens/crops/validation_0fa1f463189c8e42.jpg",
+    "original_path": "data/openimage_pens/originals/validation_0fa1f463189c8e42.jpg",
+    "crop_bounds": [
+      385,
+      131,
+      560,
+      221
+    ],
+    "source_group": "openimages:0fa1f463189c8e42",
+    "sha256": "71337342d3e80d006e8faf7451349e37fbac1d1222827b4155a4c4f68c26af1f"
+  },
+  {
+    "image_id": "10dda8b9e1534f15",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.0,
+        "XMax": 0.4890625,
+        "YMin": 0.0,
+        "YMax": 1.0
+      }
+    ],
+    "object_class": "Mobile phone",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/10dda8b9e1534f15.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "10dda8b9e1534f15",
+      "Subset": "validation",
+      "OriginalURL": "https://farm6.staticflickr.com/4013/4548634745_977535091a_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/ilamont/4548634745",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/ilamont/",
+      "Author": "Ian Lamont",
+      "Title": "iPod touch (2009) and iPod nano (2006)",
+      "OriginalSize": "715543",
+      "OriginalMD5": "PCVniO9PyocofnNGnaAk+w==",
+      "Thumbnail300KURL": "https://c7.staticflickr.com/5/4013/4548634745_05d1e04e4e_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/ilamont/4548634745",
+    "path": "data/openimage_pens/crops/validation_10dda8b9e1534f15.jpg",
+    "original_path": "data/openimage_pens/originals/validation_10dda8b9e1534f15.jpg",
+    "crop_bounds": [
+      0,
+      0,
+      616,
+      768
+    ],
+    "source_group": "openimages:10dda8b9e1534f15",
+    "sha256": "f1fb753dad919effaf7d19f6e745355cd606de14e36d8bdaa61c0157c759ddc0"
+  },
+  {
+    "image_id": "1172ad179f7d27c6",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.15903614,
+        "XMax": 0.4120482,
+        "YMin": 0.6278755,
+        "YMax": 0.92422193
+      }
+    ],
+    "object_class": "Spoon",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/1172ad179f7d27c6.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "1172ad179f7d27c6",
+      "Subset": "validation",
+      "OriginalURL": "https://farm7.staticflickr.com/2415/2448023733_891bfcc7d2_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/stephanridgway/2448023733",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/stephanridgway/",
+      "Author": "Stephan Ridgway",
+      "Title": "Black filtered coffee, Vietnam style",
+      "OriginalSize": "78110",
+      "OriginalMD5": "VRusGoouEME9l2wvwEHlug==",
+      "Thumbnail300KURL": "https://c7.staticflickr.com/3/2415/2448023733_2e26507521_z.jpg?zz=1",
+      "Rotation": ""
+    },
+    "source_page": "https://www.flickr.com/photos/stephanridgway/2448023733",
+    "path": "data/openimage_pens/crops/validation_1172ad179f7d27c6.jpg",
+    "original_path": "data/openimage_pens/originals/validation_1172ad179f7d27c6.jpg",
+    "crop_bounds": [
+      45,
+      597,
+      282,
+      991
+    ],
+    "source_group": "openimages:1172ad179f7d27c6",
+    "sha256": "762b35bd0915cfb333957b8e0d38f8dd688ca382d44ca2f5fb4ff5b6705ea97d"
+  },
+  {
+    "image_id": "1228bfe2f3dc2d29",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.08676471,
+        "XMax": 0.9676471,
+        "YMin": 0.35698447,
+        "YMax": 0.6141907
+      }
+    ],
+    "object_class": "Knife",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/1228bfe2f3dc2d29.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "1228bfe2f3dc2d29",
+      "Subset": "validation",
+      "OriginalURL": "https://c2.staticflickr.com/5/4076/4824907360_71f0200769_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/salsaboy/4824907360",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/salsaboy/",
+      "Author": "andy carter",
+      "Title": "Made by Lance Ockenden",
+      "OriginalSize": "3154514",
+      "OriginalMD5": "prWDarPbk2i0tCVu74WbgQ==",
+      "Thumbnail300KURL": "https://c7.staticflickr.com/5/4076/4824907360_065fd26ddb_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/salsaboy/4824907360",
+    "path": "data/openimage_pens/crops/validation_1228bfe2f3dc2d29.jpg",
+    "original_path": "data/openimage_pens/originals/validation_1228bfe2f3dc2d29.jpg",
+    "crop_bounds": [
+      0,
+      107,
+      1024,
+      552
+    ],
+    "source_group": "openimages:1228bfe2f3dc2d29",
+    "sha256": "140928b2b53adfeba6ed22a1a0fe34e31a093be45f0c650964b0d4a664dcb8b6"
+  },
+  {
+    "image_id": "12b9323540615016",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.06138934,
+        "XMax": 0.93376416,
+        "YMin": 0.2888889,
+        "YMax": 0.5252525
+      }
+    ],
+    "object_class": "Knife",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/12b9323540615016.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "12b9323540615016",
+      "Subset": "validation",
+      "OriginalURL": "https://farm7.staticflickr.com/7736/17769243839_2af3bdb45f_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/nanpalmero/17769243839",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/nanpalmero/",
+      "Author": "Nan Palmero",
+      "Title": "Hello Trouble Knife",
+      "OriginalSize": "10405082",
+      "OriginalMD5": "dJONmnqtMeH0c+0ANFRzuw==",
+      "Thumbnail300KURL": "https://c6.staticflickr.com/8/7736/17769243839_a8b0255fa5_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/nanpalmero/17769243839",
+    "path": "data/openimage_pens/crops/validation_12b9323540615016.jpg",
+    "original_path": "data/openimage_pens/originals/validation_12b9323540615016.jpg",
+    "crop_bounds": [
+      0,
+      102,
+      1024,
+      564
+    ],
+    "source_group": "openimages:12b9323540615016",
+    "sha256": "63a909d422754110f3d9e37ab2a1c0976ed4bf3c2a80f99c496c3ffe40623a4d"
+  },
+  {
+    "image_id": "12e529ac3ceecdb3",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.1609375,
+        "XMax": 0.465625,
+        "YMin": 0.21875,
+        "YMax": 0.9479167
+      }
+    ],
+    "object_class": "Mobile phone",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/12e529ac3ceecdb3.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "12e529ac3ceecdb3",
+      "Subset": "validation",
+      "OriginalURL": "https://farm4.staticflickr.com/5289/5344733213_6f2ec31240_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/coolmikeol/5344733213",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/coolmikeol/",
+      "Author": "Michael Ocampo",
+      "Title": "Apple iPod Touch 4th Generation",
+      "OriginalSize": "722132",
+      "OriginalMD5": "TLWsNWgTN5+tOUXpb7ghmQ==",
+      "Thumbnail300KURL": "https://c7.staticflickr.com/6/5289/5344733213_db6e37012d_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/coolmikeol/5344733213",
+    "path": "data/openimage_pens/crops/validation_12e529ac3ceecdb3.jpg",
+    "original_path": "data/openimage_pens/originals/validation_12e529ac3ceecdb3.jpg",
+    "crop_bounds": [
+      80,
+      83,
+      560,
+      768
+    ],
+    "source_group": "openimages:12e529ac3ceecdb3",
+    "sha256": "4e4c3d47f72636a21ffefc0ccce39955b0136757f77e0f6f450281024ce189ca"
+  },
+  {
+    "image_id": "14691d674b43b023",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.37579617,
+        "XMax": 0.6220807,
+        "YMin": 0.58128834,
+        "YMax": 0.6702454
+      }
+    ],
+    "object_class": "Lipstick",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/14691d674b43b023.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "14691d674b43b023",
+      "Subset": "validation",
+      "OriginalURL": "https://farm4.staticflickr.com/5543/9467246186_ba7d878414_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/dominicspics/9467246186",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/dominicspics/",
+      "Author": "Dominic Alves",
+      "Title": "Brighton Pride Party",
+      "OriginalSize": "3724773",
+      "OriginalMD5": "w7hhiHcHj+4gPSMZ5eCN2Q==",
+      "Thumbnail300KURL": "https://c4.staticflickr.com/6/5543/9467246186_6bc8e11eac_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/dominicspics/9467246186",
+    "path": "data/openimage_pens/crops/validation_14691d674b43b023.jpg",
+    "original_path": "data/openimage_pens/originals/validation_14691d674b43b023.jpg",
+    "crop_bounds": [
+      250,
+      567,
+      487,
+      713
+    ],
+    "source_group": "openimages:14691d674b43b023",
+    "sha256": "e63ab528c1f5eaeeae82122e1c3d8168497e6b76b56967d9763a917889a8df93"
+  },
+  {
+    "image_id": "14dc34954fe89fc2",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.059375,
+        "XMax": 0.6421875,
+        "YMin": 0.0,
+        "YMax": 1.0
+      }
+    ],
+    "object_class": "Mobile phone",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/14dc34954fe89fc2.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "14dc34954fe89fc2",
+      "Subset": "validation",
+      "OriginalURL": "https://farm3.staticflickr.com/3295/3019552652_399d60bee4_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/hejgustav/3019552652",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/hejgustav/",
+      "Author": "Gustav Holmstr\u00f6m",
+      "Title": "Hi HejGustav!",
+      "OriginalSize": "2035566",
+      "OriginalMD5": "5emJ6e3/SPpj+ebgTqeQ/w==",
+      "Thumbnail300KURL": "https://c6.staticflickr.com/4/3295/3019552652_ce62597648_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/hejgustav/3019552652",
+    "path": "data/openimage_pens/crops/validation_14dc34954fe89fc2.jpg",
+    "original_path": "data/openimage_pens/originals/validation_14dc34954fe89fc2.jpg",
+    "crop_bounds": [
+      0,
+      0,
+      772,
+      768
+    ],
+    "source_group": "openimages:14dc34954fe89fc2",
+    "sha256": "525eec2a11fa97969f884d73226cd789c0dfb77f3f752cc41df02cd4ebec9d2a"
+  },
+  {
+    "image_id": "169e92cc01e9e571",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.3116883,
+        "XMax": 0.6915584,
+        "YMin": 0.20338982,
+        "YMax": 0.7156309
+      }
+    ],
+    "object_class": "Mobile phone",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/169e92cc01e9e571.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "169e92cc01e9e571",
+      "Subset": "validation",
+      "OriginalURL": "https://farm2.staticflickr.com/3622/3404876915_ce3968c5bc_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/41993437@N00/3404876915",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/41993437@N00/",
+      "Author": "Noel C",
+      "Title": "Text a Librarian Flyer - Patrons Text Questions, Librarians Type Answers",
+      "OriginalSize": "86547",
+      "OriginalMD5": "DhBZNumu0ueS3RKFmoqGvQ==",
+      "Thumbnail300KURL": "",
+      "Rotation": ""
+    },
+    "source_page": "https://www.flickr.com/photos/41993437@N00/3404876915",
+    "path": "data/openimage_pens/crops/validation_169e92cc01e9e571.jpg",
+    "original_path": "data/openimage_pens/originals/validation_169e92cc01e9e571.jpg",
+    "crop_bounds": [
+      106,
+      129,
+      489,
+      811
+    ],
+    "source_group": "openimages:169e92cc01e9e571",
+    "sha256": "1ca6b142368da4dce06dc3dbcd66de4d29536f08a810379058ce4e28410f9bdf"
+  },
+  {
+    "image_id": "177bf73e23ce2913",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.5340557,
+        "XMax": 0.7058824,
+        "YMin": 0.6757895,
+        "YMax": 0.8231579
+      }
+    ],
+    "object_class": "Lipstick",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/177bf73e23ce2913.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "177bf73e23ce2913",
+      "Subset": "validation",
+      "OriginalURL": "https://farm4.staticflickr.com/7148/6649178645_a35a945d5a_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/dizao/6649178645",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/dizao/",
+      "Author": "Diz\u00e3o Gon\u00e7alves",
+      "Title": "Gabriela Blume",
+      "OriginalSize": "953761",
+      "OriginalMD5": "oW1dUkzF0JWJ1SQ8tQeO8w==",
+      "Thumbnail300KURL": "https://c8.staticflickr.com/8/7148/6649178645_5e1079a3f0_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/dizao/6649178645",
+    "path": "data/openimage_pens/crops/validation_177bf73e23ce2913.jpg",
+    "original_path": "data/openimage_pens/originals/validation_177bf73e23ce2913.jpg",
+    "crop_bounds": [
+      520,
+      481,
+      749,
+      645
+    ],
+    "source_group": "openimages:177bf73e23ce2913",
+    "sha256": "4b12fef69c15a6cb32958f78ddc9653b900654b8dd28b3eb8c02151a788afdc6"
+  },
+  {
+    "image_id": "19057858c91f7208",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.46381092,
+        "XMax": 0.6322009,
+        "YMin": 0.6732892,
+        "YMax": 0.7505519
+      }
+    ],
+    "object_class": "Lipstick",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/19057858c91f7208.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "19057858c91f7208",
+      "Subset": "validation",
+      "OriginalURL": "https://c1.staticflickr.com/6/5105/5656392547_486028ccf2_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/walkingcamera/5656392547",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/walkingcamera/",
+      "Author": "Luis Avilesortiz",
+      "Title": "DSC_0036_pp",
+      "OriginalSize": "4731224",
+      "OriginalMD5": "KTxxPOu/vAQ7RtazeogzzA==",
+      "Thumbnail300KURL": "https://c1.staticflickr.com/6/5105/5656392547_6b136d3770_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/walkingcamera/5656392547",
+    "path": "data/openimage_pens/crops/validation_19057858c91f7208.jpg",
+    "original_path": "data/openimage_pens/originals/validation_19057858c91f7208.jpg",
+    "crop_bounds": [
+      449,
+      435,
+      673,
+      539
+    ],
+    "source_group": "openimages:19057858c91f7208",
+    "sha256": "82cba14c46c0c4357bf9fe8a43319f19f851251021b6c7b11fed4424e3b7807b"
+  },
+  {
+    "image_id": "233591081afcf69b",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.20577617,
+        "XMax": 0.9530686,
+        "YMin": 0.10830325,
+        "YMax": 1.0
+      }
+    ],
+    "object_class": "Toothbrush",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/233591081afcf69b.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "233591081afcf69b",
+      "Subset": "validation",
+      "OriginalURL": "https://c4.staticflickr.com/8/7175/6549516573_d260b33fa6_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/spilt-milk/6549516573",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/spilt-milk/",
+      "Author": "yoppy",
+      "Title": "\u6b6f\u30d6\u30e9\u30b7\u3092\u65b0\u8abf\u3057\u307e\u3057\u305f\u3002",
+      "OriginalSize": "35420",
+      "OriginalMD5": "cZBltOv3RCIXzXTHnPLmkw==",
+      "Thumbnail300KURL": "https://c5.staticflickr.com/8/7175/6549516573_d86353f017_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/spilt-milk/6549516573",
+    "path": "data/openimage_pens/crops/validation_233591081afcf69b.jpg",
+    "original_path": "data/openimage_pens/originals/validation_233591081afcf69b.jpg",
+    "crop_bounds": [
+      73,
+      0,
+      1024,
+      1024
+    ],
+    "source_group": "openimages:233591081afcf69b",
+    "sha256": "e635d152d0ec0d2f0fbc05aebb731075c6c3d00bcae0ead4b8b795b95e2422ea"
+  },
+  {
+    "image_id": "24aa01ab4f072bd4",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.35625,
+        "XMax": 0.44375,
+        "YMin": 0.3421875,
+        "YMax": 0.7125
+      }
+    ],
+    "object_class": "Toothbrush",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/24aa01ab4f072bd4.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "24aa01ab4f072bd4",
+      "Subset": "validation",
+      "OriginalURL": "https://farm5.staticflickr.com/6161/6184672908_38e549027f_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/anniemole/6184672908",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/anniemole/",
+      "Author": "Annie Mole",
+      "Title": "Pressie from Sandra",
+      "OriginalSize": "378713",
+      "OriginalMD5": "u3dzg9b37WEp5b2JbQWVhw==",
+      "Thumbnail300KURL": "https://c5.staticflickr.com/7/6161/6184672908_98dca81e22_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/anniemole/6184672908",
+    "path": "data/openimage_pens/crops/validation_24aa01ab4f072bd4.jpg",
+    "original_path": "data/openimage_pens/originals/validation_24aa01ab4f072bd4.jpg",
+    "crop_bounds": [
+      216,
+      293,
+      397,
+      786
+    ],
+    "source_group": "openimages:24aa01ab4f072bd4",
+    "sha256": "97b042259e076dc49f1108babed961e16df858c7ff19733e3be1ab12c45def1c"
+  },
+  {
+    "image_id": "310192cb7c99bd11",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.19526628,
+        "XMax": 0.714497,
+        "YMin": 0.71145374,
+        "YMax": 0.90088105
+      }
+    ],
+    "object_class": "Scissors",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/310192cb7c99bd11.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "310192cb7c99bd11",
+      "Subset": "validation",
+      "OriginalURL": "https://farm2.staticflickr.com/5504/12555425074_79f41a7be9_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/amnestyinternationaltoronto/12555425074",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/amnestyinternationaltoronto/",
+      "Author": "Amnesty International Toronto Organization",
+      "Title": "Have a Heart",
+      "OriginalSize": "1534102",
+      "OriginalMD5": "6PFMkSh3B+ulSW1uRY+m3g==",
+      "Thumbnail300KURL": "https://c4.staticflickr.com/6/5504/12555425074_67db09906d_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/amnestyinternationaltoronto/12555425074",
+    "path": "data/openimage_pens/crops/validation_310192cb7c99bd11.jpg",
+    "original_path": "data/openimage_pens/originals/validation_310192cb7c99bd11.jpg",
+    "crop_bounds": [
+      120,
+      409,
+      811,
+      687
+    ],
+    "source_group": "openimages:310192cb7c99bd11",
+    "sha256": "72d4dcbf4ba6fc225190e94b298f915eade821e8b65787b95c3b024440250c24"
+  },
+  {
+    "image_id": "34fcfd048c45628a",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.054331865,
+        "XMax": 1.0,
+        "YMin": 0.44444445,
+        "YMax": 0.86444443
+      }
+    ],
+    "object_class": "Toothbrush",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/34fcfd048c45628a.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "34fcfd048c45628a",
+      "Subset": "validation",
+      "OriginalURL": "https://c3.staticflickr.com/3/2620/3951806671_b195334851_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/somegeekintn/3951806671",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/somegeekintn/",
+      "Author": "Casey Fleser",
+      "Title": "I Miss You (264 / 365)",
+      "OriginalSize": "1232028",
+      "OriginalMD5": "Opf/2h6eRuW9zlmv3eTHRw==",
+      "Thumbnail300KURL": "https://c5.staticflickr.com/3/2620/3951806671_2bf11d01a2_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/somegeekintn/3951806671",
+    "path": "data/openimage_pens/crops/validation_34fcfd048c45628a.jpg",
+    "original_path": "data/openimage_pens/originals/validation_34fcfd048c45628a.jpg",
+    "crop_bounds": [
+      0,
+      155,
+      1024,
+      677
+    ],
+    "source_group": "openimages:34fcfd048c45628a",
+    "sha256": "8c3c5b7f27de97d7dcb7651edcf3ad4e6f8e896f7da8d9b5256b9ac7e277c8a0"
+  },
+  {
+    "image_id": "3fcd4d7ee5c3b03d",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.13188976,
+        "XMax": 0.36417323,
+        "YMin": 0.033797216,
+        "YMax": 0.9582505
+      }
+    ],
+    "object_class": "Remote control",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/3fcd4d7ee5c3b03d.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "3fcd4d7ee5c3b03d",
+      "Subset": "validation",
+      "OriginalURL": "https://c6.staticflickr.com/9/8504/8293624134_1539cf36bd_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/vintuitive/8293624134",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/vintuitive/",
+      "Author": "Vincent Brown",
+      "Title": "One of these things is just like the other",
+      "OriginalSize": "106125",
+      "OriginalMD5": "UdVPZrPXpzqfmiC/57IxPQ==",
+      "Thumbnail300KURL": "https://c2.staticflickr.com/9/8504/8293624134_3f4d18a9bc_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/vintuitive/8293624134",
+    "path": "data/openimage_pens/crops/validation_3fcd4d7ee5c3b03d.jpg",
+    "original_path": "data/openimage_pens/originals/validation_3fcd4d7ee5c3b03d.jpg",
+    "crop_bounds": [
+      0,
+      0,
+      513,
+      1014
+    ],
+    "source_group": "openimages:3fcd4d7ee5c3b03d",
+    "sha256": "48ffc0c4e628ab190aa283fbd7d99e7ed079ec6898c4249e205b445247be1d9d"
+  },
+  {
+    "image_id": "451a41ac505e0e91",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.06614173,
+        "XMax": 1.0,
+        "YMin": 0.111801244,
+        "YMax": 0.88819873
+      }
+    ],
+    "object_class": "Toothbrush",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/451a41ac505e0e91.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "451a41ac505e0e91",
+      "Subset": "validation",
+      "OriginalURL": "https://farm2.staticflickr.com/4032/4538189171_582d097660_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/jamesrbowe/4538189171",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/jamesrbowe/",
+      "Author": "James Bowe",
+      "Title": "Toothbrush",
+      "OriginalSize": "170144",
+      "OriginalMD5": "EXn8q9URTYSkbOKyfjbQhA==",
+      "Thumbnail300KURL": "https://c3.staticflickr.com/5/4032/4538189171_14155cc9da_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/jamesrbowe/4538189171",
+    "path": "data/openimage_pens/crops/validation_451a41ac505e0e91.jpg",
+    "original_path": "data/openimage_pens/originals/validation_451a41ac505e0e91.jpg",
+    "crop_bounds": [
+      0,
+      0,
+      1024,
+      778
+    ],
+    "source_group": "openimages:451a41ac505e0e91",
+    "sha256": "5f8143baf6d05263c95dfe9414aae6b6c94afabdfdf811fc9202d3d457dee8dd"
+  },
+  {
+    "image_id": "4fe2fb3816b91c44",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.034722224,
+        "XMax": 0.9270833,
+        "YMin": 0.18181819,
+        "YMax": 0.82954544
+      }
+    ],
+    "object_class": "Remote control",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/4fe2fb3816b91c44.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "4fe2fb3816b91c44",
+      "Subset": "validation",
+      "OriginalURL": "https://farm5.staticflickr.com/2/1663593_c8e7118ff4_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/juanpol/1663593",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/juanpol/",
+      "Author": "Juan Pablo Olmo",
+      "Title": "Music Commander",
+      "OriginalSize": "12743",
+      "OriginalMD5": "AnuARaZTJNsiwW55IKObrw==",
+      "Thumbnail300KURL": "",
+      "Rotation": ""
+    },
+    "source_page": "https://www.flickr.com/photos/juanpol/1663593",
+    "path": "data/openimage_pens/crops/validation_4fe2fb3816b91c44.jpg",
+    "original_path": "data/openimage_pens/originals/validation_4fe2fb3816b91c44.jpg",
+    "crop_bounds": [
+      0,
+      67,
+      768,
+      881
+    ],
+    "source_group": "openimages:4fe2fb3816b91c44",
+    "sha256": "6f59b621c9375b3c4b29dbcc8d6bed342f25baa5bbb6c805d1a470ab5b1ef06d"
+  },
+  {
+    "image_id": "7f79ec8b2e5b0181",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.078461535,
+        "XMax": 0.92923075,
+        "YMin": 0.07838983,
+        "YMax": 0.86440676
+      }
+    ],
+    "object_class": "Screwdriver",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/7f79ec8b2e5b0181.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "7f79ec8b2e5b0181",
+      "Subset": "validation",
+      "OriginalURL": "https://farm2.staticflickr.com/8007/7447118554_4cf03c2394_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/ecossystems/7447118554",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/ecossystems/",
+      "Author": "ecos systems",
+      "Title": "ID-Stecker_plus",
+      "OriginalSize": "300617",
+      "OriginalMD5": "VLo79gilsvPLJE+Sp8+cEg==",
+      "Thumbnail300KURL": "https://c1.staticflickr.com/9/8007/7447118554_520b88e909_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/ecossystems/7447118554",
+    "path": "data/openimage_pens/crops/validation_7f79ec8b2e5b0181.jpg",
+    "original_path": "data/openimage_pens/originals/validation_7f79ec8b2e5b0181.jpg",
+    "crop_bounds": [
+      0,
+      0,
+      1024,
+      744
+    ],
+    "source_group": "openimages:7f79ec8b2e5b0181",
+    "sha256": "1fbf4248b4f66c7f2af5765e7341187c9be6b9f869619f6fd577a93b57d1d630"
+  },
+  {
+    "image_id": "8357a23d186680d7",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.056363635,
+        "XMax": 0.26181817,
+        "YMin": 0.08444444,
+        "YMax": 0.91333336
+      }
+    ],
+    "object_class": "Remote control",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/8357a23d186680d7.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "8357a23d186680d7",
+      "Subset": "validation",
+      "OriginalURL": "https://farm8.staticflickr.com/4132/5092569607_c3c278d5f4_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/sortega/5092569607",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/sortega/",
+      "Author": "Sergio Ortega",
+      "Title": "mandos a distancia",
+      "OriginalSize": "57192",
+      "OriginalMD5": "xbGieZdxpbtK718aiRdG3Q==",
+      "Thumbnail300KURL": "https://c3.staticflickr.com/5/4132/5092569607_6b0b8c0d22_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/sortega/5092569607",
+    "path": "data/openimage_pens/crops/validation_8357a23d186680d7.jpg",
+    "original_path": "data/openimage_pens/originals/validation_8357a23d186680d7.jpg",
+    "crop_bounds": [
+      0,
+      0,
+      372,
+      838
+    ],
+    "source_group": "openimages:8357a23d186680d7",
+    "sha256": "61bc38353ec0438dddd1bada5eaccbc802f7508241b3d682ddc540510506f218"
+  },
+  {
+    "image_id": "8d0a3a759b62846d",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.021582734,
+        "XMax": 0.38309354,
+        "YMin": 0.08152174,
+        "YMax": 0.98550725
+      }
+    ],
+    "object_class": "Toothbrush",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/8d0a3a759b62846d.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "8d0a3a759b62846d",
+      "Subset": "validation",
+      "OriginalURL": "https://c6.staticflickr.com/1/35/72149296_307a5526ed_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/jessicafm/72149296",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/jessicafm/",
+      "Author": "Jessica Merz",
+      "Title": "Don't forget to brush!",
+      "OriginalSize": "1498965",
+      "OriginalMD5": "uflqHeKHyreUJWF0srpkgw==",
+      "Thumbnail300KURL": "https://c3.staticflickr.com/1/35/72149296_307a5526ed_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/jessicafm/72149296",
+    "path": "data/openimage_pens/crops/validation_8d0a3a759b62846d.jpg",
+    "original_path": "data/openimage_pens/originals/validation_8d0a3a759b62846d.jpg",
+    "crop_bounds": [
+      0,
+      0,
+      530,
+      1017
+    ],
+    "source_group": "openimages:8d0a3a759b62846d",
+    "sha256": "2fccbeaeecf14818bd09f21ef53f8285dded77c3c6381d0201c6f36c314d1798"
+  },
+  {
+    "image_id": "a459749f4e5769bd",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.478125,
+        "XMax": 0.6015625,
+        "YMin": 0.19375,
+        "YMax": 0.50208336
+      }
+    ],
+    "object_class": "Toothbrush",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/a459749f4e5769bd.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "a459749f4e5769bd",
+      "Subset": "validation",
+      "OriginalURL": "https://c6.staticflickr.com/5/4009/4359461891_676806c61c_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/andnancysays/4359461891",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/andnancysays/",
+      "Author": "Nancy Qian",
+      "Title": "Hello morning",
+      "OriginalSize": "102808",
+      "OriginalMD5": "wluSSPCtibq810U8HsJ53g==",
+      "Thumbnail300KURL": "https://c3.staticflickr.com/5/4009/4359461891_eed90f4419_z.jpg?zz=1",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/andnancysays/4359461891",
+    "path": "data/openimage_pens/crops/validation_a459749f4e5769bd.jpg",
+    "original_path": "data/openimage_pens/originals/validation_a459749f4e5769bd.jpg",
+    "crop_bounds": [
+      454,
+      113,
+      651,
+      421
+    ],
+    "source_group": "openimages:a459749f4e5769bd",
+    "sha256": "2504f9968a93db6d6f1cd94bd02fe765359f8e71b963ba737e0ffec9f7142959"
+  },
+  {
+    "image_id": "c48ad3322299db3e",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.045454547,
+        "XMax": 0.4648094,
+        "YMin": 0.0,
+        "YMax": 0.9177778
+      }
+    ],
+    "object_class": "Remote control",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/c48ad3322299db3e.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "c48ad3322299db3e",
+      "Subset": "validation",
+      "OriginalURL": "https://c7.staticflickr.com/3/2425/3631595604_06ce8a9c07_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/somegeekintn/3631595604",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/somegeekintn/",
+      "Author": "Casey Fleser",
+      "Title": "Digits (166 / 365)",
+      "OriginalSize": "1202316",
+      "OriginalMD5": "0GWIP8tichnnqjzybglUww==",
+      "Thumbnail300KURL": "https://c8.staticflickr.com/3/2425/3631595604_dee97ec797_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/somegeekintn/3631595604",
+    "path": "data/openimage_pens/crops/validation_c48ad3322299db3e.jpg",
+    "original_path": "data/openimage_pens/originals/validation_c48ad3322299db3e.jpg",
+    "crop_bounds": [
+      0,
+      0,
+      569,
+      676
+    ],
+    "source_group": "openimages:c48ad3322299db3e",
+    "sha256": "5b7741c97266ee3d606aa3a3544bc87f1530dac3f18589bda89e0ab42393e09b"
+  },
+  {
+    "image_id": "c8806ee2d08139ce",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.19583334,
+        "XMax": 0.53333336,
+        "YMin": 0.2046875,
+        "YMax": 0.8234375
+      }
+    ],
+    "object_class": "Toothbrush",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/c8806ee2d08139ce.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "c8806ee2d08139ce",
+      "Subset": "validation",
+      "OriginalURL": "https://c7.staticflickr.com/4/3004/2599603811_65ae8c0d68_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/mjtmail/2599603811",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/mjtmail/",
+      "Author": "mjtmail (tiggy)",
+      "Title": "day 169",
+      "OriginalSize": "1059925",
+      "OriginalMD5": "W8ARIh/7H9T5a8/v76Xzww==",
+      "Thumbnail300KURL": "https://c2.staticflickr.com/4/3004/2599603811_31932e374b_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/mjtmail/2599603811",
+    "path": "data/openimage_pens/crops/validation_c8806ee2d08139ce.jpg",
+    "original_path": "data/openimage_pens/originals/validation_c8806ee2d08139ce.jpg",
+    "crop_bounds": [
+      55,
+      114,
+      504,
+      938
+    ],
+    "source_group": "openimages:c8806ee2d08139ce",
+    "sha256": "0b7f18ce87fa6630b5de9cecc98cf7e1e2e1f3936235187ea6ce331378af1c91"
+  },
+  {
+    "image_id": "cd3beed3e2e7be39",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.0,
+        "XMax": 1.0,
+        "YMin": 0.21515892,
+        "YMax": 0.9559902
+      }
+    ],
+    "object_class": "Toothbrush",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/cd3beed3e2e7be39.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "cd3beed3e2e7be39",
+      "Subset": "validation",
+      "OriginalURL": "https://c2.staticflickr.com/1/205/450509150_f06d1f6c56_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/sunshinecity/450509150",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/sunshinecity/",
+      "Author": "sunshinecity",
+      "Title": "Untitled",
+      "OriginalSize": "896927",
+      "OriginalMD5": "uTiUZ2V7DpPBYmXIR7i3Gw==",
+      "Thumbnail300KURL": "https://c4.staticflickr.com/1/205/450509150_994cd780e9_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/sunshinecity/450509150",
+    "path": "data/openimage_pens/crops/validation_cd3beed3e2e7be39.jpg",
+    "original_path": "data/openimage_pens/originals/validation_cd3beed3e2e7be39.jpg",
+    "crop_bounds": [
+      0,
+      0,
+      1024,
+      560
+    ],
+    "source_group": "openimages:cd3beed3e2e7be39",
+    "sha256": "7a513c53dbae48ed0b85287b9b42973acc4c59d3ef0fcf8214a1e03d95cc59bd"
+  },
+  {
+    "image_id": "fa50309ada7120e0",
+    "upstream_split": "validation",
+    "boxes": [
+      {
+        "XMin": 0.04310345,
+        "XMax": 0.94827586,
+        "YMin": 0.00875,
+        "YMax": 0.99625
+      }
+    ],
+    "object_class": "Remote control",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/validation/fa50309ada7120e0.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "fa50309ada7120e0",
+      "Subset": "validation",
+      "OriginalURL": "https://farm1.staticflickr.com/5269/5868026306_52151e885b_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/caban0es/5868026306",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/caban0es/",
+      "Author": "Andr\u00e9s Cabanes",
+      "Title": "Philips Hotel TV (RC86/11)",
+      "OriginalSize": "34286",
+      "OriginalMD5": "BAPz02eyks5yMbsA24LDDQ==",
+      "Thumbnail300KURL": "https://c6.staticflickr.com/6/5269/5868026306_9313b3a68d_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/caban0es/5868026306",
+    "path": "data/openimage_pens/crops/validation_fa50309ada7120e0.jpg",
+    "original_path": "data/openimage_pens/originals/validation_fa50309ada7120e0.jpg",
+    "crop_bounds": [
+      0,
+      0,
+      297,
+      1024
+    ],
+    "source_group": "openimages:fa50309ada7120e0",
+    "sha256": "d0dd13e9df704e01c7e27aad4f35c7836cc8f8538c0ef0bb985724ec0305034d"
+  },
+  {
+    "image_id": "0353cfce0c0809e7",
+    "upstream_split": "test",
+    "boxes": [
+      {
+        "XMin": 0.45848376,
+        "XMax": 0.833935,
+        "YMin": 0.11371841,
+        "YMax": 0.7545126
+      }
+    ],
+    "object_class": "Scissors",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/test/0353cfce0c0809e7.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/test-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0353cfce0c0809e7",
+      "Subset": "test",
+      "OriginalURL": "https://farm8.staticflickr.com/6011/5950967899_6b44f0b6dd_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/zigazou76/5950967899",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/zigazou76/",
+      "Author": "Fr\u00e9d\u00e9ric BISSON",
+      "Title": "Paire de ciseaux miniature",
+      "OriginalSize": "3293718",
+      "OriginalMD5": "DLrvwBS1jFI0X7Ab4pWU2g==",
+      "Thumbnail300KURL": "https://c1.staticflickr.com/7/6011/5950967899_3a618bb214_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/zigazou76/5950967899",
+    "path": "data/openimage_pens/crops/test_0353cfce0c0809e7.jpg",
+    "original_path": "data/openimage_pens/originals/test_0353cfce0c0809e7.jpg",
+    "crop_bounds": [
+      371,
+      18,
+      952,
+      871
+    ],
+    "source_group": "openimages:0353cfce0c0809e7",
+    "sha256": "412ebf89b066a8cda78e3b367f39787f27a9a3479bcce9d61c821a85b4b0c79f"
+  },
+  {
+    "image_id": "0606676967032bb1",
+    "upstream_split": "test",
+    "boxes": [
+      {
+        "XMin": 0.178125,
+        "XMax": 0.8,
+        "YMin": 0.31041667,
+        "YMax": 0.5520833
+      }
+    ],
+    "object_class": "Remote control",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/test/0606676967032bb1.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/test-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "0606676967032bb1",
+      "Subset": "test",
+      "OriginalURL": "https://farm2.staticflickr.com/3721/9410139775_1c774f6f77_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/26023255@N03/9410139775",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/26023255@N03/",
+      "Author": "Jenifer Corr\u00eaa",
+      "Title": "DVD Player Tectoy DVT-C101",
+      "OriginalSize": "46950",
+      "OriginalMD5": "aNWrZesNE5Fdx4tFTGqxsQ==",
+      "Thumbnail300KURL": "https://c5.staticflickr.com/4/3721/9410139775_195bce4d1d_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/26023255@N03/9410139775",
+    "path": "data/openimage_pens/crops/test_0606676967032bb1.jpg",
+    "original_path": "data/openimage_pens/originals/test_0606676967032bb1.jpg",
+    "crop_bounds": [
+      86,
+      142,
+      914,
+      519
+    ],
+    "source_group": "openimages:0606676967032bb1",
+    "sha256": "e142df578563c81f20a277a2a4a80123468733ccdb62051759fdfa8569645497"
+  },
+  {
+    "image_id": "10e0f8261feb1736",
+    "upstream_split": "test",
+    "boxes": [
+      {
+        "XMin": 0.41428572,
+        "XMax": 0.51666665,
+        "YMin": 0.03287671,
+        "YMax": 0.9150685
+      }
+    ],
+    "object_class": "Remote control",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/test/10e0f8261feb1736.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/test-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "10e0f8261feb1736",
+      "Subset": "test",
+      "OriginalURL": "https://farm7.staticflickr.com/5603/15359380740_148f4c0c42_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/samchurchill/15359380740",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/samchurchill/",
+      "Author": "Sam Churchill",
+      "Title": "nexusplayer",
+      "OriginalSize": "49365",
+      "OriginalMD5": "822DcF0rFom/GAzYWuvhlg==",
+      "Thumbnail300KURL": "https://c3.staticflickr.com/6/5603/15359380740_2527f6b8ae_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/samchurchill/15359380740",
+    "path": "data/openimage_pens/crops/test_10e0f8261feb1736.jpg",
+    "original_path": "data/openimage_pens/originals/test_10e0f8261feb1736.jpg",
+    "crop_bounds": [
+      365,
+      0,
+      587,
+      445
+    ],
+    "source_group": "openimages:10e0f8261feb1736",
+    "sha256": "07efa2df9688cad005d9130ac0b6718ae9e227c4437dc77f9840bb422217cf35"
+  },
+  {
+    "image_id": "1dbdf73ff63697b7",
+    "upstream_split": "test",
+    "boxes": [
+      {
+        "XMin": 0.28520498,
+        "XMax": 0.5650624,
+        "YMin": 0.3985375,
+        "YMax": 0.667276
+      }
+    ],
+    "object_class": "Scissors",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/test/1dbdf73ff63697b7.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/test-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "1dbdf73ff63697b7",
+      "Subset": "test",
+      "OriginalURL": "https://farm8.staticflickr.com/2803/4133761461_f73f828727_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/wheredidyoubuythatcom/4133761461",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/wheredidyoubuythatcom/",
+      "Author": "WhereDidYouBuyThat.com",
+      "Title": "5328 WDYBT Celia birtwell kitchen drawer kit in tin",
+      "OriginalSize": "1569238",
+      "OriginalMD5": "aommMC5MgGUvVpTzBdnmPw==",
+      "Thumbnail300KURL": "https://c2.staticflickr.com/3/2803/4133761461_ba62032318_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/wheredidyoubuythatcom/4133761461",
+    "path": "data/openimage_pens/crops/test_1dbdf73ff63697b7.jpg",
+    "original_path": "data/openimage_pens/originals/test_1dbdf73ff63697b7.jpg",
+    "crop_bounds": [
+      249,
+      355,
+      621,
+      709
+    ],
+    "source_group": "openimages:1dbdf73ff63697b7",
+    "sha256": "fbd965135a81a51c0a2a16642049922d2b211b3c07303704d6e81a9a004a85d6"
+  },
+  {
+    "image_id": "25d7f33699b84d20",
+    "upstream_split": "test",
+    "boxes": [
+      {
+        "XMin": 0.23125,
+        "XMax": 0.840625,
+        "YMin": 0.19791667,
+        "YMax": 0.76458335
+      }
+    ],
+    "object_class": "Remote control",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/test/25d7f33699b84d20.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/test-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "25d7f33699b84d20",
+      "Subset": "test",
+      "OriginalURL": "https://farm1.staticflickr.com/2693/4219489050_ce7509c065_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/rainsong/4219489050",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/rainsong/",
+      "Author": "Ali from Riyadh : )",
+      "Title": "\u0631\u064a\u0645\u0648\u062a \u0643\u0645\u0628\u064a\u0648\u062a\u0631\u064a",
+      "OriginalSize": "135746",
+      "OriginalMD5": "7GS4LRGtFmK3fdPdmmYMhQ==",
+      "Thumbnail300KURL": "",
+      "Rotation": ""
+    },
+    "source_page": "https://www.flickr.com/photos/rainsong/4219489050",
+    "path": "data/openimage_pens/crops/test_25d7f33699b84d20.jpg",
+    "original_path": "data/openimage_pens/originals/test_25d7f33699b84d20.jpg",
+    "crop_bounds": [
+      143,
+      58,
+      954,
+      680
+    ],
+    "source_group": "openimages:25d7f33699b84d20",
+    "sha256": "66b44be4d4a5f17b12f3872359a32661a87f402a40c5c1f0fdd587b21c9bff08"
+  },
+  {
+    "image_id": "2ec47403183d9ee1",
+    "upstream_split": "test",
+    "boxes": [
+      {
+        "XMin": 0.18608695,
+        "XMax": 0.58086956,
+        "YMin": 0.3857678,
+        "YMax": 0.5187266
+      }
+    ],
+    "object_class": "Screwdriver",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/test/2ec47403183d9ee1.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/test-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "2ec47403183d9ee1",
+      "Subset": "test",
+      "OriginalURL": "https://farm2.staticflickr.com/7548/16329331835_f2665de1d1_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/irulan_amy/16329331835",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/irulan_amy/",
+      "Author": "Amy",
+      "Title": "R2-D2 Sixth Scale Figure by Sideshow Collectibles",
+      "OriginalSize": "837770",
+      "OriginalMD5": "ydzVxjaMmNWYECdSw96ggw==",
+      "Thumbnail300KURL": "https://c1.staticflickr.com/8/7548/16329331835_754db3134d_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/irulan_amy/16329331835",
+    "path": "data/openimage_pens/crops/test_2ec47403183d9ee1.jpg",
+    "original_path": "data/openimage_pens/originals/test_2ec47403183d9ee1.jpg",
+    "crop_bounds": [
+      129,
+      306,
+      655,
+      553
+    ],
+    "source_group": "openimages:2ec47403183d9ee1",
+    "sha256": "5d3634c5352e810e8f692669f5659683b0e6ed877882fed4625ca8f7dd4a4cd7"
+  },
+  {
+    "image_id": "9b77c5bdd93cf1dd",
+    "upstream_split": "test",
+    "boxes": [
+      {
+        "XMin": 0.0,
+        "XMax": 0.6890625,
+        "YMin": 0.22291666,
+        "YMax": 0.58125
+      }
+    ],
+    "object_class": "Scissors",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/test/9b77c5bdd93cf1dd.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/test-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "9b77c5bdd93cf1dd",
+      "Subset": "test",
+      "OriginalURL": "https://c6.staticflickr.com/4/3664/3402442472_1abe78339f_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/wstryder/3402442472",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/wstryder/",
+      "Author": "Lauri Rantala",
+      "Title": "Dangerous items",
+      "OriginalSize": "668304",
+      "OriginalMD5": "XxmJUxZk7QzI1Wwj6Qep/w==",
+      "Thumbnail300KURL": "https://c6.staticflickr.com/4/3664/3402442472_0d2976f752_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/wstryder/3402442472",
+    "path": "data/openimage_pens/crops/test_9b77c5bdd93cf1dd.jpg",
+    "original_path": "data/openimage_pens/originals/test_9b77c5bdd93cf1dd.jpg",
+    "crop_bounds": [
+      0,
+      65,
+      811,
+      552
+    ],
+    "source_group": "openimages:9b77c5bdd93cf1dd",
+    "sha256": "2136769988d86831924b843593d688eda3ab3c00d0daf00a50723d465ebc8675"
+  },
+  {
+    "image_id": "b825b5d6df659de2",
+    "upstream_split": "test",
+    "boxes": [
+      {
+        "XMin": 0.18230088,
+        "XMax": 0.76637167,
+        "YMin": 0.5709024,
+        "YMax": 0.89502764
+      }
+    ],
+    "object_class": "Scissors",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/test/b825b5d6df659de2.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/test-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "b825b5d6df659de2",
+      "Subset": "test",
+      "OriginalURL": "https://farm3.staticflickr.com/2176/2320353398_46283a7b63_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/ciroduran/2320353398",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/ciroduran/",
+      "Author": "Cirofono",
+      "Title": "It still bleeds (68/385)",
+      "OriginalSize": "1431653",
+      "OriginalMD5": "YA7H/bPGSL4j/cIhNmILHw==",
+      "Thumbnail300KURL": "https://c6.staticflickr.com/3/2176/2320353398_5ccbc59268_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/ciroduran/2320353398",
+    "path": "data/openimage_pens/crops/test_b825b5d6df659de2.jpg",
+    "original_path": "data/openimage_pens/originals/test_b825b5d6df659de2.jpg",
+    "crop_bounds": [
+      96,
+      472,
+      874,
+      970
+    ],
+    "source_group": "openimages:b825b5d6df659de2",
+    "sha256": "c014a4749d432dd54b70d9ef08002a329cc7f06499bbceafe524d6c6ab0a994d"
+  },
+  {
+    "image_id": "e35badb2f7dc31bb",
+    "upstream_split": "test",
+    "boxes": [
+      {
+        "XMin": 0.44848484,
+        "XMax": 0.630303,
+        "YMin": 0.4749596,
+        "YMax": 0.6542811
+      }
+    ],
+    "object_class": "Scissors",
+    "image_url": "https://open-images-dataset.s3.amazonaws.com/test/e35badb2f7dc31bb.jpg",
+    "annotation_url": "https://storage.googleapis.com/openimages/v5/test-annotations-bbox.csv",
+    "metadata": {
+      "ImageID": "e35badb2f7dc31bb",
+      "Subset": "test",
+      "OriginalURL": "https://c4.staticflickr.com/9/8675/16581653308_50f3dce902_o.jpg",
+      "OriginalLandingURL": "https://www.flickr.com/photos/sharisberries/16581653308",
+      "License": "https://creativecommons.org/licenses/by/2.0/",
+      "AuthorProfileURL": "https://www.flickr.com/people/sharisberries/",
+      "Author": "Shari&#x27;s Berries",
+      "Title": "washi gift wrap and scissors and tape and confette",
+      "OriginalSize": "234384",
+      "OriginalMD5": "HxwCMXJnnfTVfRc29mDDuA==",
+      "Thumbnail300KURL": "https://c7.staticflickr.com/9/8675/16581653308_7a663463e4_z.jpg",
+      "Rotation": "0.0"
+    },
+    "source_page": "https://www.flickr.com/photos/sharisberries/16581653308",
+    "path": "data/openimage_pens/crops/test_e35badb2f7dc31bb.jpg",
+    "original_path": "data/openimage_pens/originals/test_e35badb2f7dc31bb.jpg",
+    "crop_bounds": [
+      339,
+      458,
+      543,
+      697
+    ],
+    "source_group": "openimages:e35badb2f7dc31bb",
+    "sha256": "fe6598e68129e525b4ecb538450005a57b2e34946b36fd23e2d254d2245c6429"
+  }
+]

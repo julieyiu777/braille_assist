@@ -1,0 +1,3461 @@
+{
+  "seed": 42,
+  "classes": [
+    "chips",
+    "soda",
+    "pens",
+    "negative"
+  ],
+  "splits": {
+    "train": [
+      [
+        "data/roi_targets/chips/web_03.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/chips/hals_09.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/chips/web_00.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/chips/hals_05.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/chips/extra_01.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/chips/extra_02.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/chips/web_01.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/chips/web_08.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/chips/hals_01.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/chips/hals_12.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/chips/extra_00.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/chips/hals_00.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/soda/web_03.jpg",
+        1
+      ],
+      [
+        "data/roi_targets/soda/extra_01.jpg",
+        1
+      ],
+      [
+        "data/roi_targets/soda/web_00.jpg",
+        1
+      ],
+      [
+        "data/roi_targets/soda/extra_00.jpg",
+        1
+      ],
+      [
+        "data/roi_targets/soda/web_07.jpg",
+        1
+      ],
+      [
+        "data/roi_targets/soda/extra_03.jpg",
+        1
+      ],
+      [
+        "data/roi_targets/pens/extra_03.jpg",
+        2
+      ],
+      [
+        "data/roi_targets/pens/extra_05.jpg",
+        2
+      ],
+      [
+        "data/roi_targets/pens/extra_02.jpg",
+        2
+      ],
+      [
+        "data/roi_targets/pens/extra_00.jpg",
+        2
+      ],
+      [
+        "data/roi_targets/pens/extra_04.jpg",
+        2
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000144.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000138.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000322.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000109.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000064.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000071.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000081.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000077.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000073.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000133.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000009.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000308.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000025.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000030.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000257.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000368.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000092.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000315.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000089.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000192.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000074.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000086.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000338.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000127.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000042.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000143.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000061.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000136.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000165.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000034.jpg",
+        3
+      ],
+      [
+        "data/pen_refinement/candidates/pens/commons_81f22c3fd1a0.jpg",
+        2
+      ],
+      [
+        "data/pen_refinement/candidates/pens/commons_d1f67830f500.jpg",
+        2
+      ],
+      [
+        "data/pen_refinement/candidates/pens/commons_887195806266.jpg",
+        2
+      ],
+      [
+        "data/pen_refinement/candidates/negative/commons_e526f7ad411f.jpg",
+        3
+      ],
+      [
+        "data/pen_refinement/candidates/negative/commons_d352b1f1ef97.jpg",
+        3
+      ],
+      [
+        "data/pen_refinement/candidates/negative/commons_1538f0b6522e.jpg",
+        3
+      ],
+      [
+        "data/pen_refinement/candidates/negative/commons_6d33e2db3023.jpg",
+        3
+      ],
+      [
+        "data/pen_refinement/candidates/pens/commons_afa30d378320.jpg",
+        2
+      ],
+      [
+        "data/pen_refinement/candidates/negative/commons_57b0239e9fcf.jpg",
+        3
+      ],
+      [
+        "data/pen_refinement/candidates/negative/commons_3b11e2306b72.jpg",
+        3
+      ],
+      [
+        "data/rollerball_pens/candidates/alexandria_00.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/alexandria_01.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/alexandria_02.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/parker_meridian_00.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/monroe_00.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/monroe_01.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/monroe_02.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/sheaffer_300_00.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/sheaffer_300_01.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/sheaffer_300_02.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/sheaffer_vfm_00.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_788bcffc9f1f2625.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_e0b0190f46e390f2.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0217b37f7370630d.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_06547dbd5006ab2e.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0a17d193c76fc55f.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/validation_a4057b0f894f18e1.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_0c4f510a9bb56d42.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_038c5016adf204f1.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0cf649919fc046e9.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_039bec2ca62ca07c.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0a0631ed0d5462bb.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_025b349875511ef0.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_02c9350ff101cd37.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0317e33a6fcacc14.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/validation_2dcab96f79ef52c4.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_037928f436eb68b7.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_f7f53895cf4bf6d1.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_cc1f74bfe9432c50.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_08ac8ed634754e28.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_322abb798306b725.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_c7c7158055a07997.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0e4df5697ddbebad.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0aef70543892e48a.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_29e7004a556326ec.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_5d66e6621e3dc22d.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_04b701aefe9d12ee.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_01ec86c7b31cbd73.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0700a399f9f00e33.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/validation_8346096bba6f7d1d.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_c4e54eb19c2306a5.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_7a8dc12ccec45d77.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/validation_f44cdd2942011550.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_de84b16f0dc41dcb.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_00ae4925aa2e84d3.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_006ee549d9e6b683.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_000fcbfa875b9eb2.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0572f197c99f0c9e.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_728d8044bb37291b.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0491eaba4cf4a9ea.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0decadab1592294a.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0ce89b06c1c4cdb9.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_4052407c81eded9c.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0217e0cf615c4dd8.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0a0bc057df2248de.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0a5eba0d5ded7adb.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_488924fdbe266aa7.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/validation_f7ace955c18dde30.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_00af4188ffa00525.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/validation_32f4296af625218e.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_e9e1b65a4766608e.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_070cd165f4f744eb.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_ed0a09ad62ba418e.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_00cd18c5aff4548b.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0fb49958c0e4c36f.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_001867288a417465.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0648a074d4cb4dab.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/validation_c8c8df9a949b0b81.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0a2d60b6476dd3b6.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_3c6958d1898eb662.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_aadfeb10e70ec4c7.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_77af7dad1a12e417.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/validation_cf5c3c91e3591b4e.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/validation_af3afc5e442f53cb.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_03483ab149d0d64c.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_017e18d8e9942fb4.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_07334266774b5d73.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_012000c4cfcaa681.jpg",
+        2
+      ]
+    ],
+    "val": [
+      [
+        "data/roi_targets/chips/hals_02.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/chips/hals_03.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/soda/web_05.jpg",
+        1
+      ],
+      [
+        "data/roi_targets/soda/web_08.jpg",
+        1
+      ],
+      [
+        "data/roi_targets/pens/extra_08.jpg",
+        2
+      ],
+      [
+        "data/roi_targets/pens/extra_10.jpg",
+        2
+      ],
+      [
+        "data/roi_targets/negative/person_000000000241.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000072.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000094.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000142.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000328.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000113.jpg",
+        3
+      ],
+      [
+        "data/pen_refinement/candidates/pens/commons_9b24d0535b18.jpg",
+        2
+      ],
+      [
+        "data/pen_refinement/candidates/negative/commons_4cb66d9c8ebb.jpg",
+        3
+      ],
+      [
+        "data/pen_refinement/candidates/negative/commons_f76e0cdf56ee.jpg",
+        3
+      ],
+      [
+        "data/pen_refinement/candidates/negative/commons_d8e473aafa58.jpg",
+        3
+      ],
+      [
+        "data/rollerball_pens/candidates/sheaffer_100_00.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/sheaffer_100_01.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/sheaffer_100_02.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/sheaffer_100_03.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_5eee167684d521e2.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_01b54fd9748c7d49.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0e0c31ad3aeeaaed.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0154fa7e562b3f92.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_097722ddc437fc62.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_09f11d6d7905e639.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_01c7967ec302aa33.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_fa1438b975af02f2.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_092bbf8aca1bb2d6.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_016da5f9bdbfed5a.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_1059c021a80005e8.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_999415862220b779.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_0e7c701ad2bf2fc3.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_3215d07c3e72c5d2.jpg",
+        2
+      ]
+    ],
+    "test": [
+      [
+        "data/roi_targets/chips/hals_04.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/chips/hals_06.jpg",
+        0
+      ],
+      [
+        "data/roi_targets/soda/extra_02.jpg",
+        1
+      ],
+      [
+        "data/roi_targets/soda/web_02.jpg",
+        1
+      ],
+      [
+        "data/roi_targets/pens/extra_01.jpg",
+        2
+      ],
+      [
+        "data/roi_targets/pens/extra_06.jpg",
+        2
+      ],
+      [
+        "data/roi_targets/negative/person_000000000294.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000110.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000049.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000036.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/scene_000000000078.jpg",
+        3
+      ],
+      [
+        "data/roi_targets/negative/person_000000000326.jpg",
+        3
+      ],
+      [
+        "data/pen_refinement/candidates/pens/commons_e45a56438e72.jpg",
+        2
+      ],
+      [
+        "data/pen_refinement/candidates/negative/commons_f642b3282766.jpg",
+        3
+      ],
+      [
+        "data/pen_refinement/candidates/negative/commons_6534a7ede72b.jpg",
+        3
+      ],
+      [
+        "data/pen_refinement/candidates/negative/commons_c2a93363962f.jpg",
+        3
+      ],
+      [
+        "data/rollerball_pens/candidates/cross_edge_00.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/cross_edge_01.jpg",
+        2
+      ],
+      [
+        "data/rollerball_pens/candidates/aurora_ipsilon_00.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_07e670b79bfd96b7.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_541b7867d8cfbe9b.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_03c167c389bcdb91.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_04ad21b298cd58cf.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0dd54210eb6bec4a.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_01d4654f253d6d04.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0dd3535587794996.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_00d45be41689a471.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_003e3ac8d71f5870.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_27b5c29a81b7a87e.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_0abc2ffe7cb78100.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_09b983e3e5b3192b.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/train_08454d8e4e8de163.jpg",
+        2
+      ],
+      [
+        "data/openimage_pens/crops/test_dd5e19db06370f2d.jpg",
+        2
+      ]
+    ]
+  },
+  "review": {
+    "baseline_split": "runs/fullscreen_targets/split.json",
+    "excluded_training_images": [
+      "data/roi_targets/pens/extra_07.jpg",
+      "data/roi_targets/pens/extra_09.jpg"
+    ],
+    "policy": "Original validation/test photos retained; new original photos assigned before training."
+  },
+  "product_groups": {
+    "alexandria": "train",
+    "parker_meridian": "train",
+    "monroe": "train",
+    "sheaffer_100": "val",
+    "cross_edge": "test",
+    "aurora_ipsilon": "test",
+    "sheaffer_300": "train",
+    "sheaffer_vfm": "train"
+  },
+  "reference": {
+    "path": "data/rollerball_pens/user_reference.jpg",
+    "url": "https://img.magnific.com/free-psd/elegant-black-gold-luxury-rollerball-pen_84443-65689.jpg?semt=ais_hybrid&w=740&q=80",
+    "purpose": "User-requested reference check only; excluded from training and calibration"
+  },
+  "training_views": {
+    "data/openimage_pens/crops/test_788bcffc9f1f2625.jpg": {
+      "original_path": "data/openimage_pens/originals/test_788bcffc9f1f2625.jpg",
+      "boxes": [
+        {
+          "XMin": 0.06619719,
+          "XMax": 0.91830987,
+          "YMin": 0.5393519,
+          "YMax": 0.6365741
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/bontempscharly/",
+      "source_page": "https://www.flickr.com/photos/bontempscharly/4448197142"
+    },
+    "data/openimage_pens/crops/test_e0b0190f46e390f2.jpg": {
+      "original_path": "data/openimage_pens/originals/test_e0b0190f46e390f2.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.9903101,
+          "YMin": 0.0976431,
+          "YMax": 0.5050505
+        },
+        {
+          "XMin": 0.046511628,
+          "XMax": 0.9437984,
+          "YMin": 0.26936027,
+          "YMax": 0.63131315
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/bontempscharly/",
+      "source_page": "https://www.flickr.com/photos/bontempscharly/5245923353"
+    },
+    "data/openimage_pens/crops/train_0217b37f7370630d.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0217b37f7370630d.jpg",
+      "boxes": [
+        {
+          "XMin": 0.040625,
+          "XMax": 0.98375,
+          "YMin": 0.478889,
+          "YMax": 0.635556
+        },
+        {
+          "XMin": 0.06125,
+          "XMax": 0.958125,
+          "YMin": 0.603333,
+          "YMax": 0.781111
+        },
+        {
+          "XMin": 0.076875,
+          "XMax": 0.98875,
+          "YMin": 0.333333,
+          "YMax": 0.498889
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/bontempscharly/",
+      "source_page": "https://www.flickr.com/photos/bontempscharly/10607753473"
+    },
+    "data/openimage_pens/crops/train_06547dbd5006ab2e.jpg": {
+      "original_path": "data/openimage_pens/originals/train_06547dbd5006ab2e.jpg",
+      "boxes": [
+        {
+          "XMin": 0.147059,
+          "XMax": 0.869281,
+          "YMin": 0.117647,
+          "YMax": 0.859477
+        },
+        {
+          "XMin": 0.165033,
+          "XMax": 0.704248,
+          "YMin": 0.187909,
+          "YMax": 0.718954
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/bontempscharly/",
+      "source_page": "https://www.flickr.com/photos/bontempscharly/5534093553"
+    },
+    "data/openimage_pens/crops/train_0a17d193c76fc55f.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0a17d193c76fc55f.jpg",
+      "boxes": [
+        {
+          "XMin": 0.08125,
+          "XMax": 0.8875,
+          "YMin": 0.0,
+          "YMax": 0.82
+        },
+        {
+          "XMin": 0.126875,
+          "XMax": 0.979375,
+          "YMin": 0.105833,
+          "YMax": 0.940833
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/bontempscharly/",
+      "source_page": "https://www.flickr.com/photos/bontempscharly/12134977656"
+    },
+    "data/openimage_pens/crops/validation_a4057b0f894f18e1.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_a4057b0f894f18e1.jpg",
+      "boxes": [
+        {
+          "XMin": 0.45487365,
+          "XMax": 0.5433213,
+          "YMin": 0.0866426,
+          "YMax": 0.9025271
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/foeock/",
+      "source_page": "https://www.flickr.com/photos/foeock/7892594740"
+    },
+    "data/openimage_pens/crops/test_0c4f510a9bb56d42.jpg": {
+      "original_path": "data/openimage_pens/originals/test_0c4f510a9bb56d42.jpg",
+      "boxes": [
+        {
+          "XMin": 0.066787004,
+          "XMax": 0.86101085,
+          "YMin": 0.07581227,
+          "YMax": 0.19314079
+        },
+        {
+          "XMin": 0.07039711,
+          "XMax": 0.92057765,
+          "YMin": 0.63718414,
+          "YMax": 0.8736462
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/foeock/",
+      "source_page": "https://www.flickr.com/photos/foeock/7892591588"
+    },
+    "data/openimage_pens/crops/train_038c5016adf204f1.jpg": {
+      "original_path": "data/openimage_pens/originals/train_038c5016adf204f1.jpg",
+      "boxes": [
+        {
+          "XMin": 0.04375,
+          "XMax": 0.969375,
+          "YMin": 0.199167,
+          "YMax": 0.8075
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/jwynia/",
+      "source_page": "https://www.flickr.com/photos/jwynia/118805030"
+    },
+    "data/openimage_pens/crops/train_0cf649919fc046e9.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0cf649919fc046e9.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.691875,
+          "YMin": 0.0,
+          "YMax": 0.666667
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/jwynia/",
+      "source_page": "https://www.flickr.com/photos/jwynia/118806127"
+    },
+    "data/openimage_pens/crops/train_039bec2ca62ca07c.jpg": {
+      "original_path": "data/openimage_pens/originals/train_039bec2ca62ca07c.jpg",
+      "boxes": [
+        {
+          "XMin": 0.825195,
+          "XMax": 0.888672,
+          "YMin": 0.226562,
+          "YMax": 0.670573
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/redspotted/",
+      "source_page": "https://www.flickr.com/photos/redspotted/5503247189/"
+    },
+    "data/openimage_pens/crops/train_0a0631ed0d5462bb.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0a0631ed0d5462bb.jpg",
+      "boxes": [
+        {
+          "XMin": 0.088867,
+          "XMax": 0.791016,
+          "YMin": 0.251302,
+          "YMax": 0.459635
+        },
+        {
+          "XMin": 0.146484,
+          "XMax": 0.863281,
+          "YMin": 0.347656,
+          "YMax": 0.625
+        },
+        {
+          "XMin": 0.207031,
+          "XMax": 0.93457,
+          "YMin": 0.440104,
+          "YMax": 0.78776
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/redspotted/",
+      "source_page": "https://www.flickr.com/photos/redspotted/5026068683"
+    },
+    "data/openimage_pens/crops/train_025b349875511ef0.jpg": {
+      "original_path": "data/openimage_pens/originals/train_025b349875511ef0.jpg",
+      "boxes": [
+        {
+          "XMin": 0.155,
+          "XMax": 0.41125,
+          "YMin": 0.705441,
+          "YMax": 0.814259
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/133267327@N02/",
+      "source_page": "https://www.flickr.com/photos/133267327@N02/19209686856"
+    },
+    "data/openimage_pens/crops/train_02c9350ff101cd37.jpg": {
+      "original_path": "data/openimage_pens/originals/train_02c9350ff101cd37.jpg",
+      "boxes": [
+        {
+          "XMin": 0.07125,
+          "XMax": 0.906875,
+          "YMin": 0.555241,
+          "YMax": 0.6695
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/25487169@N02/",
+      "source_page": "https://www.flickr.com/photos/25487169@N02/6263788559"
+    },
+    "data/openimage_pens/crops/train_0317e33a6fcacc14.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0317e33a6fcacc14.jpg",
+      "boxes": [
+        {
+          "XMin": 0.481656,
+          "XMax": 0.999059,
+          "YMin": 0.42625,
+          "YMax": 0.735625
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/25722571@N08/",
+      "source_page": "https://www.flickr.com/photos/25722571@N08/5425163837"
+    },
+    "data/openimage_pens/crops/validation_2dcab96f79ef52c4.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_2dcab96f79ef52c4.jpg",
+      "boxes": [
+        {
+          "XMin": 0.092920355,
+          "XMax": 0.91297936,
+          "YMin": 0.44469026,
+          "YMax": 0.54646015
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/28202627@N04/",
+      "source_page": "https://www.flickr.com/photos/28202627@N04/2661206260"
+    },
+    "data/openimage_pens/crops/train_037928f436eb68b7.jpg": {
+      "original_path": "data/openimage_pens/originals/train_037928f436eb68b7.jpg",
+      "boxes": [
+        {
+          "XMin": 0.125,
+          "XMax": 0.385,
+          "YMin": 0.265367,
+          "YMax": 0.709145
+        },
+        {
+          "XMin": 0.163,
+          "XMax": 0.427,
+          "YMin": 0.25937,
+          "YMax": 0.706147
+        },
+        {
+          "XMin": 0.266,
+          "XMax": 0.422,
+          "YMin": 0.31934,
+          "YMax": 0.821589
+        },
+        {
+          "XMin": 0.379,
+          "XMax": 0.584,
+          "YMin": 0.101949,
+          "YMax": 0.517241
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/56675543@N08/",
+      "source_page": "https://www.flickr.com/photos/56675543@N08/13467440324"
+    },
+    "data/openimage_pens/crops/test_f7f53895cf4bf6d1.jpg": {
+      "original_path": "data/openimage_pens/originals/test_f7f53895cf4bf6d1.jpg",
+      "boxes": [
+        {
+          "XMin": 0.08125,
+          "XMax": 0.7703125,
+          "YMin": 0.51875,
+          "YMax": 0.81875
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/60588258@N00/",
+      "source_page": "https://www.flickr.com/photos/60588258@N00/2279131432"
+    },
+    "data/openimage_pens/crops/test_cc1f74bfe9432c50.jpg": {
+      "original_path": "data/openimage_pens/originals/test_cc1f74bfe9432c50.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.3958641,
+          "YMin": 0.60264903,
+          "YMax": 0.6931567
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/66755335@N05/",
+      "source_page": "https://www.flickr.com/photos/66755335@N05/6921562072"
+    },
+    "data/openimage_pens/crops/test_08ac8ed634754e28.jpg": {
+      "original_path": "data/openimage_pens/originals/test_08ac8ed634754e28.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 1.0,
+          "YMin": 0.27051,
+          "YMax": 0.7339246
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/7567557@N03/",
+      "source_page": "https://www.flickr.com/photos/7567557@N03/440041674"
+    },
+    "data/openimage_pens/crops/test_322abb798306b725.jpg": {
+      "original_path": "data/openimage_pens/originals/test_322abb798306b725.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0234375,
+          "XMax": 0.85625,
+          "YMin": 0.17916666,
+          "YMax": 0.5541667
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/86486397@N08/",
+      "source_page": "https://www.flickr.com/photos/86486397@N08/8144683852"
+    },
+    "data/openimage_pens/crops/test_c7c7158055a07997.jpg": {
+      "original_path": "data/openimage_pens/originals/test_c7c7158055a07997.jpg",
+      "boxes": [
+        {
+          "XMin": 0.35459942,
+          "XMax": 0.50296736,
+          "YMin": 0.11208791,
+          "YMax": 0.6945055
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/97930879@N02/",
+      "source_page": "https://www.flickr.com/photos/97930879@N02/14776930170"
+    },
+    "data/openimage_pens/crops/train_0e4df5697ddbebad.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0e4df5697ddbebad.jpg",
+      "boxes": [
+        {
+          "XMin": 0.08125,
+          "XMax": 0.82625,
+          "YMin": 0.168333,
+          "YMax": 0.665833
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/99843102@N05/",
+      "source_page": "https://www.flickr.com/photos/99843102@N05/12480448074"
+    },
+    "data/openimage_pens/crops/train_0aef70543892e48a.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0aef70543892e48a.jpg",
+      "boxes": [
+        {
+          "XMin": 0.146667,
+          "XMax": 0.371667,
+          "YMin": 0.308889,
+          "YMax": 0.771111
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/a-ghalab/",
+      "source_page": "https://www.flickr.com/photos/a-ghalab/6283010457"
+    },
+    "data/openimage_pens/crops/test_29e7004a556326ec.jpg": {
+      "original_path": "data/openimage_pens/originals/test_29e7004a556326ec.jpg",
+      "boxes": [
+        {
+          "XMin": 0.10108303,
+          "XMax": 0.57220215,
+          "YMin": 0.14440434,
+          "YMax": 0.91155237
+        },
+        {
+          "XMin": 0.20397112,
+          "XMax": 0.7617329,
+          "YMin": 0.045126352,
+          "YMax": 0.9566787
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/andiedg/",
+      "source_page": "https://www.flickr.com/photos/andiedg/8414200985"
+    },
+    "data/openimage_pens/crops/test_5d66e6621e3dc22d.jpg": {
+      "original_path": "data/openimage_pens/originals/test_5d66e6621e3dc22d.jpg",
+      "boxes": [
+        {
+          "XMin": 0.29602888,
+          "XMax": 1.0,
+          "YMin": 0.5595668,
+          "YMax": 0.8285199
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/artlung/",
+      "source_page": "https://www.flickr.com/photos/artlung/7686954294"
+    },
+    "data/openimage_pens/crops/train_04b701aefe9d12ee.jpg": {
+      "original_path": "data/openimage_pens/originals/train_04b701aefe9d12ee.jpg",
+      "boxes": [
+        {
+          "XMin": 0.646875,
+          "XMax": 0.889375,
+          "YMin": 0.321667,
+          "YMax": 0.950833
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/base2wave/",
+      "source_page": "https://www.flickr.com/photos/base2wave/85018693"
+    },
+    "data/openimage_pens/crops/train_01ec86c7b31cbd73.jpg": {
+      "original_path": "data/openimage_pens/originals/train_01ec86c7b31cbd73.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.58443,
+          "YMin": 0.652047,
+          "YMax": 0.859649
+        },
+        {
+          "XMin": 0.0,
+          "XMax": 0.998904,
+          "YMin": 0.176901,
+          "YMax": 0.347953
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/belviso/",
+      "source_page": "https://www.flickr.com/photos/belviso/8106427598"
+    },
+    "data/openimage_pens/crops/train_0700a399f9f00e33.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0700a399f9f00e33.jpg",
+      "boxes": [
+        {
+          "XMin": 0.451219,
+          "XMax": 0.987805,
+          "YMin": 0.56875,
+          "YMax": 0.665625
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/betsyweber/",
+      "source_page": "https://www.flickr.com/photos/betsyweber/5052763893"
+    },
+    "data/openimage_pens/crops/validation_8346096bba6f7d1d.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_8346096bba6f7d1d.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0796875,
+          "XMax": 0.903125,
+          "YMin": 0.36458334,
+          "YMax": 0.475
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/bfishadow/",
+      "source_page": "https://www.flickr.com/photos/bfishadow/13709271533"
+    },
+    "data/openimage_pens/crops/test_c4e54eb19c2306a5.jpg": {
+      "original_path": "data/openimage_pens/originals/test_c4e54eb19c2306a5.jpg",
+      "boxes": [
+        {
+          "XMin": 0.175,
+          "XMax": 0.90625,
+          "YMin": 0.39791667,
+          "YMax": 0.7729167
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/cambodia4kidsorg/",
+      "source_page": "https://www.flickr.com/photos/cambodia4kidsorg/447248445"
+    },
+    "data/openimage_pens/crops/test_7a8dc12ccec45d77.jpg": {
+      "original_path": "data/openimage_pens/originals/test_7a8dc12ccec45d77.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0640625,
+          "XMax": 0.9625,
+          "YMin": 0.079166666,
+          "YMax": 0.89166665
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/chumpolo/",
+      "source_page": "https://www.flickr.com/photos/chumpolo/5326919558"
+    },
+    "data/openimage_pens/crops/validation_f44cdd2942011550.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_f44cdd2942011550.jpg",
+      "boxes": [
+        {
+          "XMin": 0.366426,
+          "XMax": 0.9404332,
+          "YMin": 0.1299639,
+          "YMax": 1.0
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/cmichel67/",
+      "source_page": "https://www.flickr.com/photos/cmichel67/8883004354"
+    },
+    "data/openimage_pens/crops/test_de84b16f0dc41dcb.jpg": {
+      "original_path": "data/openimage_pens/originals/test_de84b16f0dc41dcb.jpg",
+      "boxes": [
+        {
+          "XMin": 0.70413226,
+          "XMax": 0.9570248,
+          "YMin": 0.71005917,
+          "YMax": 0.80078894
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/cmoz/",
+      "source_page": "https://www.flickr.com/photos/cmoz/11388453896"
+    },
+    "data/openimage_pens/crops/train_00ae4925aa2e84d3.jpg": {
+      "original_path": "data/openimage_pens/originals/train_00ae4925aa2e84d3.jpg",
+      "boxes": [
+        {
+          "XMin": 0.00375,
+          "XMax": 0.865625,
+          "YMin": 0.295497,
+          "YMax": 0.743902
+        },
+        {
+          "XMin": 0.035625,
+          "XMax": 0.87625,
+          "YMin": 0.320826,
+          "YMax": 0.870544
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/cogdog/",
+      "source_page": "https://www.flickr.com/photos/cogdog/8303041588"
+    },
+    "data/openimage_pens/crops/train_006ee549d9e6b683.jpg": {
+      "original_path": "data/openimage_pens/originals/train_006ee549d9e6b683.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.297373,
+          "YMin": 0.535,
+          "YMax": 0.854375
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/cristeenq/",
+      "source_page": "https://www.flickr.com/photos/cristeenq/2271213399"
+    },
+    "data/openimage_pens/crops/train_000fcbfa875b9eb2.jpg": {
+      "original_path": "data/openimage_pens/originals/train_000fcbfa875b9eb2.jpg",
+      "boxes": [
+        {
+          "XMin": 0.121094,
+          "XMax": 0.736328,
+          "YMin": 0.332031,
+          "YMax": 0.763021
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/crystalflickr/",
+      "source_page": "https://www.flickr.com/photos/crystalflickr/2162700587"
+    },
+    "data/openimage_pens/crops/train_0572f197c99f0c9e.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0572f197c99f0c9e.jpg",
+      "boxes": [
+        {
+          "XMin": 0.5525,
+          "XMax": 0.640625,
+          "YMin": 0.034709,
+          "YMax": 0.47561
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/das-blaue-sofa/",
+      "source_page": "https://www.flickr.com/photos/das-blaue-sofa/6354314273"
+    },
+    "data/openimage_pens/crops/test_728d8044bb37291b.jpg": {
+      "original_path": "data/openimage_pens/originals/test_728d8044bb37291b.jpg",
+      "boxes": [
+        {
+          "XMin": 0.16875,
+          "XMax": 0.8625,
+          "YMin": 0.052083332,
+          "YMax": 0.50625
+        },
+        {
+          "XMin": 0.190625,
+          "XMax": 0.86875,
+          "YMin": 0.37708333,
+          "YMax": 0.68333334
+        },
+        {
+          "XMin": 0.321875,
+          "XMax": 0.8625,
+          "YMin": 0.71458334,
+          "YMax": 0.84166664
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/daveynin/",
+      "source_page": "https://www.flickr.com/photos/daveynin/3415770054"
+    },
+    "data/openimage_pens/crops/train_0491eaba4cf4a9ea.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0491eaba4cf4a9ea.jpg",
+      "boxes": [
+        {
+          "XMin": 0.212891,
+          "XMax": 0.5625,
+          "YMin": 0.462555,
+          "YMax": 0.697504
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/dennisredfield/",
+      "source_page": "https://www.flickr.com/photos/dennisredfield/4565313959"
+    },
+    "data/openimage_pens/crops/train_0decadab1592294a.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0decadab1592294a.jpg",
+      "boxes": [
+        {
+          "XMin": 0.27125,
+          "XMax": 0.3375,
+          "YMin": 0.0,
+          "YMax": 0.043152
+        },
+        {
+          "XMin": 0.31875,
+          "XMax": 0.47625,
+          "YMin": 0.0,
+          "YMax": 0.046904
+        },
+        {
+          "XMin": 0.7,
+          "XMax": 0.8475,
+          "YMin": 0.0,
+          "YMax": 0.035647
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/devinsampa/",
+      "source_page": "https://www.flickr.com/photos/devinsampa/4140765478"
+    },
+    "data/openimage_pens/crops/train_0ce89b06c1c4cdb9.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0ce89b06c1c4cdb9.jpg",
+      "boxes": [
+        {
+          "XMin": 0.62875,
+          "XMax": 0.999375,
+          "YMin": 0.493446,
+          "YMax": 0.998127
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/dirkvorderstrasse/",
+      "source_page": "https://www.flickr.com/photos/dirkvorderstrasse/18880585903"
+    },
+    "data/openimage_pens/crops/test_4052407c81eded9c.jpg": {
+      "original_path": "data/openimage_pens/originals/test_4052407c81eded9c.jpg",
+      "boxes": [
+        {
+          "XMin": 0.023004059,
+          "XMax": 0.16508795,
+          "YMin": 0.6457831,
+          "YMax": 0.95421684
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/dno1967b/",
+      "source_page": "https://www.flickr.com/photos/dno1967b/18986484254"
+    },
+    "data/openimage_pens/crops/train_0217e0cf615c4dd8.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0217e0cf615c4dd8.jpg",
+      "boxes": [
+        {
+          "XMin": 0.4225,
+          "XMax": 0.928125,
+          "YMin": 0.125833,
+          "YMax": 0.49
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/drgbb/",
+      "source_page": "https://www.flickr.com/photos/drgbb/2227885657"
+    },
+    "data/openimage_pens/crops/train_0a0bc057df2248de.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0a0bc057df2248de.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.505625,
+          "YMin": 0.691787,
+          "YMax": 0.871498
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/evablue/",
+      "source_page": "https://www.flickr.com/photos/evablue/10033551414"
+    },
+    "data/openimage_pens/crops/train_0a5eba0d5ded7adb.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0a5eba0d5ded7adb.jpg",
+      "boxes": [
+        {
+          "XMin": 0.171875,
+          "XMax": 0.989062,
+          "YMin": 0.53125,
+          "YMax": 0.865625
+        },
+        {
+          "XMin": 0.226562,
+          "XMax": 0.982813,
+          "YMin": 0.429688,
+          "YMax": 0.740625
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/gamutless/",
+      "source_page": "https://www.flickr.com/photos/gamutless/16257504859"
+    },
+    "data/openimage_pens/crops/test_488924fdbe266aa7.jpg": {
+      "original_path": "data/openimage_pens/originals/test_488924fdbe266aa7.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.6017699,
+          "YMin": 0.3210604,
+          "YMax": 0.9661267
+        },
+        {
+          "XMin": 0.028761063,
+          "XMax": 0.6880531,
+          "YMin": 0.24447717,
+          "YMax": 0.8659794
+        },
+        {
+          "XMin": 0.15707965,
+          "XMax": 0.9424779,
+          "YMin": 0.21649484,
+          "YMax": 0.79970545
+        },
+        {
+          "XMin": 0.17699115,
+          "XMax": 0.8053097,
+          "YMin": 0.0,
+          "YMax": 0.63622975
+        },
+        {
+          "XMin": 0.3340708,
+          "XMax": 1.0,
+          "YMin": 0.048600882,
+          "YMax": 0.6951399
+        },
+        {
+          "XMin": 0.5154867,
+          "XMax": 1.0,
+          "YMin": 0.111929305,
+          "YMax": 0.5095729
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/geishaboy500/",
+      "source_page": "https://www.flickr.com/photos/geishaboy500/7241545052"
+    },
+    "data/openimage_pens/crops/validation_f7ace955c18dde30.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_f7ace955c18dde30.jpg",
+      "boxes": [
+        {
+          "XMin": 0.06911142,
+          "XMax": 0.95204514,
+          "YMin": 0.3472222,
+          "YMax": 0.49305555
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/glenbledsoe/",
+      "source_page": "https://www.flickr.com/photos/glenbledsoe/12862025764"
+    },
+    "data/openimage_pens/crops/train_00af4188ffa00525.jpg": {
+      "original_path": "data/openimage_pens/originals/train_00af4188ffa00525.jpg",
+      "boxes": [
+        {
+          "XMin": 0.494375,
+          "XMax": 0.538125,
+          "YMin": 0.2375,
+          "YMax": 0.52
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/hahatango/",
+      "source_page": "https://www.flickr.com/photos/hahatango/2503075756"
+    },
+    "data/openimage_pens/crops/validation_32f4296af625218e.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_32f4296af625218e.jpg",
+      "boxes": [
+        {
+          "XMin": 0.1734375,
+          "XMax": 0.803125,
+          "YMin": 0.060416665,
+          "YMax": 0.85833335
+        },
+        {
+          "XMin": 0.209375,
+          "XMax": 0.890625,
+          "YMin": 0.1,
+          "YMax": 0.92083335
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/inkdroid/",
+      "source_page": "https://www.flickr.com/photos/inkdroid/10445353916"
+    },
+    "data/openimage_pens/crops/test_e9e1b65a4766608e.jpg": {
+      "original_path": "data/openimage_pens/originals/test_e9e1b65a4766608e.jpg",
+      "boxes": [
+        {
+          "XMin": 0.134375,
+          "XMax": 0.89375,
+          "YMin": 0.22083333,
+          "YMax": 0.6875
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/iskender/",
+      "source_page": "https://www.flickr.com/photos/iskender/425873142"
+    },
+    "data/openimage_pens/crops/train_070cd165f4f744eb.jpg": {
+      "original_path": "data/openimage_pens/originals/train_070cd165f4f744eb.jpg",
+      "boxes": [
+        {
+          "XMin": 0.535,
+          "XMax": 0.639375,
+          "YMin": 0.157895,
+          "YMax": 0.579887
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/itupictures/",
+      "source_page": "https://www.flickr.com/photos/itupictures/9859105856"
+    },
+    "data/openimage_pens/crops/test_ed0a09ad62ba418e.jpg": {
+      "original_path": "data/openimage_pens/originals/test_ed0a09ad62ba418e.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0296875,
+          "XMax": 0.9734375,
+          "YMin": 0.26458332,
+          "YMax": 0.6625
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/jamescridland/",
+      "source_page": "https://www.flickr.com/photos/jamescridland/9567715629"
+    },
+    "data/openimage_pens/crops/train_00cd18c5aff4548b.jpg": {
+      "original_path": "data/openimage_pens/originals/train_00cd18c5aff4548b.jpg",
+      "boxes": [
+        {
+          "XMin": 0.515625,
+          "XMax": 0.74875,
+          "YMin": 0.118199,
+          "YMax": 0.574109
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/jckrisp/",
+      "source_page": "https://www.flickr.com/photos/jckrisp/16817925319"
+    },
+    "data/openimage_pens/crops/train_0fb49958c0e4c36f.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0fb49958c0e4c36f.jpg",
+      "boxes": [
+        {
+          "XMin": 0.24875,
+          "XMax": 0.83375,
+          "YMin": 0.528478,
+          "YMax": 0.704015
+        },
+        {
+          "XMin": 0.31125,
+          "XMax": 0.746875,
+          "YMin": 0.598506,
+          "YMax": 0.746032
+        },
+        {
+          "XMin": 0.415,
+          "XMax": 0.589375,
+          "YMin": 0.074697,
+          "YMax": 0.558357
+        },
+        {
+          "XMin": 0.47625,
+          "XMax": 0.606875,
+          "YMin": 0.089636,
+          "YMax": 0.512605
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/june29/",
+      "source_page": "https://www.flickr.com/photos/june29/3514536094"
+    },
+    "data/openimage_pens/crops/train_001867288a417465.jpg": {
+      "original_path": "data/openimage_pens/originals/train_001867288a417465.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.776563,
+          "YMin": 0.185417,
+          "YMax": 0.9875
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/lenore-m/",
+      "source_page": "https://www.flickr.com/photos/lenore-m/3465276969"
+    },
+    "data/openimage_pens/crops/train_0648a074d4cb4dab.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0648a074d4cb4dab.jpg",
+      "boxes": [
+        {
+          "XMin": 0.078431,
+          "XMax": 0.180392,
+          "YMin": 0.114706,
+          "YMax": 0.458824
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/mauritsonline/",
+      "source_page": "https://www.flickr.com/photos/mauritsonline/5191034572"
+    },
+    "data/openimage_pens/crops/validation_c8c8df9a949b0b81.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_c8c8df9a949b0b81.jpg",
+      "boxes": [
+        {
+          "XMin": 0.09144543,
+          "XMax": 1.0,
+          "YMin": 0.50442475,
+          "YMax": 0.94690263
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/morag_riddell/",
+      "source_page": "https://www.flickr.com/photos/morag_riddell/8445664613"
+    },
+    "data/openimage_pens/crops/train_0a2d60b6476dd3b6.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0a2d60b6476dd3b6.jpg",
+      "boxes": [
+        {
+          "XMin": 0.609375,
+          "XMax": 0.805625,
+          "YMin": 0.333012,
+          "YMax": 0.663127
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/neilconway/",
+      "source_page": "https://www.flickr.com/photos/neilconway/5625707813"
+    },
+    "data/openimage_pens/crops/test_3c6958d1898eb662.jpg": {
+      "original_path": "data/openimage_pens/originals/test_3c6958d1898eb662.jpg",
+      "boxes": [
+        {
+          "XMin": 0.060382918,
+          "XMax": 0.96318114,
+          "YMin": 0.28539824,
+          "YMax": 0.75442475
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/ornatelier/",
+      "source_page": "https://www.flickr.com/photos/ornatelier/20629761591"
+    },
+    "data/openimage_pens/crops/test_aadfeb10e70ec4c7.jpg": {
+      "original_path": "data/openimage_pens/originals/test_aadfeb10e70ec4c7.jpg",
+      "boxes": [
+        {
+          "XMin": 0.016224189,
+          "XMax": 0.3820059,
+          "YMin": 0.0,
+          "YMax": 0.92477876
+        },
+        {
+          "XMin": 0.21681416,
+          "XMax": 0.4719764,
+          "YMin": 0.23672566,
+          "YMax": 1.0
+        },
+        {
+          "XMin": 0.36430678,
+          "XMax": 0.58702064,
+          "YMin": 0.32079646,
+          "YMax": 1.0
+        },
+        {
+          "XMin": 0.6917404,
+          "XMax": 0.7979351,
+          "YMin": 0.42920354,
+          "YMax": 1.0
+        },
+        {
+          "XMin": 0.8775811,
+          "XMax": 1.0,
+          "YMin": 0.30973452,
+          "YMax": 0.7278761
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/pingzman/",
+      "source_page": "https://www.flickr.com/photos/pingzman/14916043299"
+    },
+    "data/openimage_pens/crops/test_77af7dad1a12e417.jpg": {
+      "original_path": "data/openimage_pens/originals/test_77af7dad1a12e417.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.1740413,
+          "YMin": 0.2079646,
+          "YMax": 0.3119469
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/rexroof/",
+      "source_page": "https://www.flickr.com/photos/rexroof/3243839545"
+    },
+    "data/openimage_pens/crops/validation_cf5c3c91e3591b4e.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_cf5c3c91e3591b4e.jpg",
+      "boxes": [
+        {
+          "XMin": 0.76106197,
+          "XMax": 0.82743365,
+          "YMin": 0.36873156,
+          "YMax": 0.7758112
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/serdal/",
+      "source_page": "https://www.flickr.com/photos/serdal/14818113246"
+    },
+    "data/openimage_pens/crops/validation_af3afc5e442f53cb.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_af3afc5e442f53cb.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.87334317,
+          "YMin": 0.048780486,
+          "YMax": 0.8226164
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/sonictk/",
+      "source_page": "https://www.flickr.com/photos/sonictk/336250435"
+    },
+    "data/openimage_pens/crops/train_03483ab149d0d64c.jpg": {
+      "original_path": "data/openimage_pens/originals/train_03483ab149d0d64c.jpg",
+      "boxes": [
+        {
+          "XMin": 0.5625,
+          "XMax": 0.998438,
+          "YMin": 0.180964,
+          "YMax": 0.553466
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/thecampbell/",
+      "source_page": "https://www.flickr.com/photos/thecampbell/5680816001"
+    },
+    "data/openimage_pens/crops/train_017e18d8e9942fb4.jpg": {
+      "original_path": "data/openimage_pens/originals/train_017e18d8e9942fb4.jpg",
+      "boxes": [
+        {
+          "XMin": 0.1725,
+          "XMax": 0.238125,
+          "YMin": 0.108818,
+          "YMax": 0.393058
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/vfsdigitaldesign/",
+      "source_page": "https://www.flickr.com/photos/vfsdigitaldesign/15405177732"
+    },
+    "data/openimage_pens/crops/train_07334266774b5d73.jpg": {
+      "original_path": "data/openimage_pens/originals/train_07334266774b5d73.jpg",
+      "boxes": [
+        {
+          "XMin": 0.415625,
+          "XMax": 0.7375,
+          "YMin": 0.424015,
+          "YMax": 0.920263
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/www_ukberri_net/",
+      "source_page": "https://www.flickr.com/photos/www_ukberri_net/2406031218"
+    },
+    "data/openimage_pens/crops/train_012000c4cfcaa681.jpg": {
+      "original_path": "data/openimage_pens/originals/train_012000c4cfcaa681.jpg",
+      "boxes": [
+        {
+          "XMin": 0.475,
+          "XMax": 0.585625,
+          "YMin": 0.685,
+          "YMax": 0.850833
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/zabriskiepoint/",
+      "source_page": "https://www.flickr.com/photos/zabriskiepoint/206035295"
+    }
+  },
+  "source_groups": {
+    "data/openimage_pens/crops/test_788bcffc9f1f2625.jpg": {
+      "original_path": "data/openimage_pens/originals/test_788bcffc9f1f2625.jpg",
+      "boxes": [
+        {
+          "XMin": 0.06619719,
+          "XMax": 0.91830987,
+          "YMin": 0.5393519,
+          "YMax": 0.6365741
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/bontempscharly/",
+      "source_page": "https://www.flickr.com/photos/bontempscharly/4448197142"
+    },
+    "data/openimage_pens/crops/test_e0b0190f46e390f2.jpg": {
+      "original_path": "data/openimage_pens/originals/test_e0b0190f46e390f2.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.9903101,
+          "YMin": 0.0976431,
+          "YMax": 0.5050505
+        },
+        {
+          "XMin": 0.046511628,
+          "XMax": 0.9437984,
+          "YMin": 0.26936027,
+          "YMax": 0.63131315
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/bontempscharly/",
+      "source_page": "https://www.flickr.com/photos/bontempscharly/5245923353"
+    },
+    "data/openimage_pens/crops/train_0217b37f7370630d.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0217b37f7370630d.jpg",
+      "boxes": [
+        {
+          "XMin": 0.040625,
+          "XMax": 0.98375,
+          "YMin": 0.478889,
+          "YMax": 0.635556
+        },
+        {
+          "XMin": 0.06125,
+          "XMax": 0.958125,
+          "YMin": 0.603333,
+          "YMax": 0.781111
+        },
+        {
+          "XMin": 0.076875,
+          "XMax": 0.98875,
+          "YMin": 0.333333,
+          "YMax": 0.498889
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/bontempscharly/",
+      "source_page": "https://www.flickr.com/photos/bontempscharly/10607753473"
+    },
+    "data/openimage_pens/crops/train_06547dbd5006ab2e.jpg": {
+      "original_path": "data/openimage_pens/originals/train_06547dbd5006ab2e.jpg",
+      "boxes": [
+        {
+          "XMin": 0.147059,
+          "XMax": 0.869281,
+          "YMin": 0.117647,
+          "YMax": 0.859477
+        },
+        {
+          "XMin": 0.165033,
+          "XMax": 0.704248,
+          "YMin": 0.187909,
+          "YMax": 0.718954
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/bontempscharly/",
+      "source_page": "https://www.flickr.com/photos/bontempscharly/5534093553"
+    },
+    "data/openimage_pens/crops/train_0a17d193c76fc55f.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0a17d193c76fc55f.jpg",
+      "boxes": [
+        {
+          "XMin": 0.08125,
+          "XMax": 0.8875,
+          "YMin": 0.0,
+          "YMax": 0.82
+        },
+        {
+          "XMin": 0.126875,
+          "XMax": 0.979375,
+          "YMin": 0.105833,
+          "YMax": 0.940833
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/bontempscharly/",
+      "source_page": "https://www.flickr.com/photos/bontempscharly/12134977656"
+    },
+    "data/openimage_pens/crops/validation_a4057b0f894f18e1.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_a4057b0f894f18e1.jpg",
+      "boxes": [
+        {
+          "XMin": 0.45487365,
+          "XMax": 0.5433213,
+          "YMin": 0.0866426,
+          "YMax": 0.9025271
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/foeock/",
+      "source_page": "https://www.flickr.com/photos/foeock/7892594740"
+    },
+    "data/openimage_pens/crops/test_0c4f510a9bb56d42.jpg": {
+      "original_path": "data/openimage_pens/originals/test_0c4f510a9bb56d42.jpg",
+      "boxes": [
+        {
+          "XMin": 0.066787004,
+          "XMax": 0.86101085,
+          "YMin": 0.07581227,
+          "YMax": 0.19314079
+        },
+        {
+          "XMin": 0.07039711,
+          "XMax": 0.92057765,
+          "YMin": 0.63718414,
+          "YMax": 0.8736462
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/foeock/",
+      "source_page": "https://www.flickr.com/photos/foeock/7892591588"
+    },
+    "data/openimage_pens/crops/train_038c5016adf204f1.jpg": {
+      "original_path": "data/openimage_pens/originals/train_038c5016adf204f1.jpg",
+      "boxes": [
+        {
+          "XMin": 0.04375,
+          "XMax": 0.969375,
+          "YMin": 0.199167,
+          "YMax": 0.8075
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/jwynia/",
+      "source_page": "https://www.flickr.com/photos/jwynia/118805030"
+    },
+    "data/openimage_pens/crops/train_0cf649919fc046e9.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0cf649919fc046e9.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.691875,
+          "YMin": 0.0,
+          "YMax": 0.666667
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/jwynia/",
+      "source_page": "https://www.flickr.com/photos/jwynia/118806127"
+    },
+    "data/openimage_pens/crops/train_039bec2ca62ca07c.jpg": {
+      "original_path": "data/openimage_pens/originals/train_039bec2ca62ca07c.jpg",
+      "boxes": [
+        {
+          "XMin": 0.825195,
+          "XMax": 0.888672,
+          "YMin": 0.226562,
+          "YMax": 0.670573
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/redspotted/",
+      "source_page": "https://www.flickr.com/photos/redspotted/5503247189/"
+    },
+    "data/openimage_pens/crops/train_0a0631ed0d5462bb.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0a0631ed0d5462bb.jpg",
+      "boxes": [
+        {
+          "XMin": 0.088867,
+          "XMax": 0.791016,
+          "YMin": 0.251302,
+          "YMax": 0.459635
+        },
+        {
+          "XMin": 0.146484,
+          "XMax": 0.863281,
+          "YMin": 0.347656,
+          "YMax": 0.625
+        },
+        {
+          "XMin": 0.207031,
+          "XMax": 0.93457,
+          "YMin": 0.440104,
+          "YMax": 0.78776
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/redspotted/",
+      "source_page": "https://www.flickr.com/photos/redspotted/5026068683"
+    },
+    "data/openimage_pens/crops/train_025b349875511ef0.jpg": {
+      "original_path": "data/openimage_pens/originals/train_025b349875511ef0.jpg",
+      "boxes": [
+        {
+          "XMin": 0.155,
+          "XMax": 0.41125,
+          "YMin": 0.705441,
+          "YMax": 0.814259
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/133267327@N02/",
+      "source_page": "https://www.flickr.com/photos/133267327@N02/19209686856"
+    },
+    "data/openimage_pens/crops/train_02c9350ff101cd37.jpg": {
+      "original_path": "data/openimage_pens/originals/train_02c9350ff101cd37.jpg",
+      "boxes": [
+        {
+          "XMin": 0.07125,
+          "XMax": 0.906875,
+          "YMin": 0.555241,
+          "YMax": 0.6695
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/25487169@N02/",
+      "source_page": "https://www.flickr.com/photos/25487169@N02/6263788559"
+    },
+    "data/openimage_pens/crops/train_0317e33a6fcacc14.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0317e33a6fcacc14.jpg",
+      "boxes": [
+        {
+          "XMin": 0.481656,
+          "XMax": 0.999059,
+          "YMin": 0.42625,
+          "YMax": 0.735625
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/25722571@N08/",
+      "source_page": "https://www.flickr.com/photos/25722571@N08/5425163837"
+    },
+    "data/openimage_pens/crops/validation_2dcab96f79ef52c4.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_2dcab96f79ef52c4.jpg",
+      "boxes": [
+        {
+          "XMin": 0.092920355,
+          "XMax": 0.91297936,
+          "YMin": 0.44469026,
+          "YMax": 0.54646015
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/28202627@N04/",
+      "source_page": "https://www.flickr.com/photos/28202627@N04/2661206260"
+    },
+    "data/openimage_pens/crops/train_037928f436eb68b7.jpg": {
+      "original_path": "data/openimage_pens/originals/train_037928f436eb68b7.jpg",
+      "boxes": [
+        {
+          "XMin": 0.125,
+          "XMax": 0.385,
+          "YMin": 0.265367,
+          "YMax": 0.709145
+        },
+        {
+          "XMin": 0.163,
+          "XMax": 0.427,
+          "YMin": 0.25937,
+          "YMax": 0.706147
+        },
+        {
+          "XMin": 0.266,
+          "XMax": 0.422,
+          "YMin": 0.31934,
+          "YMax": 0.821589
+        },
+        {
+          "XMin": 0.379,
+          "XMax": 0.584,
+          "YMin": 0.101949,
+          "YMax": 0.517241
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/56675543@N08/",
+      "source_page": "https://www.flickr.com/photos/56675543@N08/13467440324"
+    },
+    "data/openimage_pens/crops/test_f7f53895cf4bf6d1.jpg": {
+      "original_path": "data/openimage_pens/originals/test_f7f53895cf4bf6d1.jpg",
+      "boxes": [
+        {
+          "XMin": 0.08125,
+          "XMax": 0.7703125,
+          "YMin": 0.51875,
+          "YMax": 0.81875
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/60588258@N00/",
+      "source_page": "https://www.flickr.com/photos/60588258@N00/2279131432"
+    },
+    "data/openimage_pens/crops/test_cc1f74bfe9432c50.jpg": {
+      "original_path": "data/openimage_pens/originals/test_cc1f74bfe9432c50.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.3958641,
+          "YMin": 0.60264903,
+          "YMax": 0.6931567
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/66755335@N05/",
+      "source_page": "https://www.flickr.com/photos/66755335@N05/6921562072"
+    },
+    "data/openimage_pens/crops/test_08ac8ed634754e28.jpg": {
+      "original_path": "data/openimage_pens/originals/test_08ac8ed634754e28.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 1.0,
+          "YMin": 0.27051,
+          "YMax": 0.7339246
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/7567557@N03/",
+      "source_page": "https://www.flickr.com/photos/7567557@N03/440041674"
+    },
+    "data/openimage_pens/crops/test_322abb798306b725.jpg": {
+      "original_path": "data/openimage_pens/originals/test_322abb798306b725.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0234375,
+          "XMax": 0.85625,
+          "YMin": 0.17916666,
+          "YMax": 0.5541667
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/86486397@N08/",
+      "source_page": "https://www.flickr.com/photos/86486397@N08/8144683852"
+    },
+    "data/openimage_pens/crops/test_c7c7158055a07997.jpg": {
+      "original_path": "data/openimage_pens/originals/test_c7c7158055a07997.jpg",
+      "boxes": [
+        {
+          "XMin": 0.35459942,
+          "XMax": 0.50296736,
+          "YMin": 0.11208791,
+          "YMax": 0.6945055
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/97930879@N02/",
+      "source_page": "https://www.flickr.com/photos/97930879@N02/14776930170"
+    },
+    "data/openimage_pens/crops/train_0e4df5697ddbebad.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0e4df5697ddbebad.jpg",
+      "boxes": [
+        {
+          "XMin": 0.08125,
+          "XMax": 0.82625,
+          "YMin": 0.168333,
+          "YMax": 0.665833
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/99843102@N05/",
+      "source_page": "https://www.flickr.com/photos/99843102@N05/12480448074"
+    },
+    "data/openimage_pens/crops/train_0aef70543892e48a.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0aef70543892e48a.jpg",
+      "boxes": [
+        {
+          "XMin": 0.146667,
+          "XMax": 0.371667,
+          "YMin": 0.308889,
+          "YMax": 0.771111
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/a-ghalab/",
+      "source_page": "https://www.flickr.com/photos/a-ghalab/6283010457"
+    },
+    "data/openimage_pens/crops/test_29e7004a556326ec.jpg": {
+      "original_path": "data/openimage_pens/originals/test_29e7004a556326ec.jpg",
+      "boxes": [
+        {
+          "XMin": 0.10108303,
+          "XMax": 0.57220215,
+          "YMin": 0.14440434,
+          "YMax": 0.91155237
+        },
+        {
+          "XMin": 0.20397112,
+          "XMax": 0.7617329,
+          "YMin": 0.045126352,
+          "YMax": 0.9566787
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/andiedg/",
+      "source_page": "https://www.flickr.com/photos/andiedg/8414200985"
+    },
+    "data/openimage_pens/crops/test_5d66e6621e3dc22d.jpg": {
+      "original_path": "data/openimage_pens/originals/test_5d66e6621e3dc22d.jpg",
+      "boxes": [
+        {
+          "XMin": 0.29602888,
+          "XMax": 1.0,
+          "YMin": 0.5595668,
+          "YMax": 0.8285199
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/artlung/",
+      "source_page": "https://www.flickr.com/photos/artlung/7686954294"
+    },
+    "data/openimage_pens/crops/train_04b701aefe9d12ee.jpg": {
+      "original_path": "data/openimage_pens/originals/train_04b701aefe9d12ee.jpg",
+      "boxes": [
+        {
+          "XMin": 0.646875,
+          "XMax": 0.889375,
+          "YMin": 0.321667,
+          "YMax": 0.950833
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/base2wave/",
+      "source_page": "https://www.flickr.com/photos/base2wave/85018693"
+    },
+    "data/openimage_pens/crops/train_01ec86c7b31cbd73.jpg": {
+      "original_path": "data/openimage_pens/originals/train_01ec86c7b31cbd73.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.58443,
+          "YMin": 0.652047,
+          "YMax": 0.859649
+        },
+        {
+          "XMin": 0.0,
+          "XMax": 0.998904,
+          "YMin": 0.176901,
+          "YMax": 0.347953
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/belviso/",
+      "source_page": "https://www.flickr.com/photos/belviso/8106427598"
+    },
+    "data/openimage_pens/crops/train_0700a399f9f00e33.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0700a399f9f00e33.jpg",
+      "boxes": [
+        {
+          "XMin": 0.451219,
+          "XMax": 0.987805,
+          "YMin": 0.56875,
+          "YMax": 0.665625
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/betsyweber/",
+      "source_page": "https://www.flickr.com/photos/betsyweber/5052763893"
+    },
+    "data/openimage_pens/crops/validation_8346096bba6f7d1d.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_8346096bba6f7d1d.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0796875,
+          "XMax": 0.903125,
+          "YMin": 0.36458334,
+          "YMax": 0.475
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/bfishadow/",
+      "source_page": "https://www.flickr.com/photos/bfishadow/13709271533"
+    },
+    "data/openimage_pens/crops/test_c4e54eb19c2306a5.jpg": {
+      "original_path": "data/openimage_pens/originals/test_c4e54eb19c2306a5.jpg",
+      "boxes": [
+        {
+          "XMin": 0.175,
+          "XMax": 0.90625,
+          "YMin": 0.39791667,
+          "YMax": 0.7729167
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/cambodia4kidsorg/",
+      "source_page": "https://www.flickr.com/photos/cambodia4kidsorg/447248445"
+    },
+    "data/openimage_pens/crops/test_7a8dc12ccec45d77.jpg": {
+      "original_path": "data/openimage_pens/originals/test_7a8dc12ccec45d77.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0640625,
+          "XMax": 0.9625,
+          "YMin": 0.079166666,
+          "YMax": 0.89166665
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/chumpolo/",
+      "source_page": "https://www.flickr.com/photos/chumpolo/5326919558"
+    },
+    "data/openimage_pens/crops/validation_f44cdd2942011550.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_f44cdd2942011550.jpg",
+      "boxes": [
+        {
+          "XMin": 0.366426,
+          "XMax": 0.9404332,
+          "YMin": 0.1299639,
+          "YMax": 1.0
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/cmichel67/",
+      "source_page": "https://www.flickr.com/photos/cmichel67/8883004354"
+    },
+    "data/openimage_pens/crops/test_de84b16f0dc41dcb.jpg": {
+      "original_path": "data/openimage_pens/originals/test_de84b16f0dc41dcb.jpg",
+      "boxes": [
+        {
+          "XMin": 0.70413226,
+          "XMax": 0.9570248,
+          "YMin": 0.71005917,
+          "YMax": 0.80078894
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/cmoz/",
+      "source_page": "https://www.flickr.com/photos/cmoz/11388453896"
+    },
+    "data/openimage_pens/crops/train_00ae4925aa2e84d3.jpg": {
+      "original_path": "data/openimage_pens/originals/train_00ae4925aa2e84d3.jpg",
+      "boxes": [
+        {
+          "XMin": 0.00375,
+          "XMax": 0.865625,
+          "YMin": 0.295497,
+          "YMax": 0.743902
+        },
+        {
+          "XMin": 0.035625,
+          "XMax": 0.87625,
+          "YMin": 0.320826,
+          "YMax": 0.870544
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/cogdog/",
+      "source_page": "https://www.flickr.com/photos/cogdog/8303041588"
+    },
+    "data/openimage_pens/crops/train_006ee549d9e6b683.jpg": {
+      "original_path": "data/openimage_pens/originals/train_006ee549d9e6b683.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.297373,
+          "YMin": 0.535,
+          "YMax": 0.854375
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/cristeenq/",
+      "source_page": "https://www.flickr.com/photos/cristeenq/2271213399"
+    },
+    "data/openimage_pens/crops/train_000fcbfa875b9eb2.jpg": {
+      "original_path": "data/openimage_pens/originals/train_000fcbfa875b9eb2.jpg",
+      "boxes": [
+        {
+          "XMin": 0.121094,
+          "XMax": 0.736328,
+          "YMin": 0.332031,
+          "YMax": 0.763021
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/crystalflickr/",
+      "source_page": "https://www.flickr.com/photos/crystalflickr/2162700587"
+    },
+    "data/openimage_pens/crops/train_0572f197c99f0c9e.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0572f197c99f0c9e.jpg",
+      "boxes": [
+        {
+          "XMin": 0.5525,
+          "XMax": 0.640625,
+          "YMin": 0.034709,
+          "YMax": 0.47561
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/das-blaue-sofa/",
+      "source_page": "https://www.flickr.com/photos/das-blaue-sofa/6354314273"
+    },
+    "data/openimage_pens/crops/test_728d8044bb37291b.jpg": {
+      "original_path": "data/openimage_pens/originals/test_728d8044bb37291b.jpg",
+      "boxes": [
+        {
+          "XMin": 0.16875,
+          "XMax": 0.8625,
+          "YMin": 0.052083332,
+          "YMax": 0.50625
+        },
+        {
+          "XMin": 0.190625,
+          "XMax": 0.86875,
+          "YMin": 0.37708333,
+          "YMax": 0.68333334
+        },
+        {
+          "XMin": 0.321875,
+          "XMax": 0.8625,
+          "YMin": 0.71458334,
+          "YMax": 0.84166664
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/daveynin/",
+      "source_page": "https://www.flickr.com/photos/daveynin/3415770054"
+    },
+    "data/openimage_pens/crops/train_0491eaba4cf4a9ea.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0491eaba4cf4a9ea.jpg",
+      "boxes": [
+        {
+          "XMin": 0.212891,
+          "XMax": 0.5625,
+          "YMin": 0.462555,
+          "YMax": 0.697504
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/dennisredfield/",
+      "source_page": "https://www.flickr.com/photos/dennisredfield/4565313959"
+    },
+    "data/openimage_pens/crops/train_0decadab1592294a.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0decadab1592294a.jpg",
+      "boxes": [
+        {
+          "XMin": 0.27125,
+          "XMax": 0.3375,
+          "YMin": 0.0,
+          "YMax": 0.043152
+        },
+        {
+          "XMin": 0.31875,
+          "XMax": 0.47625,
+          "YMin": 0.0,
+          "YMax": 0.046904
+        },
+        {
+          "XMin": 0.7,
+          "XMax": 0.8475,
+          "YMin": 0.0,
+          "YMax": 0.035647
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/devinsampa/",
+      "source_page": "https://www.flickr.com/photos/devinsampa/4140765478"
+    },
+    "data/openimage_pens/crops/train_0ce89b06c1c4cdb9.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0ce89b06c1c4cdb9.jpg",
+      "boxes": [
+        {
+          "XMin": 0.62875,
+          "XMax": 0.999375,
+          "YMin": 0.493446,
+          "YMax": 0.998127
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/dirkvorderstrasse/",
+      "source_page": "https://www.flickr.com/photos/dirkvorderstrasse/18880585903"
+    },
+    "data/openimage_pens/crops/test_4052407c81eded9c.jpg": {
+      "original_path": "data/openimage_pens/originals/test_4052407c81eded9c.jpg",
+      "boxes": [
+        {
+          "XMin": 0.023004059,
+          "XMax": 0.16508795,
+          "YMin": 0.6457831,
+          "YMax": 0.95421684
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/dno1967b/",
+      "source_page": "https://www.flickr.com/photos/dno1967b/18986484254"
+    },
+    "data/openimage_pens/crops/train_0217e0cf615c4dd8.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0217e0cf615c4dd8.jpg",
+      "boxes": [
+        {
+          "XMin": 0.4225,
+          "XMax": 0.928125,
+          "YMin": 0.125833,
+          "YMax": 0.49
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/drgbb/",
+      "source_page": "https://www.flickr.com/photos/drgbb/2227885657"
+    },
+    "data/openimage_pens/crops/train_0a0bc057df2248de.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0a0bc057df2248de.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.505625,
+          "YMin": 0.691787,
+          "YMax": 0.871498
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/evablue/",
+      "source_page": "https://www.flickr.com/photos/evablue/10033551414"
+    },
+    "data/openimage_pens/crops/train_0a5eba0d5ded7adb.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0a5eba0d5ded7adb.jpg",
+      "boxes": [
+        {
+          "XMin": 0.171875,
+          "XMax": 0.989062,
+          "YMin": 0.53125,
+          "YMax": 0.865625
+        },
+        {
+          "XMin": 0.226562,
+          "XMax": 0.982813,
+          "YMin": 0.429688,
+          "YMax": 0.740625
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/gamutless/",
+      "source_page": "https://www.flickr.com/photos/gamutless/16257504859"
+    },
+    "data/openimage_pens/crops/test_488924fdbe266aa7.jpg": {
+      "original_path": "data/openimage_pens/originals/test_488924fdbe266aa7.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.6017699,
+          "YMin": 0.3210604,
+          "YMax": 0.9661267
+        },
+        {
+          "XMin": 0.028761063,
+          "XMax": 0.6880531,
+          "YMin": 0.24447717,
+          "YMax": 0.8659794
+        },
+        {
+          "XMin": 0.15707965,
+          "XMax": 0.9424779,
+          "YMin": 0.21649484,
+          "YMax": 0.79970545
+        },
+        {
+          "XMin": 0.17699115,
+          "XMax": 0.8053097,
+          "YMin": 0.0,
+          "YMax": 0.63622975
+        },
+        {
+          "XMin": 0.3340708,
+          "XMax": 1.0,
+          "YMin": 0.048600882,
+          "YMax": 0.6951399
+        },
+        {
+          "XMin": 0.5154867,
+          "XMax": 1.0,
+          "YMin": 0.111929305,
+          "YMax": 0.5095729
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/geishaboy500/",
+      "source_page": "https://www.flickr.com/photos/geishaboy500/7241545052"
+    },
+    "data/openimage_pens/crops/validation_f7ace955c18dde30.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_f7ace955c18dde30.jpg",
+      "boxes": [
+        {
+          "XMin": 0.06911142,
+          "XMax": 0.95204514,
+          "YMin": 0.3472222,
+          "YMax": 0.49305555
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/glenbledsoe/",
+      "source_page": "https://www.flickr.com/photos/glenbledsoe/12862025764"
+    },
+    "data/openimage_pens/crops/train_00af4188ffa00525.jpg": {
+      "original_path": "data/openimage_pens/originals/train_00af4188ffa00525.jpg",
+      "boxes": [
+        {
+          "XMin": 0.494375,
+          "XMax": 0.538125,
+          "YMin": 0.2375,
+          "YMax": 0.52
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/hahatango/",
+      "source_page": "https://www.flickr.com/photos/hahatango/2503075756"
+    },
+    "data/openimage_pens/crops/validation_32f4296af625218e.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_32f4296af625218e.jpg",
+      "boxes": [
+        {
+          "XMin": 0.1734375,
+          "XMax": 0.803125,
+          "YMin": 0.060416665,
+          "YMax": 0.85833335
+        },
+        {
+          "XMin": 0.209375,
+          "XMax": 0.890625,
+          "YMin": 0.1,
+          "YMax": 0.92083335
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/inkdroid/",
+      "source_page": "https://www.flickr.com/photos/inkdroid/10445353916"
+    },
+    "data/openimage_pens/crops/test_e9e1b65a4766608e.jpg": {
+      "original_path": "data/openimage_pens/originals/test_e9e1b65a4766608e.jpg",
+      "boxes": [
+        {
+          "XMin": 0.134375,
+          "XMax": 0.89375,
+          "YMin": 0.22083333,
+          "YMax": 0.6875
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/iskender/",
+      "source_page": "https://www.flickr.com/photos/iskender/425873142"
+    },
+    "data/openimage_pens/crops/train_070cd165f4f744eb.jpg": {
+      "original_path": "data/openimage_pens/originals/train_070cd165f4f744eb.jpg",
+      "boxes": [
+        {
+          "XMin": 0.535,
+          "XMax": 0.639375,
+          "YMin": 0.157895,
+          "YMax": 0.579887
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/itupictures/",
+      "source_page": "https://www.flickr.com/photos/itupictures/9859105856"
+    },
+    "data/openimage_pens/crops/test_ed0a09ad62ba418e.jpg": {
+      "original_path": "data/openimage_pens/originals/test_ed0a09ad62ba418e.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0296875,
+          "XMax": 0.9734375,
+          "YMin": 0.26458332,
+          "YMax": 0.6625
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/jamescridland/",
+      "source_page": "https://www.flickr.com/photos/jamescridland/9567715629"
+    },
+    "data/openimage_pens/crops/train_00cd18c5aff4548b.jpg": {
+      "original_path": "data/openimage_pens/originals/train_00cd18c5aff4548b.jpg",
+      "boxes": [
+        {
+          "XMin": 0.515625,
+          "XMax": 0.74875,
+          "YMin": 0.118199,
+          "YMax": 0.574109
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/jckrisp/",
+      "source_page": "https://www.flickr.com/photos/jckrisp/16817925319"
+    },
+    "data/openimage_pens/crops/test_5eee167684d521e2.jpg": {
+      "original_path": "data/openimage_pens/originals/test_5eee167684d521e2.jpg",
+      "boxes": [
+        {
+          "XMin": 0.23451327,
+          "XMax": 0.41445428,
+          "YMin": 0.090707965,
+          "YMax": 0.9292035
+        },
+        {
+          "XMin": 0.44542772,
+          "XMax": 0.5132743,
+          "YMin": 0.09955752,
+          "YMax": 0.95353985
+        },
+        {
+          "XMin": 0.55309737,
+          "XMax": 0.76696163,
+          "YMin": 0.046460178,
+          "YMax": 0.9402655
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/jesssseeee/",
+      "source_page": "https://www.flickr.com/photos/jesssseeee/6638166273"
+    },
+    "data/openimage_pens/crops/train_07e670b79bfd96b7.jpg": {
+      "original_path": "data/openimage_pens/originals/train_07e670b79bfd96b7.jpg",
+      "boxes": [
+        {
+          "XMin": 0.21875,
+          "XMax": 0.61375,
+          "YMin": 0.0,
+          "YMax": 0.690432
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/josephleenovak/",
+      "source_page": "https://www.flickr.com/photos/josephleenovak/3046406898"
+    },
+    "data/openimage_pens/crops/train_0fb49958c0e4c36f.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0fb49958c0e4c36f.jpg",
+      "boxes": [
+        {
+          "XMin": 0.24875,
+          "XMax": 0.83375,
+          "YMin": 0.528478,
+          "YMax": 0.704015
+        },
+        {
+          "XMin": 0.31125,
+          "XMax": 0.746875,
+          "YMin": 0.598506,
+          "YMax": 0.746032
+        },
+        {
+          "XMin": 0.415,
+          "XMax": 0.589375,
+          "YMin": 0.074697,
+          "YMax": 0.558357
+        },
+        {
+          "XMin": 0.47625,
+          "XMax": 0.606875,
+          "YMin": 0.089636,
+          "YMax": 0.512605
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/june29/",
+      "source_page": "https://www.flickr.com/photos/june29/3514536094"
+    },
+    "data/openimage_pens/crops/train_01b54fd9748c7d49.jpg": {
+      "original_path": "data/openimage_pens/originals/train_01b54fd9748c7d49.jpg",
+      "boxes": [
+        {
+          "XMin": 0.295556,
+          "XMax": 0.998889,
+          "YMin": 0.0,
+          "YMax": 0.719368
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/kodomut/",
+      "source_page": "https://www.flickr.com/photos/kodomut/5145397427"
+    },
+    "data/openimage_pens/crops/test_541b7867d8cfbe9b.jpg": {
+      "original_path": "data/openimage_pens/originals/test_541b7867d8cfbe9b.jpg",
+      "boxes": [
+        {
+          "XMin": 0.2390625,
+          "XMax": 0.8640625,
+          "YMin": 0.010416667,
+          "YMax": 0.89166665
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/kosheahan/",
+      "source_page": "https://www.flickr.com/photos/kosheahan/8739090988"
+    },
+    "data/openimage_pens/crops/train_001867288a417465.jpg": {
+      "original_path": "data/openimage_pens/originals/train_001867288a417465.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.776563,
+          "YMin": 0.185417,
+          "YMax": 0.9875
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/lenore-m/",
+      "source_page": "https://www.flickr.com/photos/lenore-m/3465276969"
+    },
+    "data/openimage_pens/crops/train_0e0c31ad3aeeaaed.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0e0c31ad3aeeaaed.jpg",
+      "boxes": [
+        {
+          "XMin": 0.854393,
+          "XMax": 0.999163,
+          "YMin": 0.273125,
+          "YMax": 0.53125
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/marcn/",
+      "source_page": "https://www.flickr.com/photos/marcn/6695366247/"
+    },
+    "data/openimage_pens/crops/train_03c167c389bcdb91.jpg": {
+      "original_path": "data/openimage_pens/originals/train_03c167c389bcdb91.jpg",
+      "boxes": [
+        {
+          "XMin": 0.002,
+          "XMax": 0.866,
+          "YMin": 0.0,
+          "YMax": 0.408
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/mariareyesmcdavis/",
+      "source_page": "https://www.flickr.com/photos/mariareyesmcdavis/2890706354"
+    },
+    "data/openimage_pens/crops/train_0648a074d4cb4dab.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0648a074d4cb4dab.jpg",
+      "boxes": [
+        {
+          "XMin": 0.078431,
+          "XMax": 0.180392,
+          "YMin": 0.114706,
+          "YMax": 0.458824
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/mauritsonline/",
+      "source_page": "https://www.flickr.com/photos/mauritsonline/5191034572"
+    },
+    "data/openimage_pens/crops/train_0154fa7e562b3f92.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0154fa7e562b3f92.jpg",
+      "boxes": [
+        {
+          "XMin": 0.342,
+          "XMax": 0.627,
+          "YMin": 0.350825,
+          "YMax": 0.689655
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/mejiaperalta/",
+      "source_page": "https://www.flickr.com/photos/mejiaperalta/3654647670"
+    },
+    "data/openimage_pens/crops/train_04ad21b298cd58cf.jpg": {
+      "original_path": "data/openimage_pens/originals/train_04ad21b298cd58cf.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0875,
+          "XMax": 0.323438,
+          "YMin": 0.185937,
+          "YMax": 0.998438
+        },
+        {
+          "XMin": 0.679688,
+          "XMax": 0.996875,
+          "YMin": 0.10625,
+          "YMax": 0.842188
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/mooglr/",
+      "source_page": "https://www.flickr.com/photos/mooglr/19324805332"
+    },
+    "data/openimage_pens/crops/validation_c8c8df9a949b0b81.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_c8c8df9a949b0b81.jpg",
+      "boxes": [
+        {
+          "XMin": 0.09144543,
+          "XMax": 1.0,
+          "YMin": 0.50442475,
+          "YMax": 0.94690263
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/morag_riddell/",
+      "source_page": "https://www.flickr.com/photos/morag_riddell/8445664613"
+    },
+    "data/openimage_pens/crops/train_097722ddc437fc62.jpg": {
+      "original_path": "data/openimage_pens/originals/train_097722ddc437fc62.jpg",
+      "boxes": [
+        {
+          "XMin": 0.445,
+          "XMax": 0.47125,
+          "YMin": 0.139167,
+          "YMax": 0.535833
+        },
+        {
+          "XMin": 0.501875,
+          "XMax": 0.540625,
+          "YMin": 0.179167,
+          "YMax": 0.504167
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/mpclemens/",
+      "source_page": "https://www.flickr.com/photos/mpclemens/12952956714"
+    },
+    "data/openimage_pens/crops/train_0dd54210eb6bec4a.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0dd54210eb6bec4a.jpg",
+      "boxes": [
+        {
+          "XMin": 0.01625,
+          "XMax": 0.991875,
+          "YMin": 0.842482,
+          "YMax": 0.980907
+        },
+        {
+          "XMin": 0.048125,
+          "XMax": 0.9775,
+          "YMin": 0.483691,
+          "YMax": 0.631663
+        },
+        {
+          "XMin": 0.05375,
+          "XMax": 0.97375,
+          "YMin": 0.182975,
+          "YMax": 0.320605
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/mrbill/",
+      "source_page": "https://www.flickr.com/photos/mrbill/3568772974"
+    },
+    "data/openimage_pens/crops/train_0a2d60b6476dd3b6.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0a2d60b6476dd3b6.jpg",
+      "boxes": [
+        {
+          "XMin": 0.609375,
+          "XMax": 0.805625,
+          "YMin": 0.333012,
+          "YMax": 0.663127
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/neilconway/",
+      "source_page": "https://www.flickr.com/photos/neilconway/5625707813"
+    },
+    "data/openimage_pens/crops/train_09f11d6d7905e639.jpg": {
+      "original_path": "data/openimage_pens/originals/train_09f11d6d7905e639.jpg",
+      "boxes": [
+        {
+          "XMin": 0.294444,
+          "XMax": 0.488889,
+          "YMin": 0.055208,
+          "YMax": 0.822917
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/noelgiger/",
+      "source_page": "https://www.flickr.com/photos/noelgiger/14735995992"
+    },
+    "data/openimage_pens/crops/train_01d4654f253d6d04.jpg": {
+      "original_path": "data/openimage_pens/originals/train_01d4654f253d6d04.jpg",
+      "boxes": [
+        {
+          "XMin": 0.11875,
+          "XMax": 0.1975,
+          "YMin": 0.0,
+          "YMax": 0.458333
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/orinrobertjohn/",
+      "source_page": "https://www.flickr.com/photos/orinrobertjohn/1574578248"
+    },
+    "data/openimage_pens/crops/test_3c6958d1898eb662.jpg": {
+      "original_path": "data/openimage_pens/originals/test_3c6958d1898eb662.jpg",
+      "boxes": [
+        {
+          "XMin": 0.060382918,
+          "XMax": 0.96318114,
+          "YMin": 0.28539824,
+          "YMax": 0.75442475
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/ornatelier/",
+      "source_page": "https://www.flickr.com/photos/ornatelier/20629761591"
+    },
+    "data/openimage_pens/crops/train_01c7967ec302aa33.jpg": {
+      "original_path": "data/openimage_pens/originals/train_01c7967ec302aa33.jpg",
+      "boxes": [
+        {
+          "XMin": 0.190833,
+          "XMax": 0.650833,
+          "YMin": 0.519375,
+          "YMax": 0.8425
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/paoletti/",
+      "source_page": "https://www.flickr.com/photos/78112145@N00/2194822247/"
+    },
+    "data/openimage_pens/crops/train_0dd3535587794996.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0dd3535587794996.jpg",
+      "boxes": [
+        {
+          "XMin": 0.4375,
+          "XMax": 0.680833,
+          "YMin": 0.451875,
+          "YMax": 0.66125
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/pat00139/",
+      "source_page": "https://www.flickr.com/photos/pat00139/5724067837"
+    },
+    "data/openimage_pens/crops/test_aadfeb10e70ec4c7.jpg": {
+      "original_path": "data/openimage_pens/originals/test_aadfeb10e70ec4c7.jpg",
+      "boxes": [
+        {
+          "XMin": 0.016224189,
+          "XMax": 0.3820059,
+          "YMin": 0.0,
+          "YMax": 0.92477876
+        },
+        {
+          "XMin": 0.21681416,
+          "XMax": 0.4719764,
+          "YMin": 0.23672566,
+          "YMax": 1.0
+        },
+        {
+          "XMin": 0.36430678,
+          "XMax": 0.58702064,
+          "YMin": 0.32079646,
+          "YMax": 1.0
+        },
+        {
+          "XMin": 0.6917404,
+          "XMax": 0.7979351,
+          "YMin": 0.42920354,
+          "YMax": 1.0
+        },
+        {
+          "XMin": 0.8775811,
+          "XMax": 1.0,
+          "YMin": 0.30973452,
+          "YMax": 0.7278761
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/pingzman/",
+      "source_page": "https://www.flickr.com/photos/pingzman/14916043299"
+    },
+    "data/openimage_pens/crops/test_fa1438b975af02f2.jpg": {
+      "original_path": "data/openimage_pens/originals/test_fa1438b975af02f2.jpg",
+      "boxes": [
+        {
+          "XMin": 0.028125,
+          "XMax": 0.9671875,
+          "YMin": 0.48541668,
+          "YMax": 0.59166664
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/purpleslog/",
+      "source_page": "https://www.flickr.com/photos/purpleslog/1176761413"
+    },
+    "data/openimage_pens/crops/train_00d45be41689a471.jpg": {
+      "original_path": "data/openimage_pens/originals/train_00d45be41689a471.jpg",
+      "boxes": [
+        {
+          "XMin": 0.348125,
+          "XMax": 0.450625,
+          "YMin": 0.127778,
+          "YMax": 0.811111
+        },
+        {
+          "XMin": 0.553125,
+          "XMax": 0.753125,
+          "YMin": 0.084444,
+          "YMax": 0.8
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/qubodup/",
+      "source_page": "https://www.flickr.com/photos/qubodup/18126537704"
+    },
+    "data/openimage_pens/crops/test_77af7dad1a12e417.jpg": {
+      "original_path": "data/openimage_pens/originals/test_77af7dad1a12e417.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.1740413,
+          "YMin": 0.2079646,
+          "YMax": 0.3119469
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/rexroof/",
+      "source_page": "https://www.flickr.com/photos/rexroof/3243839545"
+    },
+    "data/openimage_pens/crops/train_092bbf8aca1bb2d6.jpg": {
+      "original_path": "data/openimage_pens/originals/train_092bbf8aca1bb2d6.jpg",
+      "boxes": [
+        {
+          "XMin": 0.026875,
+          "XMax": 0.63625,
+          "YMin": 0.185,
+          "YMax": 0.866667
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/santoposmoderno/",
+      "source_page": "https://www.flickr.com/photos/santoposmoderno/3789121523"
+    },
+    "data/openimage_pens/crops/train_003e3ac8d71f5870.jpg": {
+      "original_path": "data/openimage_pens/originals/train_003e3ac8d71f5870.jpg",
+      "boxes": [
+        {
+          "XMin": 0.6775,
+          "XMax": 0.953125,
+          "YMin": 0.48,
+          "YMax": 0.999167
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/sashafatcat/",
+      "source_page": "https://www.flickr.com/photos/sashafatcat/2594159661"
+    },
+    "data/openimage_pens/crops/validation_cf5c3c91e3591b4e.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_cf5c3c91e3591b4e.jpg",
+      "boxes": [
+        {
+          "XMin": 0.76106197,
+          "XMax": 0.82743365,
+          "YMin": 0.36873156,
+          "YMax": 0.7758112
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/serdal/",
+      "source_page": "https://www.flickr.com/photos/serdal/14818113246"
+    },
+    "data/openimage_pens/crops/train_016da5f9bdbfed5a.jpg": {
+      "original_path": "data/openimage_pens/originals/train_016da5f9bdbfed5a.jpg",
+      "boxes": [
+        {
+          "XMin": 0.161429,
+          "XMax": 0.587143,
+          "YMin": 0.024242,
+          "YMax": 0.585859
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/sheltermovie/",
+      "source_page": "https://www.flickr.com/photos/sheltermovie/4727036618"
+    },
+    "data/openimage_pens/crops/test_27b5c29a81b7a87e.jpg": {
+      "original_path": "data/openimage_pens/originals/test_27b5c29a81b7a87e.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.9984375,
+          "YMin": 0.12291667,
+          "YMax": 0.3625
+        },
+        {
+          "XMin": 0.2078125,
+          "XMax": 1.0,
+          "YMin": 0.27083334,
+          "YMax": 0.70416665
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/simon_shek/",
+      "source_page": "https://www.flickr.com/photos/simon_shek/257077948"
+    },
+    "data/openimage_pens/crops/validation_af3afc5e442f53cb.jpg": {
+      "original_path": "data/openimage_pens/originals/validation_af3afc5e442f53cb.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.87334317,
+          "YMin": 0.048780486,
+          "YMax": 0.8226164
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/sonictk/",
+      "source_page": "https://www.flickr.com/photos/sonictk/336250435"
+    },
+    "data/openimage_pens/crops/train_1059c021a80005e8.jpg": {
+      "original_path": "data/openimage_pens/originals/train_1059c021a80005e8.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.828125,
+          "YMin": 0.758333,
+          "YMax": 0.95625
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/spcummings/",
+      "source_page": "https://www.flickr.com/photos/spcummings/316018945"
+    },
+    "data/openimage_pens/crops/train_0abc2ffe7cb78100.jpg": {
+      "original_path": "data/openimage_pens/originals/train_0abc2ffe7cb78100.jpg",
+      "boxes": [
+        {
+          "XMin": 0.0,
+          "XMax": 0.135,
+          "YMin": 0.545833,
+          "YMax": 0.7925
+        },
+        {
+          "XMin": 0.0,
+          "XMax": 0.151875,
+          "YMin": 0.46,
+          "YMax": 0.77
+        },
+        {
+          "XMin": 0.161875,
+          "XMax": 0.3125,
+          "YMin": 0.374167,
+          "YMax": 0.759167
+        },
+        {
+          "XMin": 0.295625,
+          "XMax": 0.409375,
+          "YMin": 0.003333,
+          "YMax": 0.633333
+        },
+        {
+          "XMin": 0.3175,
+          "XMax": 0.383125,
+          "YMin": 0.358333,
+          "YMax": 0.7075
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/srgblog/",
+      "source_page": "https://www.flickr.com/photos/srgblog/1390950849"
+    },
+    "data/openimage_pens/crops/train_03483ab149d0d64c.jpg": {
+      "original_path": "data/openimage_pens/originals/train_03483ab149d0d64c.jpg",
+      "boxes": [
+        {
+          "XMin": 0.5625,
+          "XMax": 0.998438,
+          "YMin": 0.180964,
+          "YMax": 0.553466
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/thecampbell/",
+      "source_page": "https://www.flickr.com/photos/thecampbell/5680816001"
+    },
+    "data/openimage_pens/crops/test_999415862220b779.jpg": {
+      "original_path": "data/openimage_pens/originals/test_999415862220b779.jpg",
+      "boxes": [
+        {
+          "XMin": 0.209375,
+          "XMax": 0.3546875,
+          "YMin": 0.5625,
+          "YMax": 0.9375
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/thomaschristensen/",
+      "source_page": "https://www.flickr.com/photos/thomaschristensen/247500497"
+    },
+    "data/openimage_pens/crops/train_09b983e3e5b3192b.jpg": {
+      "original_path": "data/openimage_pens/originals/train_09b983e3e5b3192b.jpg",
+      "boxes": [
+        {
+          "XMin": 0.55,
+          "XMax": 0.616667,
+          "YMin": 0.231481,
+          "YMax": 0.836111
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/tylermyeo/",
+      "source_page": "https://www.flickr.com/photos/tylermyeo/20307471896"
+    },
+    "data/openimage_pens/crops/train_017e18d8e9942fb4.jpg": {
+      "original_path": "data/openimage_pens/originals/train_017e18d8e9942fb4.jpg",
+      "boxes": [
+        {
+          "XMin": 0.1725,
+          "XMax": 0.238125,
+          "YMin": 0.108818,
+          "YMax": 0.393058
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/vfsdigitaldesign/",
+      "source_page": "https://www.flickr.com/photos/vfsdigitaldesign/15405177732"
+    },
+    "data/openimage_pens/crops/test_0e7c701ad2bf2fc3.jpg": {
+      "original_path": "data/openimage_pens/originals/test_0e7c701ad2bf2fc3.jpg",
+      "boxes": [
+        {
+          "XMin": 0.13696612,
+          "XMax": 0.8969072,
+          "YMin": 0.63192904,
+          "YMax": 0.7827051
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/wasteofspace/",
+      "source_page": "https://www.flickr.com/photos/wasteofspace/4888166365"
+    },
+    "data/openimage_pens/crops/train_08454d8e4e8de163.jpg": {
+      "original_path": "data/openimage_pens/originals/train_08454d8e4e8de163.jpg",
+      "boxes": [
+        {
+          "XMin": 0.251563,
+          "XMax": 0.323438,
+          "YMin": 0.14375,
+          "YMax": 0.282813
+        },
+        {
+          "XMin": 0.435937,
+          "XMax": 0.589063,
+          "YMin": 0.025,
+          "YMax": 0.078125
+        },
+        {
+          "XMin": 0.476562,
+          "XMax": 0.620313,
+          "YMin": 0.035937,
+          "YMax": 0.071875
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/wearesocial/",
+      "source_page": "https://www.flickr.com/photos/wearesocial/19121093261"
+    },
+    "data/openimage_pens/crops/train_07334266774b5d73.jpg": {
+      "original_path": "data/openimage_pens/originals/train_07334266774b5d73.jpg",
+      "boxes": [
+        {
+          "XMin": 0.415625,
+          "XMax": 0.7375,
+          "YMin": 0.424015,
+          "YMax": 0.920263
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/www_ukberri_net/",
+      "source_page": "https://www.flickr.com/photos/www_ukberri_net/2406031218"
+    },
+    "data/openimage_pens/crops/test_3215d07c3e72c5d2.jpg": {
+      "original_path": "data/openimage_pens/originals/test_3215d07c3e72c5d2.jpg",
+      "boxes": [
+        {
+          "XMin": 0.37864077,
+          "XMax": 0.87055016,
+          "YMin": 0.09677419,
+          "YMax": 0.80846775
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/x1brett/",
+      "source_page": "https://www.flickr.com/photos/x1brett/4594566789"
+    },
+    "data/openimage_pens/crops/test_dd5e19db06370f2d.jpg": {
+      "original_path": "data/openimage_pens/originals/test_dd5e19db06370f2d.jpg",
+      "boxes": [
+        {
+          "XMin": 0.1859375,
+          "XMax": 0.7671875,
+          "YMin": 0.29375,
+          "YMax": 0.9166667
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/yto/",
+      "source_page": "https://www.flickr.com/photos/yto/21566628246"
+    },
+    "data/openimage_pens/crops/train_012000c4cfcaa681.jpg": {
+      "original_path": "data/openimage_pens/originals/train_012000c4cfcaa681.jpg",
+      "boxes": [
+        {
+          "XMin": 0.475,
+          "XMax": 0.585625,
+          "YMin": 0.685,
+          "YMax": 0.850833
+        }
+      ],
+      "split_group": "photographer:https://www.flickr.com/people/zabriskiepoint/",
+      "source_page": "https://www.flickr.com/photos/zabriskiepoint/206035295"
+    }
+  },
+  "review_summary": {
+    "added_pen_originals": 95,
+    "new_source_groups": 88,
+    "new_split_counts": {
+      "train": 67,
+      "val": 14,
+      "test": 14
+    },
+    "reviewed_candidates": 290,
+    "legacy_partitions_retained": true
+  }
+}

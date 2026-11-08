@@ -1,0 +1,89 @@
+[
+  {
+    "url": "https://fig-product-images.s3.amazonaws.com/0855036005358.53017.1721333278843.front.png",
+    "class": "chips",
+    "error": null,
+    "duplicate": false,
+    "path": "data/roi_targets/chips/hals_00.jpg"
+  },
+  {
+    "url": "https://stat.ameba.jp/user_images/20210826/05/lachesis423/fa/90/j/o0490065314991949758.jpg",
+    "class": "chips",
+    "error": null,
+    "duplicate": false,
+    "path": "data/roi_targets/chips/hals_01.jpg"
+  },
+  {
+    "url": "https://doordash-static.s3.amazonaws.com/media/photosV2/fbe58cb7-3d91-412b-a20d-65c74267501a-retina-large.png",
+    "class": "chips",
+    "error": null,
+    "duplicate": false,
+    "path": "data/roi_targets/chips/hals_02.jpg"
+  },
+  {
+    "url": "https://doordash-static.s3.amazonaws.com/media/photosV2/770429a8-8d28-4d29-9828-09dc528307db-retina-large.png",
+    "class": "chips",
+    "error": null,
+    "duplicate": false,
+    "path": "data/roi_targets/chips/hals_03.jpg"
+  },
+  {
+    "url": "https://seasonskosher.com/api/content/images/thumbs/0452317_hals-hals-barbecue-chips-2-oz.jpeg",
+    "class": "chips",
+    "error": null,
+    "duplicate": false,
+    "path": "data/roi_targets/chips/hals_04.jpg"
+  },
+  {
+    "url": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d1e28af8-e88f-4860-a51f-07076fe67ad1.png",
+    "class": "chips",
+    "error": null,
+    "duplicate": false,
+    "path": "data/roi_targets/chips/hals_05.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/098a88_a3703ec1bfe74063aacbbc6fad60f133~mv2.png",
+    "class": "chips",
+    "error": null,
+    "duplicate": false,
+    "path": "data/roi_targets/chips/hals_06.jpg"
+  },
+  {
+    "url": "https://i5.walmartimages.com/seo/Hals-New-York-Sour-Cream-Onion-Chips-5-oz-Pack-Of-12_b719da3e-b8ca-40b6-803b-8a76566fb326.2889b3230d57db105d87762a43e25052.jpeg",
+    "class": "chips",
+    "error": null,
+    "duplicate": true
+  },
+  {
+    "url": "https://i5.walmartimages.com/seo/Hal-s-NY-Kettle-Cooked-Potato-Chips-Sour-Cream-Onion-2-oz-Bags-Pack-of-24_afdddb97-12c2-4bbc-bd49-fa1c471b8eb7.32a7afaf2a832de5992db20ab07c8628.jpeg",
+    "class": "chips",
+    "error": null,
+    "duplicate": true
+  },
+  {
+    "url": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8350fc85-24ab-4054-b889-538005f91c57.png",
+    "class": "chips",
+    "error": null,
+    "duplicate": false,
+    "path": "data/roi_targets/chips/hals_09.jpg"
+  },
+  {
+    "url": "https://www.baristaunderground.com/cdn/shop/files/02915716-571e-4430-9835-0154a6c120ea_1445x.png?v=1690506183",
+    "class": "chips",
+    "error": null,
+    "duplicate": true
+  },
+  {
+    "url": "https://martie.com/cdn/shop/files/27oKgPUogiTvtdS9gP5UAibW0qIz7kA4R6VC6Vld37k_1024x1024.png?v=1705302986",
+    "class": "chips",
+    "error": null,
+    "duplicate": true
+  },
+  {
+    "url": "https://www.instacart.com/image-server/1200x1200/www.instacart.com/assets/domains/product-image/file/large_3655b172-a671-4252-b0df-3454139d26a2.jpg",
+    "class": "chips",
+    "error": null,
+    "duplicate": false,
+    "path": "data/roi_targets/chips/hals_12.jpg"
+  }
+]
