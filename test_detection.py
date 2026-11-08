@@ -24,18 +24,20 @@ class PlacementTests(unittest.TestCase):
         self.assertEqual(state.timer_text(101), "Confirming: 2.0s")
         self.assertFalse(state.observe("chips", scores, bounds, 103))
         self.assertTrue(state.observe("chips", scores, bounds, 103.1))
-        self.assertEqual(state.timer_text(103.1), "Locked: 10.0s")
+        self.assertEqual(state.timer_text(103.1), "Locked: 100.0s")
         scores[0] = .1
         self.assertFalse(state.observe("soda", scores, (0, 0, 5, 5), 108))
         self.assertEqual(state.detection[0], "chips")
         self.assertEqual(state.detection[1][0], .99)
         self.assertEqual(state.detection[2], bounds)
-        self.assertTrue(state.locked(113))
-        self.assertFalse(state.locked(113.1))
-        self.assertEqual(state.timer_text(113.1), "Scanning...")
+        self.assertTrue(state.locked(113.1))
+        self.assertEqual(state.timer_text(113.1), "Locked: 90.0s")
+        self.assertTrue(state.locked(203))
+        self.assertFalse(state.locked(203.1))
+        self.assertEqual(state.timer_text(203.1), "Scanning...")
         # A fresh three-second confirmation is required after every lock.
-        self.assertFalse(state.observe("chips", scores, bounds, 113.1))
-        self.assertTrue(state.observe("chips", scores, bounds, 116.2))
+        self.assertFalse(state.observe("chips", scores, bounds, 203.1))
+        self.assertTrue(state.observe("chips", scores, bounds, 206.2))
 
     def test_label_change_absence_and_missing_box_restart_confirmation(self):
         scores = np.array([.99, .01, .01])

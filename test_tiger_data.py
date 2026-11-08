@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
-from unittest.mock import patch
+from unittest.mock import patch, MagicMock
 import uuid
 import contextlib
 import io
@@ -12,8 +12,77 @@ import cv2
 import numpy as np
 
 from tiger_data import (CaptureLog, EventStore, SceneMeter, delivery_plan, fingerprint,
-                        hash_distance, sync_pending)
+                        hash_distance, sync_pending, require_tiger, TigerSync)
 from tiger_cli import annotate, export_labels, replay, review_export
+
+
+class RequiredTigerTests(unittest.TestCase):
+    def test_missing_url_blocks_startup(self):
+        with patch('tiger_data.database_url', return_value=None), patch('tiger_data.connect_tiger') as connect:
+            with self.assertRaisesRegex(RuntimeError, 'Tiger Data is required'):
+                require_tiger()
+            connect.assert_not_called()
+
+    def test_connection_error_does_not_expose_credentials(self):
+        with patch('tiger_data.database_url', return_value='configured'), \
+             patch('tiger_data.connect_tiger', side_effect=Exception('secret-password')):
+            with self.assertRaises(RuntimeError) as error:
+                require_tiger()
+            self.assertNotIn('secret-password', str(error.exception))
+
+    def test_authentication_failure_explains_password_fix_without_secrets(self):
+        with patch('tiger_data.database_url', return_value='configured'), \
+             patch('tiger_data.connect_tiger', side_effect=Exception(
+                 'password authentication failed for secret-user: secret-password')):
+            with self.assertRaisesRegex(RuntimeError, 'update_tiger_password.py') as error:
+                require_tiger()
+            self.assertNotIn('secret-user', str(error.exception))
+            self.assertNotIn('secret-password', str(error.exception))
+
+    def test_schema_and_write_permission_are_required(self):
+        for writable in (True, False):
+            with self.subTest(writable=writable), \
+                 patch('tiger_data.database_url', return_value='configured'), \
+                 patch('tiger_data.connect_tiger') as connect:
+                connection = connect.return_value.__enter__.return_value
+                connection.execute.return_value.fetchone.return_value = (writable,)
+                if writable:
+                    require_tiger()
+                else:
+                    with self.assertRaisesRegex(RuntimeError, 'permissions'):
+                        require_tiger()
+
+    def test_detector_rejects_missing_database_before_opening_camera(self):
+        import roi_detect
+        with patch('sys.argv', ['detect.py', '--tiger-data']), \
+             patch('roi_detect.require_tiger', side_effect=RuntimeError('Tiger Data is required')), \
+             patch('roi_detect.cv2.VideoCapture') as camera, \
+             contextlib.redirect_stderr(io.StringIO()):
+            with self.assertRaises(SystemExit) as error:
+                roi_detect.main()
+            self.assertEqual(error.exception.code, 2)
+            camera.assert_not_called()
+
+    def test_upload_failure_stops_detection_and_preserves_outbox(self):
+        with tempfile.TemporaryDirectory() as directory:
+            store = EventStore(Path(directory)/'events.sqlite3')
+            store.record('test', description='must remain pending')
+            with patch('tiger_data.connect_tiger'), \
+                 patch('tiger_data.sync_pending', side_effect=[1, RuntimeError('secret')]):
+                sync = TigerSync(store)
+                self.assertTrue(sync.failed.wait(timeout=2))
+                with self.assertRaisesRegex(RuntimeError, 'detection stopped'):
+                    sync.check_health()
+                sync.close()
+            self.assertEqual(store.db.execute('SELECT count(*) FROM events WHERE synced=0').fetchone()[0], 1)
+            store.close()
+
+    def test_startup_upload_failure_never_starts_worker(self):
+        with patch('tiger_data.connect_tiger', side_effect=Exception('secret')), \
+             patch('tiger_data.threading.Thread') as thread:
+            with self.assertRaisesRegex(RuntimeError, 'startup upload failed'):
+                TigerSync(MagicMock())
+            thread.assert_not_called()
 
 
 class CollectionTests(unittest.TestCase):
@@ -214,13 +283,13 @@ class SyncRecoveryTests(unittest.TestCase):
 
 
 class CameraLoopTests(unittest.TestCase):
-    def test_real_loop_collects_during_lock_and_resumes_inference_after_ten_seconds(self):
+    def test_real_loop_collects_during_lock_and_resumes_inference_after_100_seconds(self):
         import roi_detect
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             checkpoint = root/'model.pt'
             checkpoint.write_bytes(b'test checkpoint identity')
-            clock = [0.,1.,3.1,4.,5.,13.1,14.,17.2]
+            clock = [0.,1.,3.1,4.,103.,103.1,104.,107.2]
             state = {'index': -1, 'calls': 0}
             class Camera:
                 def isOpened(self):
@@ -239,20 +308,44 @@ class CameraLoopTests(unittest.TestCase):
                     scores = np.array([.01,.01,.99]) if label=='pens' else np.array([.01,.99,.01])
                     return label,scores,(40,40,80,200)
             class NoSync:
+                def check_health(self):
+                    pass
                 def __init__(self,*args):
                     pass
                 def close(self):
                     pass
-            args = ['detect.py','--classifier',str(checkpoint),'--telemetry-db',str(root/'events.sqlite3')]
-            with patch('sys.argv',args), patch('roi_detect.ROIClassifier',return_value=Classifier()), \
+            class BrailleStub:
+                def __init__(self):
+                    self.words=[]
+                    self.closed=False
+                def submit(self,word):
+                    self.words.append((word,clock[state['index']]))
+                    return 'queued'
+                def snapshot(self):
+                    return dict(state='ready',word=None,character=None,position=0,length=0)
+                def drain_events(self):
+                    return []
+                def close(self):
+                    self.closed=True
+            braille=BrailleStub()
+            args = ['detect.py','--classifier',str(checkpoint),'--telemetry-db',str(root/'events.sqlite3'),
+                    '--braille-port','test-port']
+            with patch('roi_detect.require_tiger', side_effect=AssertionError('Tiger Data must stay disabled')) as require, \
+                 patch('sys.argv',args), patch('roi_detect.ROIClassifier',return_value=Classifier()), \
                  patch('roi_detect.cv2.VideoCapture',return_value=Camera()), \
                  patch('roi_detect.time.monotonic',side_effect=lambda: clock[state['index']]), \
                  patch('roi_detect.cv2.imshow'), patch('roi_detect.cv2.waitKey',return_value=-1), \
                  patch('roi_detect.cv2.getWindowProperty',return_value=1), \
-                 patch('roi_detect.cv2.destroyAllWindows'), patch('roi_detect.TigerSync',NoSync), \
+                 patch('roi_detect.cv2.destroyAllWindows'), \
+                 patch('roi_detect.TigerSync', side_effect=AssertionError('No cloud uploads by default')) as sync, \
+                 patch('roi_detect.BrailleOutput',return_value=braille), \
                  contextlib.redirect_stdout(io.StringIO()) as output, contextlib.redirect_stderr(io.StringIO()):
                 roi_detect.main()
+            require.assert_not_called()
+            sync.assert_not_called()
             self.assertEqual(output.getvalue().splitlines(), ['pens','soda'])
+            self.assertEqual(braille.words,[('pens',3.1),('soda',107.2)])
+            self.assertTrue(braille.closed)
             self.assertEqual(state['calls'],6)
             store = EventStore(root/'events.sqlite3')
             rows = sorted(store.rows('detection'),key=lambda row: json.loads(row['payload'])['sequence'])

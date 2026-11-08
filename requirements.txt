@@ -3,3 +3,4 @@ torch>=2.0
 torchvision>=0.15
 Pillow>=9.0
 psycopg[binary]>=3.2,<4
+pyserial>=3.5,<4

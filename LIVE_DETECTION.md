@@ -4,7 +4,7 @@ percentage. The same accepted label must persist for **more than 3 seconds**
 to confirm it. A changed label, missing box, or unclear match resets this timer.
 Confirmation turns the box green and prints `chips`, `soda`, or `pens` once.
 
-The confirmed label, confidence, and box are then locked for **10 seconds**.
+The confirmed label, confidence, and box are then locked for **100 seconds**.
 Classification pauses during the lock while the camera view stays live. After
 the lock expires, a new three-second confirmation is required. The top-right
 timer shows the confirmation countdown or remaining lock time. Press q to stop.
@@ -60,12 +60,16 @@ model selection use validation data. Data augmentation and background
 compositing use training images only. Real camera photos with held-out capture
 sessions remain the most useful next evaluation data.
 
-The active output is the terminal. No Braille hardware driver is configured.
+Confirmed labels print to the terminal. Optional USB output now sends each
+character to the ESP32 firmware and waits for completion before sending the
+next. Run `.venv/bin/python detect.py --braille-port auto`; see
+[BRAILLE_OUTPUT.md](BRAILLE_OUTPUT.md) for firmware and port setup. The camera
+continues while the word is displayed.
 
 Camera collection now saves unannotated frames and timestamped metadata to a
 durable local outbox by default, including frames read during the detection
-lock. If `TIGER_DATABASE_URL` is configured and the schema is initialized,
-metadata uploads to Tiger Data in the background. See [TIGER_DATA.md](TIGER_DATA.md)
+lock. Tiger Data is disabled by default. To enable uploads, pass `--tiger-data`
+and configure `TIGER_DATABASE_URL` with an initialized, reachable database.
+In that mode, an upload failure stops detection and preserves unsent events locally. See [TIGER_DATA.md](TIGER_DATA.md)
 for setup, data review/replay, feedback APIs, and the status of the ten requested
-features. `--metadata-only` omits image files; `--no-telemetry` disables capture
-logging. The window also shows a calm/busy scene-activity indicator.
+features. `--metadata-only` omits image files. The window also shows a calm/busy scene-activity indicator.

@@ -1,4 +1,4 @@
-"""Durable local camera collection, analysis, and optional Tiger Data sync."""
+"""Durable local camera collection, analysis, and required Tiger Data sync."""
 import hashlib
 import json
 import math
@@ -44,6 +44,30 @@ def connect_tiger():
         raise RuntimeError('Set TIGER_DATABASE_URL in the environment or .env first')
     # Do not print connection exceptions: drivers can include credentials/hosts.
     return psycopg.connect(url, connect_timeout=5, options='-c statement_timeout=10000')
+
+
+def require_tiger():
+    """Validate the required database before opening the camera or serial port."""
+    if not database_url():
+        raise RuntimeError('Tiger Data is required. Set TIGER_DATABASE_URL in the environment or .env, then run python tiger_cli.py init.')
+    try:
+        with connect_tiger() as connection:
+            connection.execute(f'SELECT {",".join(FIELDS)} FROM makecu.events LIMIT 0')
+            writable = connection.execute(
+                "SELECT has_table_privilege(current_user, 'makecu.events', 'INSERT')").fetchone()[0]
+            if not writable:
+                raise RuntimeError('Missing INSERT permission')
+    except Exception as error:
+        # Inspect internally; never expose driver messages containing credentials.
+        if (getattr(error, 'sqlstate', None) == '28P01'
+                or 'password authentication failed' in str(error).lower()):
+            raise RuntimeError(
+                'Tiger Data rejected the database password. Run '
+                'python update_tiger_password.py and enter the current database '
+                'password from Tiger Console, then restart. If TIGER_DATABASE_URL '
+                'is exported in your terminal, unset it so the app uses .env.'
+            ) from None
+        raise RuntimeError('Tiger Data is required but its connection, schema, or permissions are not ready. Check TIGER_DATABASE_URL and run python tiger_cli.py init.') from None
 
 
 def model_digest(path):
@@ -257,7 +281,7 @@ class CaptureLog:
         self.store.record('session', payload=dict(model_path=self.model_path, model_hash=self.model_hash,
             roi=self.roi, frames_saved=save_frames, input_source=self.source,
             threshold=threshold, margin=margin, targets=targets,
-            confirmation_seconds=3, lock_seconds=10))
+            confirmation_seconds=3, lock_seconds=100))
 
     def record_frame(self, frame, label, scores, bounds, *, fresh, confirmed, locked,
                      captured_at=None, location=None):
@@ -320,30 +344,36 @@ class TigerSync:
     def __init__(self, store):
         self.path, self.device_id = store.path, store.device_id
         self.stop = threading.Event()
+        self.failed = threading.Event()
         self.thread = None
-        if database_url():
-            self.thread = threading.Thread(target=self.run, daemon=True)
-            self.thread.start()
+        # Verify a real committed upload, including this session, before capture.
+        try:
+            with connect_tiger() as connection:
+                sync_pending(store, connection)
+        except Exception:
+            raise RuntimeError('Tiger Data startup upload failed; unsent events remain in the local outbox.') from None
+        self.thread = threading.Thread(target=self.run, daemon=True)
+        self.thread.start()
+
+    def check_health(self):
+        if self.failed.is_set():
+            raise RuntimeError('Tiger Data upload failed; detection stopped. Unsent events remain in the local outbox. Restore the connection and restart.')
 
     def run(self):
         store, connection = EventStore(self.path, self.device_id), None
-        reported = False
         try:
             while not self.stop.is_set():
                 try:
                     if connection is None:
                         connection = connect_tiger()
                     count = sync_pending(store, connection)
-                    reported = False
                     self.stop.wait(.1 if count else .5)
-                except Exception as error:
-                    if not reported:
-                        print(f'Tiger Data sync unavailable ({type(error).__name__}); events remain in the local outbox.', file=sys.stderr)
-                        reported = True
+                except Exception:
+                    self.failed.set()
                     if connection is not None:
                         connection.close()
                         connection = None
-                    self.stop.wait(5)
+                    break
         finally:
             if connection is not None:
                 connection.close()

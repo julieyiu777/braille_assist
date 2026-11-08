@@ -1,5 +1,6 @@
 """Classify the camera view and print identified target labels to stdout."""
 import argparse
+import math
 import time
 
 import cv2
@@ -7,7 +8,8 @@ import numpy as np
 import torch
 
 from roi_model import ROIClassifier, TARGETS
-from tiger_data import CaptureLog, EventStore, TigerSync, utc_now
+from tiger_data import CaptureLog, EventStore, TigerSync, utc_now, require_tiger
+from braille_output import BrailleOutput, BrailleError, resolve_port, record_braille_events
 
 
 def roi_bounds(shape, normalized):
@@ -37,7 +39,7 @@ def detect_product(classifier, frame, normalized):
 
 
 class DetectionConfirmation:
-    """Confirm a continuous label after three seconds, then hold for ten."""
+    """Confirm a continuous label after three seconds, then hold for 100."""
     def __init__(self, stable_frames=1):
         self.stable_frames = stable_frames
         self.candidate = None
@@ -64,7 +66,7 @@ class DetectionConfirmation:
             self.count += 1
         if now-self.since > 3 and self.count >= self.stable_frames:
             self.detection = (label, scores.copy(), bounds)
-            self.until = now+10
+            self.until = now+100
             return True
         return False
 
@@ -129,11 +131,14 @@ def main():
                         help="Print each confirmed detection (default), or only confirmed label changes.")
     parser.add_argument("--save",action="store_true",help="Save the annotated webcam view to a new video file.")
     parser.add_argument("--telemetry-db", default="runs/telemetry/events.sqlite3")
+    parser.add_argument("--tiger-data", action="store_true", help="Enable Tiger Data uploads (requires a working database connection). Disabled by default.")
     parser.add_argument("--device-id", default="camera-1")
     parser.add_argument("--user-id", default="default")
     parser.add_argument("--location", nargs=2, type=float, metavar=("LATITUDE", "LONGITUDE"))
-    parser.add_argument("--no-telemetry", action="store_true", help="Disable camera data collection.")
     parser.add_argument("--metadata-only", action="store_true", help="Log metadata without raw frames (disables image replay).")
+    parser.add_argument("--braille-port", help="ESP32 USB serial port, or auto. Enables character-by-character Braille output.")
+    parser.add_argument("--braille-timeout", type=float, default=15., help="Seconds to wait for each character's firmware acknowledgment.")
+    parser.add_argument("--braille-dry-run", action="store_true", help="Show the character sequence without connecting to hardware.")
     args = parser.parse_args()
     try:
         roi_bounds((100,100,3),args.roi)
@@ -143,6 +148,21 @@ def main():
         parser.error("stable-frames must be positive; threshold/margin must be between 0 and 1")
     if args.location and not (-90 <= args.location[0] <= 90 and -180 <= args.location[1] <= 180):
         parser.error("location must be a valid latitude and longitude")
+    if not math.isfinite(args.braille_timeout) or args.braille_timeout <= 0:
+        parser.error("braille-timeout must be positive")
+    if args.tiger_data:
+        try:
+            require_tiger()
+        except RuntimeError as error:
+            parser.error(str(error))
+    braille_port = None
+    if args.braille_port and not args.braille_dry_run:
+        try:
+            braille_port = resolve_port(args.braille_port)
+        except ImportError:
+            parser.error("Install requirements.txt to enable USB serial output (pyserial)")
+        except BrailleError as error:
+            parser.error(str(error))
     torch.set_num_threads(4)
     classifier = ROIClassifier(args.classifier,args.threshold,args.margin)
     source = int(args.source) if args.source.isdecimal() else args.source
@@ -154,21 +174,26 @@ def main():
     confirmation = DetectionConfirmation(args.stable_frames)
     writer = None
     store, capture_log, sync = None, None, None
+    braille = None
     try:
-        if not args.no_telemetry:
-            import sys
-            store = EventStore(args.telemetry_db, args.device_id)
-            capture_log = CaptureLog(store, args.classifier, args.roi, args.user_id, not args.metadata_only,
-                source=args.source, threshold=getattr(classifier,'threshold',None),
-                margin=getattr(classifier,'margin',None), targets=TARGETS)
+        import sys
+        store = EventStore(args.telemetry_db, args.device_id)
+        capture_log = CaptureLog(store, args.classifier, args.roi, args.user_id, not args.metadata_only,
+            source=args.source, threshold=getattr(classifier,'threshold',None),
+            margin=getattr(classifier,'margin',None), targets=TARGETS)
+        if args.tiger_data:
             sync = TigerSync(store)
-            print(f'Capture log: {store.path}; session {store.session_id}', file=sys.stderr)
-            if args.location:
-                for hazard in store.nearby_hazards(*args.location):
-                    store.record('hazard_warning', label=hazard['label'], severity=hazard['severity'],
-                        description=f"Previously reported {hazard['label']} within {hazard['distance_m']} m",
-                        location=args.location, payload=hazard)
+        print(f'Capture log: {store.path}; session {store.session_id}', file=sys.stderr)
+        if args.location:
+            for hazard in store.nearby_hazards(*args.location):
+                store.record('hazard_warning', label=hazard['label'], severity=hazard['severity'],
+                    description=f"Previously reported {hazard['label']} within {hazard['distance_m']} m",
+                    location=args.location, payload=hazard)
+        if args.braille_port or args.braille_dry_run:
+            braille = BrailleOutput(braille_port, args.braille_timeout, args.braille_dry_run)
         while True:
+            if sync:
+                sync.check_health()
             ok,frame = camera.read()
             if not ok:
                 break
@@ -189,11 +214,18 @@ def main():
                     output = label if args.print_mode == "frame" else event
                     if output is not None:
                         print(output, flush=True)
+                        if braille:
+                            submitted = braille.submit(output)
+                            if submitted in ('full', 'unavailable'):
+                                import sys
+                                print(f'Braille word not queued ({submitted}): {output}', file=sys.stderr)
             is_locked = confirmation.locked(now)
             busy = None
             if capture_log:
                 busy = capture_log.record_frame(frame, label, scores, bounds, fresh=fresh,
                     confirmed=confirmed, locked=is_locked, captured_at=captured_at, location=args.location)
+            if braille:
+                record_braille_events(braille, store)
             if label is not None and bounds is not None:
                 x1, y1, x2, y2 = bounds
                 color = (0, 220, 0) if is_locked else (0, 180, 255)
@@ -213,6 +245,15 @@ def main():
                 activity = f"Scene activity: {'busy' if busy >= .65 else 'calm'}"
                 (activity_width, _), _ = cv2.getTextSize(activity, cv2.FONT_HERSHEY_SIMPLEX, .65, 2)
                 draw_tag(frame, activity, frame.shape[1]-activity_width-30, 55, (0, 220, 255), .65)
+            if braille:
+                state = braille.snapshot()
+                if state['word'] and state['state']=='displaying':
+                    progress = f"Braille: {state['word']}  {state['character'] or ''} ({state['position']}/{state['length']})"
+                else:
+                    progress = f"Braille: {state['state']}"
+                if args.braille_dry_run:
+                    progress += " (dry run)"
+                draw_tag(frame, progress, 10, frame.shape[0]-105, (0, 220, 255), .65)
             cv2.imshow("Product recognition",frame)
             if args.save:
                 if writer is None:
@@ -231,6 +272,9 @@ def main():
         pass
     finally:
         camera.release()
+        if braille:
+            braille.close()
+            record_braille_events(braille, store)
         if sync:
             sync.close()
         if store:

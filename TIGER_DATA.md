@@ -1,20 +1,22 @@
 Tiger Data collection is integrated into `detect.py`. It saves a timestamped
 record and an unannotated JPEG for every frame returned by the camera loop,
-including the ten-second detection lock. Classification still runs only while
+including the 100-second detection lock. Classification still runs only while
 unlocked. Held labels are marked `inference_fresh=false` and retain the timestamp
 of the last actual inference. Logs never pretend a held label is a new detection.
 
 The current classifier recognizes chips, soda, and pens. This work adds a data
 collection/feedback system; it does not add recognition of mugs, room semantics,
 stairs, traffic, or construction. Those require appropriate models or human
-annotations. Nothing in this repository drives physical pins yet.
+annotations. An optional [ESP32 USB bridge](BRAILLE_OUTPUT.md) now sends each
+confirmed label character by character to the supplied six-servo firmware.
+Its command acknowledgments do not provide measured physical pin positions.
 
 | Requested aspect | What was added | What still needs a real input/connection |
 | --- | --- | --- |
 | Detection log | UTC time, capture/session/device IDs, raw frame path, all class scores, bounds, model SHA-256, ROI, confirmation/lock/freshness, location when supplied. Durable local SQLite outbox and asynchronous idempotent PostgreSQL upload. | Tiger Data URL and schema initialization for cloud upload. Raw frames stay on this computer. |
 | Busy-ness | Smoothed motion/edge-density score, visible calm/busy indicator, delivery plans that defer low-priority detail during activity and preserve urgent messages. | This is a heuristic needing camera calibration. It plans output; a pin driver must consume plans. |
 | Servo health | Measured per-pin movement durations, baseline comparison, slow-pin event escalation; SQL mean and p95 health view. | Controller completion acknowledgments. Measurements are never invented from camera frames. |
-| Reading speed | Correct-read cells/second from actual feedback, per-user pacing, suggested message dwell time. | Reader completion feedback and a Braille encoder; character counts are only a cell-count estimate. The detector’s requested 3-second confirmation and 10-second lock stay unchanged. |
+| Reading speed | Correct-read cells/second from actual feedback, per-user pacing, suggested message dwell time. | Reader completion feedback and a Braille encoder; character counts are only a cell-count estimate. The detector’s requested 3-second confirmation and 100-second lock stay unchanged. |
 | Scene memory | Persistent perceptual fingerprints with change-only label summaries across sessions. | Fingerprints are approximate view matches, not proof that a room is the same. Only current model labels are summarized. |
 | Past search | Device-scoped local text search and PostgreSQL full-text index/search. Cached labels are excluded from search results. Human descriptions are searchable too. | “Red mug” is searchable only if a future model or human actually recorded it. |
 | Compression | TimescaleDB hypertable and automatic Hypercore columnstore policy after seven days; storage command reports real before/after byte statistics. | Requires a running TimescaleDB service. No compression percentage or savings are claimed before actual chunks convert. JPEG files are outside Hypercore and are not deleted automatically. |
@@ -22,7 +24,7 @@ annotations. Nothing in this repository drives physical pins yet.
 | Instant alerts | Transactional urgent-event trigger, `LISTEN/NOTIFY`, durable pending-alert table, explicit acknowledgments, restart recovery. No separate message broker. | Database connection and a controller consumer. Notifications arrive after commit and upload; outages delay cloud delivery. This is not a safety-certified navigation system. |
 | Hazard map | Human/externally reported location-tagged hazards grouped by location and distinct sessions; nearby lookup using distance; startup warning at supplied camera location. | GPS/position updates and a real hazard detector or human reports. Product detections are never automatically declared hazards. |
 
-Run locally:
+Run locally without connecting to Tiger Data:
 
 ```bash
 .venv/bin/python detect.py
@@ -37,7 +39,7 @@ They use JPEG quality 90, so “raw” means unannotated, not sensor-lossless. T
 capture loop can run more slowly because of classification and disk writes;
 this records captured frames, not frames dropped by the camera driver.
 `--metadata-only` disables image archiving and therefore image replay;
-`--no-telemetry` disables collection. `--device-id` separates devices and
+Local collection remains enabled by default. `--device-id` separates devices and
 `--user-id` selects a reading profile. Use `--location LATITUDE LONGITUDE` only
 when a genuine position is available; it is a static supplied position, not GPS
 tracking. No real camera session was started automatically during implementation.
@@ -53,15 +55,19 @@ Connect Tiger Data:
    views, and the policy in the `makecu` schema. Use an account allowed to create
    those objects. For plain PostgreSQL testing, use `init --postgres-only`.
 4. Run `.venv/bin/python tiger_cli.py sync` to upload the existing outbox.
-   Future camera sessions upload in the background. Failed inserts remain
+   Camera sessions launched with `--tiger-data` upload in the background. Failed inserts remain
    pending; a retry after a committed upload is safe because event IDs/times
    are stable and inserts use `ON CONFLICT DO NOTHING`.
 5. `.venv/bin/python tiger_cli.py storage` reports the TimescaleDB
    `before_compression_total_bytes` / `after_compression_total_bytes` fields.
    A new or uncompressed service has no useful before/after savings yet.
 
-The background uploader checks for a connection at camera startup. If you add
-the URL later, restart the camera or use `tiger_cli.py sync`. The CLI never
+Tiger Data is disabled by default, even when a URL is saved in `.env`. Enable
+it explicitly with `python detect.py --tiger-data`. That mode requires a
+configured URL, a reachable database, a readable events schema, INSERT permission,
+and a successful initial upload. An upload failure stops detection; pending events remain
+in the local outbox. Restore the connection and restart, or use `tiger_cli.py sync`
+to upload pending events. The CLI never
 silently substitutes another cloud database. Database notifications and views
 can be inspected from the Tiger Data SQL editor:
 
